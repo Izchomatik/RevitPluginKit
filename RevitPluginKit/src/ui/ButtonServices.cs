@@ -1,5 +1,6 @@
 ﻿namespace RevitPluginKit.Ui
 {
+    using System.Reflection;
     using System.Windows.Media.Imaging;
     using Autodesk.Revit.UI;
     using static RevitPluginKit.Ui.ImageServices;
@@ -7,31 +8,39 @@
     /// <summary>
     /// Services for working with Revit plug-in buttons.
     /// </summary>
-    internal class ButtonServices
+    public class ButtonServices
     {
         /// <summary>
         /// Add pull down button to required ribbon panel.
         /// </summary>
-        /// <param name="buttonSettings"> PullDownButtonSettings required. </param>
+        /// <param name="internalName"> Internal button name data. </param>
+        /// <param name="name"> Button name data. </param>
+        /// <param name="tooltip"> Button tooltip data. </param>
+        /// <param name="imageAddress"> Button image storage address. </param>
+        /// <param name="assembly"> Current assembly data. </param>
         /// <param name="ribbonPanel"> Button ribbon panel data. </param>
         /// <returns>
         /// Return PulldownButton instance.
         /// </returns>
         public static PulldownButton AddPullDownButton(
-            ButtonSettings buttonSettings,
+            string internalName,
+            string name,
+            string tooltip,
+            string imageAddress,
+            Assembly assembly,
             RibbonPanel ribbonPanel)
         {
             // Create button
             PulldownButtonData newButtonData = new PulldownButtonData(
-                name: buttonSettings.InternalName,
-                text: buttonSettings.Name);
+                name: internalName,
+                text: name);
             PulldownButton newButton = ribbonPanel.AddItem(newButtonData) as PulldownButton;
 
             // Assign button data
-            newButton.ToolTip = buttonSettings.Tooltip;
+            newButton.ToolTip = tooltip;
             BitmapSource image = GetEmbeddedImage(
-                assembly: buttonSettings.Assembly,
-                address: buttonSettings.ImageAddress);
+                assembly: assembly,
+                address: imageAddress);
             newButton.LargeImage = image;
 
             // Return button
@@ -41,54 +50,74 @@
         /// <summary>
         /// Add push button to required ribbon panel.
         /// </summary>
-        /// <param name="pushButtonSettings"> PushButtonSettings required. </param>
+        /// <param name="internalName"> Internal button name data. </param>
+        /// <param name="name"> Button name data. </param>
+        /// <param name="tooltip"> Button tooltip data. </param>
+        /// <param name="imageAddress"> Button image storage address. </param>
+        /// <param name="assembly"> Current assembly data. </param>
+        /// <param name="function"> Main button function to call. </param>
         /// <param name="ribbonPanel"> Button ribbon panel data. </param>
         public static void AddPushButton(
-            ButtonSettings pushButtonSettings,
+            string internalName,
+            string name,
+            string tooltip,
+            string imageAddress,
+            Assembly assembly,
+            string function,
             RibbonPanel ribbonPanel)
         {
             // Create button
-            string assemblyPath = pushButtonSettings.Assembly.Location;
+            string assemblyPath = assembly.Location;
             PushButtonData newButtonData = new PushButtonData(
-                name: pushButtonSettings.InternalName,
-                text: pushButtonSettings.Name,
+                name: internalName,
+                text: name,
                 assemblyName: assemblyPath,
-                className: pushButtonSettings.Function);
+                className: function);
             PushButton newButton;
             newButton = ribbonPanel.AddItem(newButtonData) as PushButton;
 
             // Assign button data
-            newButton.ToolTip = pushButtonSettings.Tooltip;
+            newButton.ToolTip = tooltip;
             BitmapSource image = GetEmbeddedImage(
-                assembly: pushButtonSettings.Assembly,
-                pushButtonSettings.ImageAddress);
+                assembly: assembly,
+                address: imageAddress);
             newButton.LargeImage = image;
         }
 
         /// <summary>
         /// Add child push button to required pull down button.
         /// </summary>
-        /// <param name="buttonSettings"> ChildPushButtonSettings required. </param>
+        /// <param name="internalName"> Internal button name data. </param>
+        /// <param name="name"> Button name data. </param>
+        /// <param name="tooltip"> Button tooltip data. </param>
+        /// <param name="imageAddress"> Button image storage address. </param>
+        /// <param name="assembly"> Current assembly data. </param>
+        /// <param name="function"> Main button function to call. </param>
         /// <param name="pulldownButton"> Pull down button to add to. </param>
         public static void AddChildPushButton(
-            ButtonSettings buttonSettings,
+            string internalName,
+            string name,
+            string tooltip,
+            string imageAddress,
+            Assembly assembly,
+            string function,
             PulldownButton pulldownButton)
         {
             // Create button
-            string assemblyPath = buttonSettings.Assembly.Location;
+            string assemblyPath = assembly.Location;
             PushButtonData newButtonData = new PushButtonData(
-                name: buttonSettings.InternalName,
-                text: buttonSettings.Name,
+                name: internalName,
+                text: name,
                 assemblyName: assemblyPath,
-                className: buttonSettings.Function);
+                className: function);
             PushButton newButton;
             newButton = pulldownButton.AddPushButton(newButtonData) as PushButton;
 
             // Assign button data
-            newButton.ToolTip = buttonSettings.Tooltip;
+            newButton.ToolTip = tooltip;
             BitmapSource image = GetEmbeddedImage(
-                assembly: buttonSettings.Assembly,
-                buttonSettings.ImageAddress);
+                assembly: assembly,
+                address: imageAddress);
             newButton.LargeImage = image;
         }
     }
