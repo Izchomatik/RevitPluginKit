@@ -56,6 +56,7 @@
     <Compile Include="src\converters\MetricConverter.cs" />
     <Compile Include="src\ui\ButtonServices.cs" />
     <Compile Include="src\ui\ImageServices.cs" />
+    <Compile Include="src\validators\NumberValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

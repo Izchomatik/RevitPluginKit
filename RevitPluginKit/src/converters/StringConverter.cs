@@ -4,7 +4,7 @@
     using System.Diagnostics;
 
     /// <summary>
-    /// Class for converting values from metric to imperial and vice versa.
+    /// Class for converting and formatting string values.
     /// </summary>
     public class StringConverter
     {
