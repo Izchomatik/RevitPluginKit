@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\ui\ButtonServices.cs" />
     <Compile Include="src\ui\ImageServices.cs" />
     <Compile Include="src\ui\ButtonSettings.cs" />
   </ItemGroup>

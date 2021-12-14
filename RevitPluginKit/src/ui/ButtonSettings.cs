@@ -17,25 +17,19 @@
         /// <param name="imageAddress"> Button image storage address. </param>
         /// <param name="assembly"> Current assembly data. </param>
         /// <param name="function"> Main button function to call. </param>
-        /// <param name="ribbonPanel"> Button ribbon panel data. </param>
-        /// <param name="pulldownButton"> Parent pull down batton data. </param>
         private ButtonSettings(
             string internalName,
             string name,
             string tooltip,
             string imageAddress,
             Assembly assembly,
-            string function = null,
-            RibbonPanel ribbonPanel = null,
-            PulldownButton pulldownButton = null)
+            string function = null)
         {
             this.InternalName = internalName;
             this.Name = name;
             this.Tooltip = tooltip;
             this.ImageAddress = imageAddress;
             this.Function = function;
-            this.RibbonPanel = ribbonPanel;
-            this.PulldownButton = pulldownButton;
             this.Assembly = assembly;
         }
 
@@ -65,16 +59,6 @@
         public string Function { get; }
 
         /// <summary>
-        /// Gets button ribbon panel data.
-        /// </summary>
-        public RibbonPanel RibbonPanel { get; }
-
-        /// <summary>
-        /// Gets parent pull down button data.
-        /// </summary>
-        public PulldownButton PulldownButton { get; }
-
-        /// <summary>
         /// Gets current assembly data.
         /// </summary>
         public Assembly Assembly { get; }
@@ -87,7 +71,6 @@
         /// <param name="tooltip"> Button tooltip data. </param>
         /// <param name="imageAddress"> Button image storage address. </param>
         /// <param name="assembly"> Current assembly data. </param>
-        /// <param name="ribbonPanel"> Button ribbon panel data. </param>
         /// <returns>
         /// Return ButtonSettings instance.
         /// </returns>
@@ -96,16 +79,14 @@
             string name,
             string tooltip,
             string imageAddress,
-            Assembly assembly,
-            RibbonPanel ribbonPanel)
+            Assembly assembly)
         {
             return new ButtonSettings(
                 internalName: internalName,
                 name: name,
                 tooltip: tooltip,
                 imageAddress: imageAddress,
-                assembly: assembly,
-                ribbonPanel: ribbonPanel);
+                assembly: assembly);
         }
 
         /// <summary>
@@ -117,7 +98,6 @@
         /// <param name="imageAddress"> Button image storage address. </param>
         /// <param name="assembly"> Current assembly data. </param>
         /// <param name="function"> Main button function to call. </param>
-        /// <param name="ribbonPanel"> Button ribbon panel data. </param>
         /// <returns>
         /// Return ButtonSettings instance.
         /// </returns>
@@ -127,8 +107,7 @@
             string tooltip,
             string imageAddress,
             Assembly assembly,
-            string function,
-            RibbonPanel ribbonPanel)
+            string function)
         {
             return new ButtonSettings(
                 internalName: internalName,
@@ -136,40 +115,7 @@
                 tooltip: tooltip,
                 imageAddress: imageAddress,
                 assembly: assembly,
-                function: function,
-                ribbonPanel: ribbonPanel);
-        }
-
-        /// <summary>
-        /// Named constructor idiom - child push button constructor method.
-        /// </summary>
-        /// <param name="internalName"> Internal button name data. </param>
-        /// <param name="name"> Button name data. </param>
-        /// <param name="tooltip"> Button tooltip data. </param>
-        /// <param name="imageAddress"> Button image storage address. </param>
-        /// <param name="assembly"> Current assembly data. </param>
-        /// <param name="function"> Main button function to call. </param>
-        /// <param name="pulldownButton"> Parent pull down batton data. </param>
-        /// <returns>
-        /// Return ButtonSettings instance.
-        /// </returns>
-        public static ButtonSettings ChildPushButtonSettings(
-            string internalName,
-            string name,
-            string tooltip,
-            string imageAddress,
-            Assembly assembly,
-            string function,
-            PulldownButton pulldownButton)
-        {
-            return new ButtonSettings(
-                internalName: internalName,
-                name: name,
-                tooltip: tooltip,
-                imageAddress: imageAddress,
-                assembly: assembly,
-                function: function,
-                pulldownButton: pulldownButton);
+                function: function);
         }
     }
 }
