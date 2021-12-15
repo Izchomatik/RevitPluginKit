@@ -14,25 +14,25 @@
         /// <param name="name"> Button name data. </param>
         /// <param name="tooltip"> Button tooltip data. </param>
         /// <param name="imageAddress"> Button image storage address. </param>
-        /// <param name="function"> Main button function to call. </param>
+        /// <param name="className"> The name of the class to call when the button is clicked. </param>
         public PushButtonSettings(
             string internalName,
             string name,
             string tooltip,
             string imageAddress,
-            string function)
+            string className)
             : base(
                 internalName: internalName,
                 name: name,
                 tooltip: tooltip,
                 imageAddress: imageAddress)
         {
-            this.Function = function;
+            this.ClassName = className;
         }
 
         /// <summary>
         /// Gets main button function to call.
         /// </summary>
-        public string Function { get; }
+        public string ClassName { get; }
     }
 }
