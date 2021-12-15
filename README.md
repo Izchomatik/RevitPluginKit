@@ -10,7 +10,7 @@
 
 * Code snippet:
 
-    `namespace RevitPluginKitTemplate
+    namespace RevitPluginKitTemplate
     {
         using System.Collections.Generic;
         using Autodesk.Revit.UI;
@@ -38,4 +38,4 @@
                 return Result.Succeeded;
             }
         }
-    }`
+    }
