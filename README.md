@@ -75,9 +75,9 @@
 
 ## Add Revit plug-in push button to panel
 
-* Edit previously instantiated `List<ButtonSettings>()` by adding your first push button to the previously created ribbon panel.
+* Edit previously instantiated `List<ButtonSettings>()` by adding your first push button settings (`PushButtonSettings`) to the previously created ribbon panel.
 
-* The `ButtonSettings` class is data transfer object responsible for defining the revit push button.
+* The `PushButtonSettings` class is data transfer object responsible for defining the revit push button.
 
 * You can add multiple push buttons to the current ribbon panel.
 
@@ -98,8 +98,7 @@
                         name: "Button\nname",
                         tooltip: "Button tooltip",
                         imageAddress: "RevitPluginKitTemplate.assets.icons.TestIcon.png",
-                        className: "RevitPluginKitTemplate.Src.TestClass"
-                        ),
+                        className: "RevitPluginKitTemplate.Src.TestClass"),
                 }),
         });
     ```
@@ -107,3 +106,51 @@
 * As a result, you will see in Revit:
 
 ![](./docs/images/addPushButton.PNG)
+
+## Add Revit plug-in pull down button to panel
+
+* Edit previously instantiated `List<ButtonSettings>()` by adding your first pull down button settings (`PullDownButtonSettings`) to the previously created ribbon panel.
+
+* The `PullDownButtonSettings` class is data transfer object responsible for defining the revit pull down button.
+
+* You can add multiple pull down buttons to the current ribbon panel.
+
+* Modified code snippet:
+
+    ```c#
+    AddRibbonTab(
+        application: application,
+        tabName: "Plug-in tab",
+        panelsSettings: new List<RibbonPanelSettings>()
+        {
+            new RibbonPanelSettings(
+                name: "Test panel",
+                buttonsSettings: new List<ButtonSettings>()
+                {
+                    new PullDownButtonSettings(
+                        internalName: "pullDownButtonName",
+                        name: "Pull down\nbutton name",
+                        tooltip: "Pull down button tooltip",
+                        imageAddress: "RevitPluginKitTemplate.assets.icons.TestIcon.png",
+                        pushButtonsSettings: new List<PushButtonSettings>()
+                        {
+                            new PushButtonSettings(
+                                internalName: "buttonName1",
+                                name: "Button\nname 1",
+                                tooltip: "Button tooltip 1",
+                                imageAddress: "RevitPluginKitTemplate.assets.icons.TestIcon.png",
+                                className: "RevitPluginKitTemplate.Src.TestClass"),
+                            new PushButtonSettings(
+                                internalName: "buttonName2",
+                                name: "Button\nname 2",
+                                tooltip: "Button tooltip 2",
+                                imageAddress: "RevitPluginKitTemplate.assets.icons.TestIcon.png",
+                                className: "RevitPluginKitTemplate.Src.TestClass"),
+                        }),
+                }),
+        });
+    ```
+
+* As a result, you will see in Revit:
+
+![](./docs/images/addPullDownButton.PNG)
