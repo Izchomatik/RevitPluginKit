@@ -7,7 +7,7 @@
     /// <summary>
     /// Services for working with images.
     /// </summary>
-    internal class ImageServices
+    internal class ImageKit
     {
         /// <summary>
         /// Image extractor. Read specific embed image using address string.
