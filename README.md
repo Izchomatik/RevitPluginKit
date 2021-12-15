@@ -2,16 +2,15 @@
 
 ## Add Revit plug-in ribbon tab
 
-* Find the starter class where the base interface 'IExternalApplication' for your plugin is defined.
+* Find the starter class where the base interface `IExternalApplication` for your plugin is defined.
 
-* In 'OnStartup' method implemented by 'IExternalApplication' add 'AddRibbonTab' method, defined in 'RevitPluginKit.Ui.RibbonKit'.
+* In `OnStartup` method implemented by `IExternalApplication` add 'AddRibbonTab' method, defined in `RevitPluginKit.Ui.RibbonKit`.
 
-	    When your plugin is initialized during the start of the Revit session, this method will add a ribbon tab to the Revit upper working panel.
+	When your plugin is initialized during the start of the Revit session, this method will add a ribbon tab to the Revit upper working panel.
 
 * Code snippet:
 
-	'
-    namespace RevitPluginKitTemplate
+    `namespace RevitPluginKitTemplate
     {
         using System.Collections.Generic;
         using Autodesk.Revit.UI;
@@ -39,5 +38,4 @@
                 return Result.Succeeded;
             }
         }
-    }
-    '
+    }`
