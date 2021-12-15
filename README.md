@@ -8,7 +8,7 @@
 
 	When your plugin is initialized during the start of the Revit session, this method will add a ribbon tab to the Revit upper working panel.
 
-* Code snippet:
+* Example code snippet:
 
     ```c#
     namespace RevitPluginKitTemplate
@@ -41,3 +41,7 @@
         }
     }
     ```
+
+* As a result, you will see in Revit:
+
+![](./docs/images/addRibbonTab.PNG)
