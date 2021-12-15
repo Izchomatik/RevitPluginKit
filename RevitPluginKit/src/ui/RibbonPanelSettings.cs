@@ -1,8 +1,6 @@
 ﻿namespace RevitPluginKit.Ui
 {
     using System.Collections.Generic;
-    using System.Reflection;
-    using Autodesk.Revit.UI;
 
     /// <summary>
     /// A class for storing data needed to generate a ribbon panel.
