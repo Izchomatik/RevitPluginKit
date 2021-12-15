@@ -10,6 +10,7 @@
 
 * Code snippet:
 
+    ```c#
     namespace RevitPluginKitTemplate
     {
         using System.Collections.Generic;
@@ -39,3 +40,4 @@
             }
         }
     }
+    ```
