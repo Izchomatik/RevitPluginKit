@@ -43,7 +43,7 @@
                                     name: pushButtonSettings.InternalName,
                                     text: pushButtonSettings.Name,
                                     assemblyName: assemblyLocation,
-                                    className: pushButtonSettings.Function);
+                                    className: pushButtonSettings.ClassName);
                                 PushButton button = ribbonPanel.AddItem(buttonData) as PushButton;
                                 button.ToolTip = pushButtonSettings.Tooltip;
                                 BitmapSource image = GetEmbeddedImage(
@@ -71,7 +71,7 @@
                                             name: childButtonSettings.InternalName,
                                             text: childButtonSettings.Name,
                                             assemblyName: assemblyLocation,
-                                            className: childButtonSettings.Function);
+                                            className: childButtonSettings.ClassName);
                                         PushButton childButton = parentButton.AddPushButton(childButtonData) as PushButton;
                                         childButton.ToolTip = childButtonSettings.Tooltip;
                                         BitmapSource childImage = GetEmbeddedImage(
