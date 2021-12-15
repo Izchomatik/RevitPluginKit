@@ -16,14 +16,14 @@
         /// <param name="tooltip"> Button tooltip data. </param>
         /// <param name="imageAddress"> Button image storage address. </param>
         /// <param name="ribbonPanel"> Button ribbon panel data. </param>
-        /// <param name="childPushButtonsSettings"> A list of child push button instances for the current parent pull down button. </param>
+        /// <param name="pushButtonsSettings"> A list of child push button instances for the current parent pull down button. </param>
         public PullDownButtonSettings(
             string internalName,
             string name,
             string tooltip,
             string imageAddress,
             RibbonPanel ribbonPanel,
-            List<ChildPushButtonSettings> childPushButtonsSettings)
+            List<PushButtonSettings> pushButtonsSettings)
             : base(
                 internalName: internalName,
                 name: name,
@@ -31,7 +31,7 @@
                 imageAddress: imageAddress)
         {
             this.RibbonPanel = ribbonPanel;
-            this.ChildPushButtonsSettings = childPushButtonsSettings;
+            this.PushButtonsSettings = pushButtonsSettings;
         }
 
         /// <summary>
@@ -42,6 +42,6 @@
         /// <summary>
         /// Gets a list of child push button instances for the current parent pull down button.
         /// </summary>
-        public List<ChildPushButtonSettings> ChildPushButtonsSettings { get; }
+        public List<PushButtonSettings> PushButtonsSettings { get; }
     }
 }

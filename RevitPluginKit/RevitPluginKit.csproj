@@ -56,7 +56,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\converters\StringConverter.cs" />
     <Compile Include="src\converters\MetricConverter.cs" />
-    <Compile Include="src\ui\ChildPushButtonSettings.cs" />
     <Compile Include="src\ui\PullDownButtonSettings.cs" />
     <Compile Include="src\ui\PushButtonSettings.cs" />
     <Compile Include="src\ui\ButtonSettings.cs" />

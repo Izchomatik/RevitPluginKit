@@ -50,9 +50,9 @@
 
 ## Add Revit plug-in ribbon panel to ribbon tab
 
-* In the field `panelsSettings` - edit previously instantiated `List<RibbonPanelSettings>()` by adding your first ribbon panel data.
+* Edit previously instantiated `List<RibbonPanelSettings>()` by adding your first ribbon panel data to the previously created ribbon tab.
 
-* The `RibbonPanelSettings` class is responsible for defining the revit ribbon panel.
+* The `RibbonPanelSettings` class is data transfer object responsible for defining the revit ribbon panel.
 
 * You can add multiple panels to the current ribbon tab.
 
@@ -63,6 +63,32 @@
                 application: application,
                 tabName: "Plug-in tab",
                 panelsSettings: new List<RibbonPanelSettings>() {
+                    new RibbonPanelSettings(
+                        name: "Test panel",
+                        buttonsSettings: new List<ButtonSettings>()),
+                });
+    ```
+
+* As a result, you will see in Revit:
+
+![](./docs/images/addRibbonPanel.PNG)
+
+## Add Revit plug-in push button to panel
+
+* Edit previously instantiated `List<ButtonSettings>()` by adding your first push button to the previously created ribbon panel.
+
+* The `ButtonSettings` class is data transfer object responsible for defining the revit push button.
+
+* You can add multiple push buttons to the current ribbon panel.
+
+* Modified code snippet:
+
+    ```c#
+    AddRibbonTab(
+                application: application,
+                tabName: "Plug-in tab",
+                panelsSettings: new List<RibbonPanelSettings>()
+                {
                     new RibbonPanelSettings(
                         name: "Test panel",
                         buttonsSettings: new List<ButtonSettings>()),

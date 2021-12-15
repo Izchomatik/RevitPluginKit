@@ -15,14 +15,12 @@
         /// <param name="tooltip"> Button tooltip data. </param>
         /// <param name="imageAddress"> Button image storage address. </param>
         /// <param name="function"> Main button function to call. </param>
-        /// <param name="ribbonPanel"> Button ribbon panel data. </param>
         public PushButtonSettings(
             string internalName,
             string name,
             string tooltip,
             string imageAddress,
-            string function,
-            RibbonPanel ribbonPanel)
+            string function)
             : base(
                 internalName: internalName,
                 name: name,
@@ -30,17 +28,11 @@
                 imageAddress: imageAddress)
         {
             this.Function = function;
-            this.RibbonPanel = ribbonPanel;
         }
 
         /// <summary>
         /// Gets main button function to call.
         /// </summary>
         public string Function { get; }
-
-        /// <summary>
-        /// Gets button ribbon panel data.
-        /// </summary>
-        public RibbonPanel RibbonPanel { get; }
     }
 }

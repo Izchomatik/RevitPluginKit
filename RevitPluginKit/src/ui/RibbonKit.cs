@@ -63,9 +63,9 @@
                                     assembly: assembly,
                                     address: pullDownButtonSettings.ImageAddress);
                                 parentButton.LargeImage = image;
-                                if (pullDownButtonSettings.ChildPushButtonsSettings.Count > 0)
+                                if (pullDownButtonSettings.PushButtonsSettings.Count > 0)
                                 {
-                                    foreach (var childButtonSettings in pullDownButtonSettings.ChildPushButtonsSettings)
+                                    foreach (var childButtonSettings in pullDownButtonSettings.PushButtonsSettings)
                                     {
                                         PushButtonData childButtonData = new PushButtonData(
                                             name: childButtonSettings.InternalName,
