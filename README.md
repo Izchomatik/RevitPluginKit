@@ -60,13 +60,13 @@
 
     ```c#
     AddRibbonTab(
-                application: application,
-                tabName: "Plug-in tab",
-                panelsSettings: new List<RibbonPanelSettings>() {
-                    new RibbonPanelSettings(
-                        name: "Test panel",
-                        buttonsSettings: new List<ButtonSettings>()),
-                });
+        application: application,
+        tabName: "Plug-in tab",
+        panelsSettings: new List<RibbonPanelSettings>() {
+            new RibbonPanelSettings(
+                name: "Test panel",
+                buttonsSettings: new List<ButtonSettings>()),
+        });
     ```
 
 * As a result, you will see in Revit:
@@ -85,16 +85,25 @@
 
     ```c#
     AddRibbonTab(
-                application: application,
-                tabName: "Plug-in tab",
-                panelsSettings: new List<RibbonPanelSettings>()
+        application: application,
+        tabName: "Plug-in tab",
+        panelsSettings: new List<RibbonPanelSettings>()
+        {
+            new RibbonPanelSettings(
+                name: "Test panel",
+                buttonsSettings: new List<ButtonSettings>()
                 {
-                    new RibbonPanelSettings(
-                        name: "Test panel",
-                        buttonsSettings: new List<ButtonSettings>()),
-                });
+                    new PushButtonSettings(
+                        internalName: "buttonName",
+                        name: "Button\nname",
+                        tooltip: "Button tooltip",
+                        imageAddress: "RevitPluginKitTemplate.assets.icons.TestIcon.png",
+                        className: null
+                        ),
+                }),
+        });
     ```
 
 * As a result, you will see in Revit:
 
-![](./docs/images/addRibbonPanel.PNG)
+![](./docs/images/addPushButton.PNG)

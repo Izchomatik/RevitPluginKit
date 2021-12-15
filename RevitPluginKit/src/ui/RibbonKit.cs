@@ -32,7 +32,7 @@
                         panelName: panelSettings.Name);
                     if (panelSettings.ButtonsSettings.Count > 0)
                     {
-                        Assembly assembly = Assembly.GetExecutingAssembly();
+                        Assembly assembly = Assembly.GetCallingAssembly();
                         string assemblyLocation = assembly.Location;
                         foreach (var buttonSettings in panelSettings.ButtonsSettings)
                         {
