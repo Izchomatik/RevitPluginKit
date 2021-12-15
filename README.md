@@ -98,7 +98,7 @@
                         name: "Button\nname",
                         tooltip: "Button tooltip",
                         imageAddress: "RevitPluginKitTemplate.assets.icons.TestIcon.png",
-                        className: null
+                        className: "RevitPluginKitTemplate.Src.TestClass"
                         ),
                 }),
         });
