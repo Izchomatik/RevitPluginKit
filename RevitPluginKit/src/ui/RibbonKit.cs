@@ -80,11 +80,10 @@
                 assemblyName: assembly.Location,
                 className: pushButtonSettings.ClassName);
             PushButton button = ribbonPanel.AddItem(buttonData) as PushButton;
-            button.ToolTip = pushButtonSettings.Tooltip;
-            BitmapSource image = GetEmbeddedImage(
+            AssignButtonData(
                 assembly: assembly,
-                address: pushButtonSettings.ImageAddress);
-            button.LargeImage = image;
+                button: button,
+                buttonSettings: pushButtonSettings);
         }
 
         /// <summary>
@@ -95,16 +94,15 @@
             RibbonPanel ribbonPanel,
             PullDownButtonSettings pullDownButtonSettings)
         {
-            PulldownButtonData parentButtonData = new PulldownButtonData(
+            PulldownButtonData buttonData = new PulldownButtonData(
                 name: pullDownButtonSettings.InternalName,
                 text: pullDownButtonSettings.Name);
-            PulldownButton parentButton = ribbonPanel.AddItem(parentButtonData) as PulldownButton;
-            parentButton.ToolTip = pullDownButtonSettings.Tooltip;
-            BitmapSource image = GetEmbeddedImage(
+            PulldownButton button = ribbonPanel.AddItem(buttonData) as PulldownButton;
+            AssignButtonData(
                 assembly: assembly,
-                address: pullDownButtonSettings.ImageAddress);
-            parentButton.LargeImage = image;
-            return parentButton;
+                button: button,
+                buttonSettings: pullDownButtonSettings);
+            return button;
         }
 
         /// <summary>
@@ -115,17 +113,31 @@
             PulldownButton parentButton,
             PushButtonSettings childButtonSettings)
         {
-            PushButtonData childButtonData = new PushButtonData(
+            PushButtonData buttonData = new PushButtonData(
                 name: childButtonSettings.InternalName,
                 text: childButtonSettings.Name,
                 assemblyName: assembly.Location,
                 className: childButtonSettings.ClassName);
-            PushButton childButton = parentButton.AddPushButton(childButtonData) as PushButton;
-            childButton.ToolTip = childButtonSettings.Tooltip;
-            BitmapSource childImage = GetEmbeddedImage(
+            PushButton button = parentButton.AddPushButton(buttonData) as PushButton;
+            AssignButtonData(
                 assembly: assembly,
-                address: childButtonSettings.ImageAddress);
-            childButton.LargeImage = childImage;
+                button: button,
+                buttonSettings: childButtonSettings);
+        }
+
+        /// <summary>
+        /// Assign secondary button data.
+        /// </summary>
+        private static void AssignButtonData(
+            Assembly assembly,
+            RibbonButton button,
+            ButtonSettings buttonSettings)
+        {
+            BitmapSource icon = GetEmbeddedImage(
+                assembly: assembly,
+                address: buttonSettings.ImageAddress);
+            button.ToolTip = buttonSettings.Tooltip;
+            button.LargeImage = icon;
         }
     }
 }
