@@ -54,6 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\collectors\FilterUtilities.cs" />
+    <Compile Include="src\collectors\ElementsCollector.cs" />
     <Compile Include="src\converters\StringConverter.cs" />
     <Compile Include="src\converters\MetricConverter.cs" />
     <Compile Include="src\ui\PullDownButtonSettings.cs" />
