@@ -1,7 +1,5 @@
 ﻿namespace RevitPluginKit.Collectors
 {
-    using System;
-    using System.Activities.Expressions;
     using System.Collections.Generic;
     using System.Linq;
     using Autodesk.Revit.DB;
@@ -84,31 +82,24 @@
         /// Returns the list of Revit elements (Element).
         /// </returns>
         private static List<Element> AddParameterFilters(
-            FilteredElementCollector collector,
+            IEnumerable<Element> collector,
             string familyName,
             string typeName,
             List<ElementId> levelIdsToFilterBy)
         {
-            List<Func<Element, bool>> filterFunctions = new List<Func<Element, bool>>();
-
             if (familyName != null)
             {
-                filterFunctions.Add(i => ((FamilyInstance)i).Symbol.Family.Name.Equals(familyName));
+                collector = collector.Where(i => ((FamilyInstance)i).Symbol.Family.Name.Equals(familyName));
             }
 
             if (typeName != null)
             {
-                filterFunctions.Add(i => i.Name.Equals(typeName));
+                collector = collector.Where(i => i.Name.Equals(typeName));
             }
 
             if (levelIdsToFilterBy != null)
             {
-                filterFunctions.Add(i => levelIdsToFilterBy.Contains(i.LevelId));
-            }
-
-            foreach (var function in filterFunctions)
-            {
-                collector.Where(function);
+                collector = collector.Where(i => levelIdsToFilterBy.Contains(i.LevelId));
             }
 
             return collector.ToList();
