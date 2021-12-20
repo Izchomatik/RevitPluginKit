@@ -44,5 +44,31 @@
                 useOptionFilter: useOptionFilter,
                 optionFilter: optionFilter);
         }
+
+        /// <summary>
+        /// Collect Revit element types by category.
+        /// </summary>
+        /// <typeparam name="T"> Revit category (For example: Element). </typeparam>
+        /// <param name="document"> Current revit document instance. </param>
+        /// <param name="category"> Revit BuiltIn category to collect. </param>
+        /// <param name="familyName"> Optional parameter: if necessary, specify the name of the family of the elements to be collected. </param>
+        /// <param name="typeName"> Optional parameter: if necessary, specify the type name of the elements to be collected. </param>
+        /// <returns>
+        /// Returns the list of Revit elements (Element).
+        /// </returns>
+        public static List<T> TypesByCategory<T>(
+            Document document,
+            BuiltInCategory category,
+            string familyName = null,
+            string typeName = null)
+        {
+            FilteredElementCollector collector = new FilteredElementCollector(document)
+                .WhereElementIsElementType()
+                .OfCategory(category);
+            return FilterUtilities<T>.AddTypeFilters(
+                collector: collector,
+                familyName: familyName,
+                typeName: typeName);
+        }
     }
 }

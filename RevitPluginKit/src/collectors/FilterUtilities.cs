@@ -11,7 +11,7 @@
     internal class FilterUtilities<T>
     {
         /// <summary>
-        /// Method used to apply the set of filters: option filter, family name filter, type name filter.
+        /// Method used to apply the set of filters to instance collector: option filter, family name filter, type name filter, levels filter.
         /// </summary>
         /// <param name="document"> Current revit document instance. </param>
         /// <param name="collector"> Revit API FilteredElementCollector. </param>
@@ -37,8 +37,7 @@
                 collector: collector,
                 useOptionFilter: useOptionFilter,
                 optionFilter: optionFilter);
-
-            return AddParameterFilters(
+            return ApplyInstanceFilters(
                 collector: collector,
                 familyName: familyName,
                 typeName: typeName,
@@ -46,13 +45,28 @@
         }
 
         /// <summary>
+        /// Method used to apply the set of filters to type collector: family name filter, type name filter.
+        /// </summary>
+        /// <param name="collector"> Revit API FilteredElementCollector. </param>
+        /// <param name="familyName"> Name of the family of the elements to be collected. </param>
+        /// <param name="typeName"> Type name of the elements to be collected. </param>
+        /// <returns>
+        /// Revit API FilteredElementCollector with option filter applied (if needed).
+        /// </returns>
+        internal static List<T> AddTypeFilters(
+            FilteredElementCollector collector,
+            string familyName,
+            string typeName)
+        {
+            return ApplyTypeFilters(
+                collector: collector,
+                familyName: familyName,
+                typeName: typeName);
+        }
+
+        /// <summary>
         /// Filter elements by option filter.
         /// </summary>
-        /// <param name="document"> Current revit document instance. </param>
-        /// <param name="optionFilter"> Incoming option filter to be checked. </param>
-        /// <returns>
-        /// Checked option filter.
-        /// </returns>
         private static FilteredElementCollector AddOptionFilter(
             Document document,
             FilteredElementCollector collector,
@@ -76,13 +90,7 @@
         /// <summary>
         /// Filter instance elements by set of parameters.
         /// </summary>
-        /// <param name="collector"> Revit API FilteredElementCollector. </param>
-        /// <param name="familyName"> Name of the family of the elements to be collected. </param>
-        /// <param name="typeName"> Type name of the elements to be collected. </param>
-        /// <returns>
-        /// Returns the list of Revit elements (Element).
-        /// </returns>
-        private static List<T> AddParameterFilters(
+        private static List<T> ApplyInstanceFilters(
             IEnumerable<Element> collector,
             string familyName,
             string typeName,
@@ -101,6 +109,27 @@
             if (levelIdsToFilterBy != null)
             {
                 collector = collector.Where(i => levelIdsToFilterBy.Contains(i.LevelId));
+            }
+
+            return collector.Cast<T>().ToList();
+        }
+
+        /// <summary>
+        /// Filter type elements by set of parameters.
+        /// </summary>
+        private static List<T> ApplyTypeFilters(
+            IEnumerable<Element> collector,
+            string familyName,
+            string typeName)
+        {
+            if (familyName != null)
+            {
+                collector = collector.Where(i => ((FamilySymbol)i).FamilyName.Equals(familyName));
+            }
+
+            if (typeName != null)
+            {
+                collector = collector.Where(i => i.Name.Equals(typeName));
             }
 
             return collector.Cast<T>().ToList();
