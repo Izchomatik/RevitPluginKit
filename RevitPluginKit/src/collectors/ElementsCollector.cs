@@ -2,7 +2,6 @@
 {
     using System.Collections.Generic;
     using Autodesk.Revit.DB;
-    using static RevitPluginKit.Collectors.FilterUtilities;
 
     /// <summary>
     /// A class containing methods for quickly finding elements in the Revit model.
@@ -12,6 +11,7 @@
         /// <summary>
         /// Collect Revit element instances by category.
         /// </summary>
+        /// <typeparam name="T"> Revit category (For example: Element). </typeparam>
         /// <param name="document"> Current revit document instance. </param>
         /// <param name="category"> Revit BuiltIn category to collect. </param>
         /// <param name="familyName"> Optional parameter: if necessary, specify the name of the family of the elements to be collected. </param>
@@ -23,7 +23,7 @@
         /// <returns>
         /// Returns the list of Revit elements (Element).
         /// </returns>
-        public static List<Element> InstancesByCategory(
+        public static List<T> InstancesByCategory<T>(
             Document document,
             BuiltInCategory category,
             string familyName = null,
@@ -35,7 +35,7 @@
             FilteredElementCollector collector = new FilteredElementCollector(document)
                 .WhereElementIsNotElementType()
                 .OfCategory(category);
-            return AddInstanceFilters(
+            return FilterUtilities<T>.AddInstanceFilters(
                 document: document,
                 collector: collector,
                 familyName: familyName,

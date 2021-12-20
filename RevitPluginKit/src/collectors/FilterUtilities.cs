@@ -7,7 +7,8 @@
     /// <summary>
     /// A set of internal methods needed to work with filters.
     /// </summary>
-    internal class FilterUtilities
+    /// <typeparam name="T"> Revit category (For example: Element). </typeparam>
+    internal class FilterUtilities<T>
     {
         /// <summary>
         /// Method used to apply the set of filters: option filter, family name filter, type name filter.
@@ -22,7 +23,7 @@
         /// <returns>
         /// Revit API FilteredElementCollector with option filter applied (if needed).
         /// </returns>
-        internal static List<Element> AddInstanceFilters(
+        internal static List<T> AddInstanceFilters(
             Document document,
             FilteredElementCollector collector,
             string familyName,
@@ -81,7 +82,7 @@
         /// <returns>
         /// Returns the list of Revit elements (Element).
         /// </returns>
-        private static List<Element> AddParameterFilters(
+        private static List<T> AddParameterFilters(
             IEnumerable<Element> collector,
             string familyName,
             string typeName,
@@ -102,7 +103,7 @@
                 collector = collector.Where(i => levelIdsToFilterBy.Contains(i.LevelId));
             }
 
-            return collector.ToList();
+            return collector.Cast<T>().ToList();
         }
     }
 }
