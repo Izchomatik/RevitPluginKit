@@ -7,22 +7,27 @@
     /// <summary>
     /// Services for working with images.
     /// </summary>
-    internal class ImageKit
+    public class ImageKit
     {
         /// <summary>
         /// Image extractor. Read specific embed image using address string.
         /// </summary>
-        /// <param name="assembly"> Current assembly. </param>
         /// <param name="address"> The address in the solution where the image is located. </param>
+        /// <param name="assembly"> Current assembly. </param>
         /// <returns>
         /// Return BitmapSource instance.
         /// </returns>
-        internal static BitmapSource GetEmbeddedImage(
-            Assembly assembly,
-            string address)
+        public static BitmapSource GetEmbeddedImage(
+            string address,
+            Assembly assembly = null)
         {
             try
             {
+                if (assembly == null)
+                {
+                    assembly = Assembly.GetCallingAssembly();
+                }
+
                 Stream stream = assembly.GetManifestResourceStream(name: address);
                 return BitmapFrame.Create(stream);
             }
