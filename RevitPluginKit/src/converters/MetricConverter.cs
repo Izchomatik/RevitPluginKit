@@ -8,7 +8,7 @@
         /// <summary>
         /// Convert square feet to square meters.
         /// </summary>
-        /// <param name="squareFeet"> Square feets value. </param>
+        /// <param name="squareFeet"> Square feet value. </param>
         /// <returns>
         /// Return square meters.
         /// </returns>
@@ -18,13 +18,13 @@
         }
 
         /// <summary>
-        /// Convert square meters to square feets.
+        /// Convert square meters to square feet.
         /// </summary>
         /// <param name="squareMeters"> Square meters value. </param>
         /// <returns>
         /// Return square feets.
         /// </returns>
-        public static double SquareMetersToSquareFeets(double squareMeters)
+        public static double SquareMetersToSquareFeet(double squareMeters)
         {
             return squareMeters / 0.09290304;
         }

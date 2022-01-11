@@ -1,7 +1,5 @@
 ﻿namespace RevitPluginKit.Ui
 {
-    using Autodesk.Revit.UI;
-
     /// <summary>
     /// A class for storing data needed to generate a push button instance.
     /// </summary>
