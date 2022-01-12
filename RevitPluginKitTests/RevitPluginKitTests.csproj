@@ -66,5 +66,17 @@
       <Name>RevitPluginKit</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="assets\icons\CollectorsTestIcon.png" />
+    <EmbeddedResource Include="assets\icons\ConvertersTestIcon.png" />
+    <Resource Include="assets\icons\FailedIcon.png" />
+    <EmbeddedResource Include="assets\icons\GeneralTestIcon.png" />
+    <Resource Include="assets\icons\LabIcon.png" />
+    <Resource Include="assets\icons\PassedIcon.png" />
+    <EmbeddedResource Include="assets\icons\TestIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\revit\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
