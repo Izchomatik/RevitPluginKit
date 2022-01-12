@@ -8,7 +8,7 @@
 
 	* In `Start action` section set flag `Start external program:` and add your `Revit.exe` destination (Revit 2019 or later version) - for example: `C:\Program Files\Autodesk\Revit 2019\Revit.exe`
 
-	* In `Start options` section add Revit test file destination - for example: `D:\GitHub\RevitPluginKitTests\assets\revit\RevitPluginKitTests.rvt`
+	* In `Start options` section add Revit test file destination - for example: `D:\GitHub\RevitPluginKit\RevitPluginKitTests\assets\revit\RevitPluginKitTests.rvt`
 
 * Start `F5`, and check that the correct test model is launched
 
