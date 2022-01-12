@@ -260,3 +260,7 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+*.rvt
+
+# Dont ignore test rvt file
+!assets/revit/RevitPluginKitTests.rvt
