@@ -13,23 +13,59 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitPluginKitTests", "RevitPluginKitTests\RevitPluginKitTests.csproj", "{44C61F76-B8DB-4003-B218-D056A5806269}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{DF2552CC-CFC6-4442-923B-A5CA3A75FEB6}"
+	ProjectSection(SolutionItems) = preProject
+		docs\docfx.json = docs\docfx.json
+		docs\index.md = docs\index.md
+		docs\toc.yml = docs\toc.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{6FA6A352-1FC8-41D8-BF25-2D19A76654F1}"
+	ProjectSection(SolutionItems) = preProject
+		docs\api\index.md = docs\api\index.md
+		docs\api\toc.yml = docs\api\toc.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{19E772A5-8710-4E64-8940-E7EB9478B06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19E772A5-8710-4E64-8940-E7EB9478B06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E772A5-8710-4E64-8940-E7EB9478B06A}.Debug|x64.ActiveCfg = Debug|x64
+		{19E772A5-8710-4E64-8940-E7EB9478B06A}.Debug|x64.Build.0 = Debug|x64
+		{19E772A5-8710-4E64-8940-E7EB9478B06A}.Debug|x86.ActiveCfg = Debug|x86
+		{19E772A5-8710-4E64-8940-E7EB9478B06A}.Debug|x86.Build.0 = Debug|x86
 		{19E772A5-8710-4E64-8940-E7EB9478B06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19E772A5-8710-4E64-8940-E7EB9478B06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E772A5-8710-4E64-8940-E7EB9478B06A}.Release|x64.ActiveCfg = Release|x64
+		{19E772A5-8710-4E64-8940-E7EB9478B06A}.Release|x64.Build.0 = Release|x64
+		{19E772A5-8710-4E64-8940-E7EB9478B06A}.Release|x86.ActiveCfg = Release|x86
+		{19E772A5-8710-4E64-8940-E7EB9478B06A}.Release|x86.Build.0 = Release|x86
 		{44C61F76-B8DB-4003-B218-D056A5806269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{44C61F76-B8DB-4003-B218-D056A5806269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C61F76-B8DB-4003-B218-D056A5806269}.Debug|x64.ActiveCfg = Debug|x64
+		{44C61F76-B8DB-4003-B218-D056A5806269}.Debug|x64.Build.0 = Debug|x64
+		{44C61F76-B8DB-4003-B218-D056A5806269}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{44C61F76-B8DB-4003-B218-D056A5806269}.Debug|x86.Build.0 = Debug|Any CPU
 		{44C61F76-B8DB-4003-B218-D056A5806269}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44C61F76-B8DB-4003-B218-D056A5806269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44C61F76-B8DB-4003-B218-D056A5806269}.Release|x64.ActiveCfg = Release|x64
+		{44C61F76-B8DB-4003-B218-D056A5806269}.Release|x64.Build.0 = Release|x64
+		{44C61F76-B8DB-4003-B218-D056A5806269}.Release|x86.ActiveCfg = Release|Any CPU
+		{44C61F76-B8DB-4003-B218-D056A5806269}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FA6A352-1FC8-41D8-BF25-2D19A76654F1} = {DF2552CC-CFC6-4442-923B-A5CA3A75FEB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D649995-360D-4EFA-BB86-2081E6F64567}

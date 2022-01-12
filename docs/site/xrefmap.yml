@@ -1,0 +1,375 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: RevitPluginKit.Collectors
+  name: RevitPluginKit.Collectors
+  href: api/RevitPluginKit.Collectors.html
+  commentId: N:RevitPluginKit.Collectors
+  fullName: RevitPluginKit.Collectors
+  nameWithType: RevitPluginKit.Collectors
+- uid: RevitPluginKit.Collectors.ElementsCollector
+  name: ElementsCollector
+  href: api/RevitPluginKit.Collectors.ElementsCollector.html
+  commentId: T:RevitPluginKit.Collectors.ElementsCollector
+  fullName: RevitPluginKit.Collectors.ElementsCollector
+  nameWithType: ElementsCollector
+- uid: RevitPluginKit.Collectors.ElementsCollector.InstancesByCategory*
+  name: InstancesByCategory
+  href: api/RevitPluginKit.Collectors.ElementsCollector.html#RevitPluginKit_Collectors_ElementsCollector_InstancesByCategory_
+  commentId: Overload:RevitPluginKit.Collectors.ElementsCollector.InstancesByCategory
+  isSpec: "True"
+  fullName: RevitPluginKit.Collectors.ElementsCollector.InstancesByCategory
+  nameWithType: ElementsCollector.InstancesByCategory
+- uid: RevitPluginKit.Collectors.ElementsCollector.InstancesByCategory``1(Autodesk.Revit.DB.Document,Autodesk.Revit.DB.BuiltInCategory,System.String,System.String,System.Collections.Generic.List{Autodesk.Revit.DB.ElementId},System.Boolean,Autodesk.Revit.DB.ElementDesignOptionFilter)
+  name: InstancesByCategory<T>(Document, BuiltInCategory, String, String, List<ElementId>, Boolean, ElementDesignOptionFilter)
+  href: api/RevitPluginKit.Collectors.ElementsCollector.html#RevitPluginKit_Collectors_ElementsCollector_InstancesByCategory__1_Autodesk_Revit_DB_Document_Autodesk_Revit_DB_BuiltInCategory_System_String_System_String_System_Collections_Generic_List_Autodesk_Revit_DB_ElementId__System_Boolean_Autodesk_Revit_DB_ElementDesignOptionFilter_
+  commentId: M:RevitPluginKit.Collectors.ElementsCollector.InstancesByCategory``1(Autodesk.Revit.DB.Document,Autodesk.Revit.DB.BuiltInCategory,System.String,System.String,System.Collections.Generic.List{Autodesk.Revit.DB.ElementId},System.Boolean,Autodesk.Revit.DB.ElementDesignOptionFilter)
+  name.vb: InstancesByCategory(Of T)(Document, BuiltInCategory, String, String, List(Of ElementId), Boolean, ElementDesignOptionFilter)
+  fullName: RevitPluginKit.Collectors.ElementsCollector.InstancesByCategory<T>(Autodesk.Revit.DB.Document, Autodesk.Revit.DB.BuiltInCategory, System.String, System.String, System.Collections.Generic.List<Autodesk.Revit.DB.ElementId>, System.Boolean, Autodesk.Revit.DB.ElementDesignOptionFilter)
+  fullName.vb: RevitPluginKit.Collectors.ElementsCollector.InstancesByCategory(Of T)(Autodesk.Revit.DB.Document, Autodesk.Revit.DB.BuiltInCategory, System.String, System.String, System.Collections.Generic.List(Of Autodesk.Revit.DB.ElementId), System.Boolean, Autodesk.Revit.DB.ElementDesignOptionFilter)
+  nameWithType: ElementsCollector.InstancesByCategory<T>(Document, BuiltInCategory, String, String, List<ElementId>, Boolean, ElementDesignOptionFilter)
+  nameWithType.vb: ElementsCollector.InstancesByCategory(Of T)(Document, BuiltInCategory, String, String, List(Of ElementId), Boolean, ElementDesignOptionFilter)
+- uid: RevitPluginKit.Collectors.ElementsCollector.TypesByCategory*
+  name: TypesByCategory
+  href: api/RevitPluginKit.Collectors.ElementsCollector.html#RevitPluginKit_Collectors_ElementsCollector_TypesByCategory_
+  commentId: Overload:RevitPluginKit.Collectors.ElementsCollector.TypesByCategory
+  isSpec: "True"
+  fullName: RevitPluginKit.Collectors.ElementsCollector.TypesByCategory
+  nameWithType: ElementsCollector.TypesByCategory
+- uid: RevitPluginKit.Collectors.ElementsCollector.TypesByCategory``1(Autodesk.Revit.DB.Document,Autodesk.Revit.DB.BuiltInCategory,System.String,System.String)
+  name: TypesByCategory<T>(Document, BuiltInCategory, String, String)
+  href: api/RevitPluginKit.Collectors.ElementsCollector.html#RevitPluginKit_Collectors_ElementsCollector_TypesByCategory__1_Autodesk_Revit_DB_Document_Autodesk_Revit_DB_BuiltInCategory_System_String_System_String_
+  commentId: M:RevitPluginKit.Collectors.ElementsCollector.TypesByCategory``1(Autodesk.Revit.DB.Document,Autodesk.Revit.DB.BuiltInCategory,System.String,System.String)
+  name.vb: TypesByCategory(Of T)(Document, BuiltInCategory, String, String)
+  fullName: RevitPluginKit.Collectors.ElementsCollector.TypesByCategory<T>(Autodesk.Revit.DB.Document, Autodesk.Revit.DB.BuiltInCategory, System.String, System.String)
+  fullName.vb: RevitPluginKit.Collectors.ElementsCollector.TypesByCategory(Of T)(Autodesk.Revit.DB.Document, Autodesk.Revit.DB.BuiltInCategory, System.String, System.String)
+  nameWithType: ElementsCollector.TypesByCategory<T>(Document, BuiltInCategory, String, String)
+  nameWithType.vb: ElementsCollector.TypesByCategory(Of T)(Document, BuiltInCategory, String, String)
+- uid: RevitPluginKit.Converters
+  name: RevitPluginKit.Converters
+  href: api/RevitPluginKit.Converters.html
+  commentId: N:RevitPluginKit.Converters
+  fullName: RevitPluginKit.Converters
+  nameWithType: RevitPluginKit.Converters
+- uid: RevitPluginKit.Converters.MetricConverter
+  name: MetricConverter
+  href: api/RevitPluginKit.Converters.MetricConverter.html
+  commentId: T:RevitPluginKit.Converters.MetricConverter
+  fullName: RevitPluginKit.Converters.MetricConverter
+  nameWithType: MetricConverter
+- uid: RevitPluginKit.Converters.MetricConverter.FeetToMM(System.Double)
+  name: FeetToMM(Double)
+  href: api/RevitPluginKit.Converters.MetricConverter.html#RevitPluginKit_Converters_MetricConverter_FeetToMM_System_Double_
+  commentId: M:RevitPluginKit.Converters.MetricConverter.FeetToMM(System.Double)
+  fullName: RevitPluginKit.Converters.MetricConverter.FeetToMM(System.Double)
+  nameWithType: MetricConverter.FeetToMM(Double)
+- uid: RevitPluginKit.Converters.MetricConverter.FeetToMM*
+  name: FeetToMM
+  href: api/RevitPluginKit.Converters.MetricConverter.html#RevitPluginKit_Converters_MetricConverter_FeetToMM_
+  commentId: Overload:RevitPluginKit.Converters.MetricConverter.FeetToMM
+  isSpec: "True"
+  fullName: RevitPluginKit.Converters.MetricConverter.FeetToMM
+  nameWithType: MetricConverter.FeetToMM
+- uid: RevitPluginKit.Converters.MetricConverter.MMToFeet(System.Double)
+  name: MMToFeet(Double)
+  href: api/RevitPluginKit.Converters.MetricConverter.html#RevitPluginKit_Converters_MetricConverter_MMToFeet_System_Double_
+  commentId: M:RevitPluginKit.Converters.MetricConverter.MMToFeet(System.Double)
+  fullName: RevitPluginKit.Converters.MetricConverter.MMToFeet(System.Double)
+  nameWithType: MetricConverter.MMToFeet(Double)
+- uid: RevitPluginKit.Converters.MetricConverter.MMToFeet*
+  name: MMToFeet
+  href: api/RevitPluginKit.Converters.MetricConverter.html#RevitPluginKit_Converters_MetricConverter_MMToFeet_
+  commentId: Overload:RevitPluginKit.Converters.MetricConverter.MMToFeet
+  isSpec: "True"
+  fullName: RevitPluginKit.Converters.MetricConverter.MMToFeet
+  nameWithType: MetricConverter.MMToFeet
+- uid: RevitPluginKit.Converters.MetricConverter.SquareFeetToSquareMeters(System.Double)
+  name: SquareFeetToSquareMeters(Double)
+  href: api/RevitPluginKit.Converters.MetricConverter.html#RevitPluginKit_Converters_MetricConverter_SquareFeetToSquareMeters_System_Double_
+  commentId: M:RevitPluginKit.Converters.MetricConverter.SquareFeetToSquareMeters(System.Double)
+  fullName: RevitPluginKit.Converters.MetricConverter.SquareFeetToSquareMeters(System.Double)
+  nameWithType: MetricConverter.SquareFeetToSquareMeters(Double)
+- uid: RevitPluginKit.Converters.MetricConverter.SquareFeetToSquareMeters*
+  name: SquareFeetToSquareMeters
+  href: api/RevitPluginKit.Converters.MetricConverter.html#RevitPluginKit_Converters_MetricConverter_SquareFeetToSquareMeters_
+  commentId: Overload:RevitPluginKit.Converters.MetricConverter.SquareFeetToSquareMeters
+  isSpec: "True"
+  fullName: RevitPluginKit.Converters.MetricConverter.SquareFeetToSquareMeters
+  nameWithType: MetricConverter.SquareFeetToSquareMeters
+- uid: RevitPluginKit.Converters.MetricConverter.SquareMetersToSquareFeet(System.Double)
+  name: SquareMetersToSquareFeet(Double)
+  href: api/RevitPluginKit.Converters.MetricConverter.html#RevitPluginKit_Converters_MetricConverter_SquareMetersToSquareFeet_System_Double_
+  commentId: M:RevitPluginKit.Converters.MetricConverter.SquareMetersToSquareFeet(System.Double)
+  fullName: RevitPluginKit.Converters.MetricConverter.SquareMetersToSquareFeet(System.Double)
+  nameWithType: MetricConverter.SquareMetersToSquareFeet(Double)
+- uid: RevitPluginKit.Converters.MetricConverter.SquareMetersToSquareFeet*
+  name: SquareMetersToSquareFeet
+  href: api/RevitPluginKit.Converters.MetricConverter.html#RevitPluginKit_Converters_MetricConverter_SquareMetersToSquareFeet_
+  commentId: Overload:RevitPluginKit.Converters.MetricConverter.SquareMetersToSquareFeet
+  isSpec: "True"
+  fullName: RevitPluginKit.Converters.MetricConverter.SquareMetersToSquareFeet
+  nameWithType: MetricConverter.SquareMetersToSquareFeet
+- uid: RevitPluginKit.Converters.StringConverter
+  name: StringConverter
+  href: api/RevitPluginKit.Converters.StringConverter.html
+  commentId: T:RevitPluginKit.Converters.StringConverter
+  fullName: RevitPluginKit.Converters.StringConverter
+  nameWithType: StringConverter
+- uid: RevitPluginKit.Converters.StringConverter.StopwatchToString(System.Diagnostics.Stopwatch)
+  name: StopwatchToString(Stopwatch)
+  href: api/RevitPluginKit.Converters.StringConverter.html#RevitPluginKit_Converters_StringConverter_StopwatchToString_System_Diagnostics_Stopwatch_
+  commentId: M:RevitPluginKit.Converters.StringConverter.StopwatchToString(System.Diagnostics.Stopwatch)
+  fullName: RevitPluginKit.Converters.StringConverter.StopwatchToString(System.Diagnostics.Stopwatch)
+  nameWithType: StringConverter.StopwatchToString(Stopwatch)
+- uid: RevitPluginKit.Converters.StringConverter.StopwatchToString*
+  name: StopwatchToString
+  href: api/RevitPluginKit.Converters.StringConverter.html#RevitPluginKit_Converters_StringConverter_StopwatchToString_
+  commentId: Overload:RevitPluginKit.Converters.StringConverter.StopwatchToString
+  isSpec: "True"
+  fullName: RevitPluginKit.Converters.StringConverter.StopwatchToString
+  nameWithType: StringConverter.StopwatchToString
+- uid: RevitPluginKit.Ui
+  name: RevitPluginKit.Ui
+  href: api/RevitPluginKit.Ui.html
+  commentId: N:RevitPluginKit.Ui
+  fullName: RevitPluginKit.Ui
+  nameWithType: RevitPluginKit.Ui
+- uid: RevitPluginKit.Ui.ButtonSettings
+  name: ButtonSettings
+  href: api/RevitPluginKit.Ui.ButtonSettings.html
+  commentId: T:RevitPluginKit.Ui.ButtonSettings
+  fullName: RevitPluginKit.Ui.ButtonSettings
+  nameWithType: ButtonSettings
+- uid: RevitPluginKit.Ui.ButtonSettings.ImageAddress
+  name: ImageAddress
+  href: api/RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_ImageAddress
+  commentId: P:RevitPluginKit.Ui.ButtonSettings.ImageAddress
+  fullName: RevitPluginKit.Ui.ButtonSettings.ImageAddress
+  nameWithType: ButtonSettings.ImageAddress
+- uid: RevitPluginKit.Ui.ButtonSettings.ImageAddress*
+  name: ImageAddress
+  href: api/RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_ImageAddress_
+  commentId: Overload:RevitPluginKit.Ui.ButtonSettings.ImageAddress
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.ButtonSettings.ImageAddress
+  nameWithType: ButtonSettings.ImageAddress
+- uid: RevitPluginKit.Ui.ButtonSettings.InternalName
+  name: InternalName
+  href: api/RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_InternalName
+  commentId: P:RevitPluginKit.Ui.ButtonSettings.InternalName
+  fullName: RevitPluginKit.Ui.ButtonSettings.InternalName
+  nameWithType: ButtonSettings.InternalName
+- uid: RevitPluginKit.Ui.ButtonSettings.InternalName*
+  name: InternalName
+  href: api/RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_InternalName_
+  commentId: Overload:RevitPluginKit.Ui.ButtonSettings.InternalName
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.ButtonSettings.InternalName
+  nameWithType: ButtonSettings.InternalName
+- uid: RevitPluginKit.Ui.ButtonSettings.Name
+  name: Name
+  href: api/RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_Name
+  commentId: P:RevitPluginKit.Ui.ButtonSettings.Name
+  fullName: RevitPluginKit.Ui.ButtonSettings.Name
+  nameWithType: ButtonSettings.Name
+- uid: RevitPluginKit.Ui.ButtonSettings.Name*
+  name: Name
+  href: api/RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_Name_
+  commentId: Overload:RevitPluginKit.Ui.ButtonSettings.Name
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.ButtonSettings.Name
+  nameWithType: ButtonSettings.Name
+- uid: RevitPluginKit.Ui.ButtonSettings.Tooltip
+  name: Tooltip
+  href: api/RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_Tooltip
+  commentId: P:RevitPluginKit.Ui.ButtonSettings.Tooltip
+  fullName: RevitPluginKit.Ui.ButtonSettings.Tooltip
+  nameWithType: ButtonSettings.Tooltip
+- uid: RevitPluginKit.Ui.ButtonSettings.Tooltip*
+  name: Tooltip
+  href: api/RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_Tooltip_
+  commentId: Overload:RevitPluginKit.Ui.ButtonSettings.Tooltip
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.ButtonSettings.Tooltip
+  nameWithType: ButtonSettings.Tooltip
+- uid: RevitPluginKit.Ui.ImageKit
+  name: ImageKit
+  href: api/RevitPluginKit.Ui.ImageKit.html
+  commentId: T:RevitPluginKit.Ui.ImageKit
+  fullName: RevitPluginKit.Ui.ImageKit
+  nameWithType: ImageKit
+- uid: RevitPluginKit.Ui.ImageKit.GetResourceImage(System.String)
+  name: GetResourceImage(String)
+  href: api/RevitPluginKit.Ui.ImageKit.html#RevitPluginKit_Ui_ImageKit_GetResourceImage_System_String_
+  commentId: M:RevitPluginKit.Ui.ImageKit.GetResourceImage(System.String)
+  fullName: RevitPluginKit.Ui.ImageKit.GetResourceImage(System.String)
+  nameWithType: ImageKit.GetResourceImage(String)
+- uid: RevitPluginKit.Ui.ImageKit.GetResourceImage*
+  name: GetResourceImage
+  href: api/RevitPluginKit.Ui.ImageKit.html#RevitPluginKit_Ui_ImageKit_GetResourceImage_
+  commentId: Overload:RevitPluginKit.Ui.ImageKit.GetResourceImage
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.ImageKit.GetResourceImage
+  nameWithType: ImageKit.GetResourceImage
+- uid: RevitPluginKit.Ui.PullDownButtonSettings
+  name: PullDownButtonSettings
+  href: api/RevitPluginKit.Ui.PullDownButtonSettings.html
+  commentId: T:RevitPluginKit.Ui.PullDownButtonSettings
+  fullName: RevitPluginKit.Ui.PullDownButtonSettings
+  nameWithType: PullDownButtonSettings
+- uid: RevitPluginKit.Ui.PullDownButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.PushButtonSettings})
+  name: PullDownButtonSettings(String, String, String, String, List<PushButtonSettings>)
+  href: api/RevitPluginKit.Ui.PullDownButtonSettings.html#RevitPluginKit_Ui_PullDownButtonSettings__ctor_System_String_System_String_System_String_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_PushButtonSettings__
+  commentId: M:RevitPluginKit.Ui.PullDownButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.PushButtonSettings})
+  name.vb: PullDownButtonSettings(String, String, String, String, List(Of PushButtonSettings))
+  fullName: RevitPluginKit.Ui.PullDownButtonSettings.PullDownButtonSettings(System.String, System.String, System.String, System.String, System.Collections.Generic.List<RevitPluginKit.Ui.PushButtonSettings>)
+  fullName.vb: RevitPluginKit.Ui.PullDownButtonSettings.PullDownButtonSettings(System.String, System.String, System.String, System.String, System.Collections.Generic.List(Of RevitPluginKit.Ui.PushButtonSettings))
+  nameWithType: PullDownButtonSettings.PullDownButtonSettings(String, String, String, String, List<PushButtonSettings>)
+  nameWithType.vb: PullDownButtonSettings.PullDownButtonSettings(String, String, String, String, List(Of PushButtonSettings))
+- uid: RevitPluginKit.Ui.PullDownButtonSettings.#ctor*
+  name: PullDownButtonSettings
+  href: api/RevitPluginKit.Ui.PullDownButtonSettings.html#RevitPluginKit_Ui_PullDownButtonSettings__ctor_
+  commentId: Overload:RevitPluginKit.Ui.PullDownButtonSettings.#ctor
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.PullDownButtonSettings.PullDownButtonSettings
+  nameWithType: PullDownButtonSettings.PullDownButtonSettings
+- uid: RevitPluginKit.Ui.PullDownButtonSettings.PushButtonsSettings
+  name: PushButtonsSettings
+  href: api/RevitPluginKit.Ui.PullDownButtonSettings.html#RevitPluginKit_Ui_PullDownButtonSettings_PushButtonsSettings
+  commentId: P:RevitPluginKit.Ui.PullDownButtonSettings.PushButtonsSettings
+  fullName: RevitPluginKit.Ui.PullDownButtonSettings.PushButtonsSettings
+  nameWithType: PullDownButtonSettings.PushButtonsSettings
+- uid: RevitPluginKit.Ui.PullDownButtonSettings.PushButtonsSettings*
+  name: PushButtonsSettings
+  href: api/RevitPluginKit.Ui.PullDownButtonSettings.html#RevitPluginKit_Ui_PullDownButtonSettings_PushButtonsSettings_
+  commentId: Overload:RevitPluginKit.Ui.PullDownButtonSettings.PushButtonsSettings
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.PullDownButtonSettings.PushButtonsSettings
+  nameWithType: PullDownButtonSettings.PushButtonsSettings
+- uid: RevitPluginKit.Ui.PushButtonSettings
+  name: PushButtonSettings
+  href: api/RevitPluginKit.Ui.PushButtonSettings.html
+  commentId: T:RevitPluginKit.Ui.PushButtonSettings
+  fullName: RevitPluginKit.Ui.PushButtonSettings
+  nameWithType: PushButtonSettings
+- uid: RevitPluginKit.Ui.PushButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.String)
+  name: PushButtonSettings(String, String, String, String, String)
+  href: api/RevitPluginKit.Ui.PushButtonSettings.html#RevitPluginKit_Ui_PushButtonSettings__ctor_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:RevitPluginKit.Ui.PushButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.String)
+  fullName: RevitPluginKit.Ui.PushButtonSettings.PushButtonSettings(System.String, System.String, System.String, System.String, System.String)
+  nameWithType: PushButtonSettings.PushButtonSettings(String, String, String, String, String)
+- uid: RevitPluginKit.Ui.PushButtonSettings.#ctor*
+  name: PushButtonSettings
+  href: api/RevitPluginKit.Ui.PushButtonSettings.html#RevitPluginKit_Ui_PushButtonSettings__ctor_
+  commentId: Overload:RevitPluginKit.Ui.PushButtonSettings.#ctor
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.PushButtonSettings.PushButtonSettings
+  nameWithType: PushButtonSettings.PushButtonSettings
+- uid: RevitPluginKit.Ui.PushButtonSettings.ClassName
+  name: ClassName
+  href: api/RevitPluginKit.Ui.PushButtonSettings.html#RevitPluginKit_Ui_PushButtonSettings_ClassName
+  commentId: P:RevitPluginKit.Ui.PushButtonSettings.ClassName
+  fullName: RevitPluginKit.Ui.PushButtonSettings.ClassName
+  nameWithType: PushButtonSettings.ClassName
+- uid: RevitPluginKit.Ui.PushButtonSettings.ClassName*
+  name: ClassName
+  href: api/RevitPluginKit.Ui.PushButtonSettings.html#RevitPluginKit_Ui_PushButtonSettings_ClassName_
+  commentId: Overload:RevitPluginKit.Ui.PushButtonSettings.ClassName
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.PushButtonSettings.ClassName
+  nameWithType: PushButtonSettings.ClassName
+- uid: RevitPluginKit.Ui.RibbonKit
+  name: RibbonKit
+  href: api/RevitPluginKit.Ui.RibbonKit.html
+  commentId: T:RevitPluginKit.Ui.RibbonKit
+  fullName: RevitPluginKit.Ui.RibbonKit
+  nameWithType: RibbonKit
+- uid: RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.RibbonPanelSettings})
+  name: AddRibbonTab(UIControlledApplication, String, List<RibbonPanelSettings>)
+  href: api/RevitPluginKit.Ui.RibbonKit.html#RevitPluginKit_Ui_RibbonKit_AddRibbonTab_Autodesk_Revit_UI_UIControlledApplication_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_RibbonPanelSettings__
+  commentId: M:RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.RibbonPanelSettings})
+  name.vb: AddRibbonTab(UIControlledApplication, String, List(Of RibbonPanelSettings))
+  fullName: RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication, System.String, System.Collections.Generic.List<RevitPluginKit.Ui.RibbonPanelSettings>)
+  fullName.vb: RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication, System.String, System.Collections.Generic.List(Of RevitPluginKit.Ui.RibbonPanelSettings))
+  nameWithType: RibbonKit.AddRibbonTab(UIControlledApplication, String, List<RibbonPanelSettings>)
+  nameWithType.vb: RibbonKit.AddRibbonTab(UIControlledApplication, String, List(Of RibbonPanelSettings))
+- uid: RevitPluginKit.Ui.RibbonKit.AddRibbonTab*
+  name: AddRibbonTab
+  href: api/RevitPluginKit.Ui.RibbonKit.html#RevitPluginKit_Ui_RibbonKit_AddRibbonTab_
+  commentId: Overload:RevitPluginKit.Ui.RibbonKit.AddRibbonTab
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.RibbonKit.AddRibbonTab
+  nameWithType: RibbonKit.AddRibbonTab
+- uid: RevitPluginKit.Ui.RibbonPanelSettings
+  name: RibbonPanelSettings
+  href: api/RevitPluginKit.Ui.RibbonPanelSettings.html
+  commentId: T:RevitPluginKit.Ui.RibbonPanelSettings
+  fullName: RevitPluginKit.Ui.RibbonPanelSettings
+  nameWithType: RibbonPanelSettings
+- uid: RevitPluginKit.Ui.RibbonPanelSettings.#ctor(System.String,System.Collections.Generic.List{RevitPluginKit.Ui.ButtonSettings})
+  name: RibbonPanelSettings(String, List<ButtonSettings>)
+  href: api/RevitPluginKit.Ui.RibbonPanelSettings.html#RevitPluginKit_Ui_RibbonPanelSettings__ctor_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_ButtonSettings__
+  commentId: M:RevitPluginKit.Ui.RibbonPanelSettings.#ctor(System.String,System.Collections.Generic.List{RevitPluginKit.Ui.ButtonSettings})
+  name.vb: RibbonPanelSettings(String, List(Of ButtonSettings))
+  fullName: RevitPluginKit.Ui.RibbonPanelSettings.RibbonPanelSettings(System.String, System.Collections.Generic.List<RevitPluginKit.Ui.ButtonSettings>)
+  fullName.vb: RevitPluginKit.Ui.RibbonPanelSettings.RibbonPanelSettings(System.String, System.Collections.Generic.List(Of RevitPluginKit.Ui.ButtonSettings))
+  nameWithType: RibbonPanelSettings.RibbonPanelSettings(String, List<ButtonSettings>)
+  nameWithType.vb: RibbonPanelSettings.RibbonPanelSettings(String, List(Of ButtonSettings))
+- uid: RevitPluginKit.Ui.RibbonPanelSettings.#ctor*
+  name: RibbonPanelSettings
+  href: api/RevitPluginKit.Ui.RibbonPanelSettings.html#RevitPluginKit_Ui_RibbonPanelSettings__ctor_
+  commentId: Overload:RevitPluginKit.Ui.RibbonPanelSettings.#ctor
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.RibbonPanelSettings.RibbonPanelSettings
+  nameWithType: RibbonPanelSettings.RibbonPanelSettings
+- uid: RevitPluginKit.Ui.RibbonPanelSettings.ButtonsSettings
+  name: ButtonsSettings
+  href: api/RevitPluginKit.Ui.RibbonPanelSettings.html#RevitPluginKit_Ui_RibbonPanelSettings_ButtonsSettings
+  commentId: P:RevitPluginKit.Ui.RibbonPanelSettings.ButtonsSettings
+  fullName: RevitPluginKit.Ui.RibbonPanelSettings.ButtonsSettings
+  nameWithType: RibbonPanelSettings.ButtonsSettings
+- uid: RevitPluginKit.Ui.RibbonPanelSettings.ButtonsSettings*
+  name: ButtonsSettings
+  href: api/RevitPluginKit.Ui.RibbonPanelSettings.html#RevitPluginKit_Ui_RibbonPanelSettings_ButtonsSettings_
+  commentId: Overload:RevitPluginKit.Ui.RibbonPanelSettings.ButtonsSettings
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.RibbonPanelSettings.ButtonsSettings
+  nameWithType: RibbonPanelSettings.ButtonsSettings
+- uid: RevitPluginKit.Ui.RibbonPanelSettings.Name
+  name: Name
+  href: api/RevitPluginKit.Ui.RibbonPanelSettings.html#RevitPluginKit_Ui_RibbonPanelSettings_Name
+  commentId: P:RevitPluginKit.Ui.RibbonPanelSettings.Name
+  fullName: RevitPluginKit.Ui.RibbonPanelSettings.Name
+  nameWithType: RibbonPanelSettings.Name
+- uid: RevitPluginKit.Ui.RibbonPanelSettings.Name*
+  name: Name
+  href: api/RevitPluginKit.Ui.RibbonPanelSettings.html#RevitPluginKit_Ui_RibbonPanelSettings_Name_
+  commentId: Overload:RevitPluginKit.Ui.RibbonPanelSettings.Name
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.RibbonPanelSettings.Name
+  nameWithType: RibbonPanelSettings.Name
+- uid: RevitPluginKit.Validators
+  name: RevitPluginKit.Validators
+  href: api/RevitPluginKit.Validators.html
+  commentId: N:RevitPluginKit.Validators
+  fullName: RevitPluginKit.Validators
+  nameWithType: RevitPluginKit.Validators
+- uid: RevitPluginKit.Validators.NumberValidator
+  name: NumberValidator
+  href: api/RevitPluginKit.Validators.NumberValidator.html
+  commentId: T:RevitPluginKit.Validators.NumberValidator
+  fullName: RevitPluginKit.Validators.NumberValidator
+  nameWithType: NumberValidator
+- uid: RevitPluginKit.Validators.NumberValidator.NumberValidation(System.Object,System.Windows.Input.TextCompositionEventArgs)
+  name: NumberValidation(Object, TextCompositionEventArgs)
+  href: api/RevitPluginKit.Validators.NumberValidator.html#RevitPluginKit_Validators_NumberValidator_NumberValidation_System_Object_System_Windows_Input_TextCompositionEventArgs_
+  commentId: M:RevitPluginKit.Validators.NumberValidator.NumberValidation(System.Object,System.Windows.Input.TextCompositionEventArgs)
+  fullName: RevitPluginKit.Validators.NumberValidator.NumberValidation(System.Object, System.Windows.Input.TextCompositionEventArgs)
+  nameWithType: NumberValidator.NumberValidation(Object, TextCompositionEventArgs)
+- uid: RevitPluginKit.Validators.NumberValidator.NumberValidation*
+  name: NumberValidation
+  href: api/RevitPluginKit.Validators.NumberValidator.html#RevitPluginKit_Validators_NumberValidator_NumberValidation_
+  commentId: Overload:RevitPluginKit.Validators.NumberValidator.NumberValidation
+  isSpec: "True"
+  fullName: RevitPluginKit.Validators.NumberValidator.NumberValidation
+  nameWithType: NumberValidator.NumberValidation
