@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>RevitPluginKit tests</Name>
+		<Assembly>RevitPluginKitTests.dll</Assembly>
+		<AddInId>9cebadaa-ddd3-40ff-bad8-3ab4b672efdd</AddInId>
+		<FullClassName>RevitPluginKitTests.TestsPluginMain</FullClassName>
+		<Text>RevitPluginKit tests project.</Text>
+		<Description>RevitPluginKit tests project.</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<VendorId>izchomatik</VendorId>
+		<VendorDescription>izchomatik</VendorDescription>
+	</AddIn>
+</RevitAddIns>
