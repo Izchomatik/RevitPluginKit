@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
     
     
     
@@ -46,7 +46,15 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="Api Documentation">Api Documentation</a>
+                      </li>
+                </ul>    </div>
           </div>
         </nav>
         
@@ -59,11 +67,77 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="RevitPluginKit.Collectors.html" title="RevitPluginKit.Collectors" class="">RevitPluginKit.Collectors</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="RevitPluginKit.Collectors.ElementsCollector.html" title="ElementsCollector" class="">ElementsCollector</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="RevitPluginKit.Converters.html" title="RevitPluginKit.Converters" class="">RevitPluginKit.Converters</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="RevitPluginKit.Converters.MetricConverter.html" title="MetricConverter" class="">MetricConverter</a>
+                          </li>
+                          <li class="">
+                            <a href="RevitPluginKit.Converters.StringConverter.html" title="StringConverter" class="">StringConverter</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="RevitPluginKit.Ui.html" title="RevitPluginKit.Ui" class="">RevitPluginKit.Ui</a>
+                        
+                        <ul class="nav level2">
+                          <li class="active">
+                            <a href="RevitPluginKit.Ui.ButtonSettings.html" title="ButtonSettings" class="active">ButtonSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="RevitPluginKit.Ui.ImageKit.html" title="ImageKit" class="">ImageKit</a>
+                          </li>
+                          <li class="">
+                            <a href="RevitPluginKit.Ui.PullDownButtonSettings.html" title="PullDownButtonSettings" class="">PullDownButtonSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="RevitPluginKit.Ui.PushButtonSettings.html" title="PushButtonSettings" class="">PushButtonSettings</a>
+                          </li>
+                          <li class="">
+                            <a href="RevitPluginKit.Ui.RibbonKit.html" title="RibbonKit" class="">RibbonKit</a>
+                          </li>
+                          <li class="">
+                            <a href="RevitPluginKit.Ui.RibbonPanelSettings.html" title="RibbonPanelSettings" class="">RibbonPanelSettings</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="RevitPluginKit.Validators.html" title="RevitPluginKit.Validators" class="">RevitPluginKit.Validators</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="RevitPluginKit.Validators.NumberValidator.html" title="NumberValidator" class="">NumberValidator</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="article row grid-right">
