@@ -9,7 +9,7 @@
     public class ElementsCollector
     {
         /// <summary>
-        /// Collect Revit element instances by category.
+        /// Collect Revit model element instances by category.
         /// </summary>
         /// <typeparam name="T"> Revit category (For example: Element). </typeparam>
         /// <param name="document"> Current revit document instance. </param>
@@ -46,7 +46,7 @@
         }
 
         /// <summary>
-        /// Collect Revit element types by category.
+        /// Collect Revit model element types by category.
         /// </summary>
         /// <typeparam name="T"> Revit category (For example: Element). </typeparam>
         /// <param name="document"> Current revit document instance. </param>
