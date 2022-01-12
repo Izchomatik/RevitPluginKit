@@ -1,4 +1,4 @@
-# Quick start guide on RevitPluginKit test project
+# Quick start guide on test project
 
 ## Customize debug settings
 
