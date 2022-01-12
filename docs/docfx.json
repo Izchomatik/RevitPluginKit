@@ -45,7 +45,7 @@
         ],
         "exclude": [
           "obj/**",
-          "_site/**"
+          "site/**"
         ]
       }
     ],
@@ -53,7 +53,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "statictoc"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
