@@ -56,6 +56,12 @@
     <Compile Include="src\GeneralTest.cs" />
     <Compile Include="src\ConvertersTest.cs" />
     <Compile Include="src\CollectorsTest.cs" />
+    <Compile Include="src\utilities\WPFImageStyles.cs" />
+    <Compile Include="src\utilities\WPFLineStyles.cs" />
+    <Compile Include="src\utilities\WPFListViewStyles.cs" />
+    <Compile Include="src\utilities\WPFRunStyles.cs" />
+    <Compile Include="src\utilities\WPFTextBlockStyles.cs" />
+    <Compile Include="src\utilities\WPFGridStyles.cs" />
     <Compile Include="src\utilities\TestResultData.cs" />
     <Compile Include="src\wins\ResultsViewer.xaml.cs">
       <DependentUpon>ResultsViewer.xaml</DependentUpon>
@@ -65,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="RevitPluginKitTests.addin" />
     <None Include="RevitPluginKitTests.ruleset" />
   </ItemGroup>
   <ItemGroup>
@@ -96,4 +103,19 @@
     </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>set addinsFolder=C:\ProgramData\Autodesk\Revit\Addins\2019\
+set mainDll=RevitPluginKit.dll
+set testDll=RevitPluginKitTests.dll
+set testAddin=RevitPluginKitTests.addin
+
+erase %25addinsFolder%25%25mainDll%25
+erase %25addinsFolder%25%25testDll%25
+erase %25addinsFolder%25%25testAddin%25
+
+echo F|xcopy $(TargetDir)%25mainDll%25 %25addinsFolder%25%25mainDll%25
+echo F|xcopy $(TargetDir)%25testDll%25 %25addinsFolder%25%25testDll%25
+echo F|xcopy $(ProjectDir)%25testAddin%25 %25addinsFolder%25%25testAddin%25
+</PostBuildEvent>
+  </PropertyGroup>
 </Project>
