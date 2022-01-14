@@ -5,6 +5,7 @@
 
     /// <summary>
     /// A class containing methods for quickly finding elements in the Revit model.
+    /// The methods of this class perform an efficient search for elements, types, and other entities in the specified document (model).
     /// </summary>
     public class ElementsCollector
     {
