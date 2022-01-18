@@ -65,6 +65,9 @@
     "template": [
       "default",
       "../docs/templates/discordfx"
-    ]
+    ],
+    "globalMetadata": {
+      "_appTitle": "RevitPluginKit"
+    }
   }
 }
