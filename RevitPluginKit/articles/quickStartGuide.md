@@ -47,7 +47,7 @@
 
 * As a result, you will see in Revit:
 
-![](../../docs/images/addRibbonTab.PNG)
+![](addRibbonTab.PNG)
 
 ***
 
