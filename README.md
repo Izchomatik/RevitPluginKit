@@ -1,7 +1,7 @@
 # RevitPluginKit
 
-[Overview](articles/about.md)
+[Overview](https://izchomatik.github.io/RevitPluginKit/articles/about.html)
 
-[Building](articles/building.md)
+[Building](https://izchomatik.github.io/RevitPluginKit/articles/building.html)
 
-[Quick start guide](articles/quickStartGuide.md)
+[Quick start guide](https://izchomatik.github.io/RevitPluginKit/articles/quickStartGuide.html)
