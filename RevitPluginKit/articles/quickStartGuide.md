@@ -168,4 +168,4 @@
 
 Next, try adding any other instrument from this library to your plugin!
 
-For example, try using the **[element collector](../../docs/api/RevitPluginKit.Collectors.html)** to quickly and easily collect elements in the test model.
+For example, try using the **[element collector](https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Collectors.html)** to quickly and easily collect elements in the test model.
