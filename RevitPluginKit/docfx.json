@@ -62,7 +62,8 @@
     ],
     "dest": "../docs",
     "template": [
-      "statictoc"
+      "default",
+      "../docs/templates/discordfx"
     ]
   }
 }
