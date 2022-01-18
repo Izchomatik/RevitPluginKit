@@ -13,19 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitPluginKitTests", "RevitPluginKitTests\RevitPluginKitTests.csproj", "{44C61F76-B8DB-4003-B218-D056A5806269}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{DF2552CC-CFC6-4442-923B-A5CA3A75FEB6}"
-	ProjectSection(SolutionItems) = preProject
-		docs\docfx.json = docs\docfx.json
-		docs\index.md = docs\index.md
-		docs\toc.yml = docs\toc.yml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{6FA6A352-1FC8-41D8-BF25-2D19A76654F1}"
-	ProjectSection(SolutionItems) = preProject
-		docs\api\index.md = docs\api\index.md
-		docs\api\toc.yml = docs\api\toc.yml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,9 +50,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{6FA6A352-1FC8-41D8-BF25-2D19A76654F1} = {DF2552CC-CFC6-4442-923B-A5CA3A75FEB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D649995-360D-4EFA-BB86-2081E6F64567}

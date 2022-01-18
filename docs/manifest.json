@@ -1,186 +1,18 @@
 {
   "homepages": [],
-  "source_base_path": "D:/GitHub/RevitPluginKit/docs",
+  "source_base_path": "D:/GitHub/RevitPluginKit/RevitPluginKit",
   "xrefmap": "xrefmap.yml",
   "files": [
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Collectors.ElementsCollector.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Collectors.ElementsCollector.html",
-          "hash": "P0foq0WijddJIfPfrUE+nNOtfXYIhP/Hn7Wiunl2JYg="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Collectors.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Collectors.html",
-          "hash": "3v6B26lpMlGB39WaBhLFeZ/INOTcX+yKFj97UohfPNQ="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Converters.MetricConverter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Converters.MetricConverter.html",
-          "hash": "uk67mLQaFiDn1mFwq+5pn2LLlWqp/1NLI+xDidLYT7I="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Converters.StringConverter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Converters.StringConverter.html",
-          "hash": "qN0zk/eAVVQ4vvDb0ydwHQO/UL0eJMbeQ+7FrLXMFW4="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Converters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Converters.html",
-          "hash": "2SjMVnr59KIdM+yViZ5Gx1t8f26qH13AdPW2aLEf6mY="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Ui.ButtonSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Ui.ButtonSettings.html",
-          "hash": "eGTzT5CVsTByWR9nuWJ7smn9cAKes+flmi1jR76dSvc="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Ui.ImageKit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Ui.ImageKit.html",
-          "hash": "Stm5ALDgpm/rMVZDQ7cIUc5tO3L923ODUYhlscVl83g="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Ui.PullDownButtonSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Ui.PullDownButtonSettings.html",
-          "hash": "QNV/sHbOuO0C0PX1071kFuDlydd0aZl7/TECJc3wwVM="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Ui.PushButtonSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Ui.PushButtonSettings.html",
-          "hash": "kYVSZNRJSiWl14DYJEPOTsfpq54+uYMebef7zo34BtU="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Ui.RibbonKit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Ui.RibbonKit.html",
-          "hash": "zZk3UVFhyxyB3PwrbON0/grBS9kC1H1imAosZYBp3p8="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Ui.RibbonPanelSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Ui.RibbonPanelSettings.html",
-          "hash": "K3rCBXtoqqYvBkil74x4SBiqvaBH4zTgXH2wzv4yl28="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Ui.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Ui.html",
-          "hash": "UI8VyAY7rgonyFwqqg6qY2aHtsVhwmy+lU4mmqOUX9A="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Validators.NumberValidator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Validators.NumberValidator.html",
-          "hash": "WmnzAAM41Iww4zZgWLDXe5ZNb+krgDtjua9XSt8x7aA="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/RevitPluginKit.Validators.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Validators.html",
-          "hash": "nHhoQyTwfNJ9I1txXGKymzHsmsEWlOsb+ymGxv6tNtM="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
     {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "nxYHtGrBkBIdC1dBGL3c6a5NdbSiGNqWSBRlQegdtTc="
+          "hash": "16HdJYkQeVdzzqw5o3ie5ZJrSk3LNEhWv0OHCJzck3o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,51 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "mlD2XR0XAAdEEKZxoUa2wYYQ9BywPqkLH1qUp5hNNXE="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/addPullDownButton.PNG",
-      "output": {
-        "resource": {
-          "relative_path": "images/addPullDownButton.PNG"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/addPushButton.PNG",
-      "output": {
-        "resource": {
-          "relative_path": "images/addPushButton.PNG"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/addRibbonPanel.PNG",
-      "output": {
-        "resource": {
-          "relative_path": "images/addRibbonPanel.PNG"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/addRibbonTab.PNG",
-      "output": {
-        "resource": {
-          "relative_path": "images/addRibbonTab.PNG"
+          "hash": "Qg1VLOXhsUpBqdsTrM6LhZhSPScF+6Q5XCUSgG6+ipA="
         }
       },
       "is_incremental": false,
@@ -245,39 +33,202 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "krIU+u5bFDBzxhLRSdvLRjRcrn41wPB2XMVLjHMfzIY="
+          "hash": "m7KLcX7ZTqkPayimsM68lwkYzXPUhk89XnroUYEsb0o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Collectors.ElementsCollector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Collectors.ElementsCollector.html",
+          "hash": "hck9QpHJ3jvm3wWx+hAXbV//p9OM9rr4OEVnlY+sEVQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Collectors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Collectors.html",
+          "hash": "NNZN+spXNsGP+affzxA81GzKGArLOkfjXj+45C0gn4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Converters.MetricConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Converters.MetricConverter.html",
+          "hash": "E2oWC15ebB/FPtQ8vU3uiyI480tBu3bqz6KWXK+t74c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Converters.StringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Converters.StringConverter.html",
+          "hash": "I+TscLdMQRZ7Q+pBo/hzFD9M/JJtstNCmRRqVeyY1fs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Converters.html",
+          "hash": "4/PLgYy3W2+4krMzBPRTECLhZMq3WIGcP9m3Dqw5Cy4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Ui.ButtonSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Ui.ButtonSettings.html",
+          "hash": "enwmONcZAJIG2EiCFrwe4uvK1ZCwFn9f5rcrGXe5P5w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Ui.ImageKit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Ui.ImageKit.html",
+          "hash": "F4rXLuo8hvYyS1nZBMo/Z+65fe989oUgBE0HmkVyxBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Ui.PullDownButtonSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Ui.PullDownButtonSettings.html",
+          "hash": "92HT1hXn0b4SqWluWnfPdFbw9yYWl3Ot02Kle4pa5Hw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Ui.PushButtonSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Ui.PushButtonSettings.html",
+          "hash": "6e0l4KdMiwB70O0ZxdGd49Ak2pRufN9kHOQvo5jM4nY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Ui.RibbonKit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Ui.RibbonKit.html",
+          "hash": "NqWSLbNn3hd+8aoh2lpY7+nOwUGsLhfkAEQG8RP7FFY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Ui.RibbonPanelSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Ui.RibbonPanelSettings.html",
+          "hash": "vRFZGs3G5MYDDk1WXVAlf9pJ3J+5Rk+ir8q/XxI5Ii0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Ui.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Ui.html",
+          "hash": "9h7YN4325JsT2iuqn/JhIGHi+cqj51cCkGhkS6qTPx4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Validators.NumberValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Validators.NumberValidator.html",
+          "hash": "TzF7tLT5JfuCefwKbBfvIDdv4BzPIhf4b8/pXZFZYhE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Validators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Validators.html",
+          "hash": "9fS1Gw0qts1W1kKNdSEYIWSr469nRdaegE5FHhakVMY="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     }
   ],
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 14,
-          "skipped_file_count": 14
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
@@ -291,8 +242,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

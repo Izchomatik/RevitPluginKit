@@ -6,28 +6,35 @@
           "files": [
             "*.csproj"
           ],
-          "src": "../RevitPluginKit"
+          "cwd": ".",
+          "exclude": [
+            "**/obj/**",
+            "**/bin/**",
+            "_site/**"
+          ]
         }
       ],
-      "dest": "api",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "dest": "obj/api"
     }
   ],
   "build": {
     "content": [
       {
         "files": [
-          "api/**.yml",
-          "api/index.md"
-        ]
+          "api/**.yml"
+        ],
+        "cwd": "obj"
       },
       {
         "files": [
+          "api/*.md",
           "articles/**.md",
-          "articles/**/toc.yml",
           "toc.yml",
           "*.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
         ]
       }
     ],
@@ -35,6 +42,10 @@
       {
         "files": [
           "images/**"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
         ]
       }
     ],
@@ -45,20 +56,13 @@
         ],
         "exclude": [
           "obj/**",
-          "site/**"
+          "_site/**"
         ]
       }
     ],
-    "globalMetadataFiles": [],
-    "fileMetadataFiles": [],
+    "dest": "../docs",
     "template": [
       "statictoc"
-    ],
-    "postProcessors": [],
-    "markdownEngineName": "markdig",
-    "noLangKeyword": false,
-    "keepFileLink": false,
-    "cleanupCacheHistory": false,
-    "disableGitFeatures": false
+    ]
   }
 }
