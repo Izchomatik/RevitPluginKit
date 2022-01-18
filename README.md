@@ -48,7 +48,7 @@
 
 * As a result, you will see in Revit:
 
-![](../../docs/images/addRibbonTab.PNG)
+![](./docs/images/addRibbonTab.PNG)
 
 ***
 
@@ -75,7 +75,7 @@
 
 * As a result, you will see in Revit:
 
-![](../../docs/images/addRibbonPanel.PNG)
+![](./docs/images/addRibbonPanel.PNG)
 
 ***
 
@@ -111,7 +111,7 @@
 
 * As a result, you will see in Revit:
 
-![](../../docs/images/addPushButton.PNG)
+![](./docs/images/addPushButton.PNG)
 
 ***
 
@@ -161,6 +161,6 @@
 
 * As a result, you will see in Revit:
 
-![](../../docs/images/addPullDownButton.PNG)
+![](./docs/images/addPullDownButton.PNG)
 
 ***
