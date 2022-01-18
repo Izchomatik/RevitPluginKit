@@ -112,7 +112,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="api\index.md" />
-    <None Include="articles\intro.md" />
+    <None Include="articles\building.md" />
+    <None Include="articles\quickStartGuide.md" />
+    <None Include="articles\about.md" />
     <None Include="articles\toc.md" />
     <None Include="docfx.json" />
     <None Include="index.md" />

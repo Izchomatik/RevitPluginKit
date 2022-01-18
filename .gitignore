@@ -264,3 +264,4 @@ FakesAssemblies/
 
 # Dont ignore test rvt file
 !assets/revit/RevitPluginKitTests.rvt
+RevitPluginKit/log.txt

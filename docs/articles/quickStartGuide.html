@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Quick start guide </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Quick start guide ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/about.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="API Documentation">API Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="about.html" title="About project" class="">About project</a>
+                    </li>
+                    <li class="">
+                      <a href="building.html" title="Building" class="">Building</a>
+                    </li>
+                    <li class="active">
+                      <a href="quickStartGuide.html" title="Quick start guide" class="active">Quick start guide</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="quick-start-guide">Quick start guide</h1>
+
+<h2 id="add-revit-plug-in-ribbon-tab">Add Revit plug-in ribbon tab</h2>
+<ul>
+<li><p>Find the starter class where the base interface <code>IExternalApplication</code> for your plugin is defined.</p>
+</li>
+<li><p>In <code>OnStartup</code> method implemented by <code>IExternalApplication</code> add &#39;AddRibbonTab&#39; method, defined in <code>RevitPluginKit.Ui.RibbonKit</code>.</p>
+<p>  When your plugin is initialized during the start of the Revit session, this method will add a ribbon tab to the Revit upper working panel.</p>
+</li>
+<li><p>You can call this method multiple times to create multiple ribbon tabs.</p>
+</li>
+<li><p>Example code snippet:</p>
+<pre><code class="lang-c#">namespace RevitPluginKitTemplate
+{
+    using System.Collections.Generic;
+    using Autodesk.Revit.UI;
+    using RevitPluginKit.Ui;
+    using static RevitPluginKit.Ui.RibbonKit;
+
+    /// &lt;summary&gt;
+    /// Main plug-in entry point.
+    /// &lt;/summary&gt;
+    public class PluginMain : IExternalApplication
+    {
+        /// &lt;inheritdoc/&gt;
+        public Result OnShutdown(UIControlledApplication application)
+        {
+            return Result.Succeeded;
+        }
+
+        /// &lt;inheritdoc/&gt;
+        public Result OnStartup(UIControlledApplication application)
+        {
+            AddRibbonTab(
+                application: application,
+                tabName: &quot;Plug-in tab&quot;,
+                panelsSettings: new List&lt;RibbonPanelSettings&gt;());
+            return Result.Succeeded;
+        }
+    }
+}
+</code></pre></li>
+<li><p>As a result, you will see in Revit:</p>
+</li>
+</ul>
+<p><img src="../../docs/images/addRibbonTab.PNG" alt=""></p>
+<hr>
+<h2 id="add-revit-plug-in-ribbon-panel-to-ribbon-tab">Add Revit plug-in ribbon panel to ribbon tab</h2>
+<ul>
+<li><p>Edit previously instantiated <code>List&lt;RibbonPanelSettings&gt;()</code> by adding your first ribbon panel data to the previously created ribbon tab.</p>
+</li>
+<li><p>The <code>RibbonPanelSettings</code> class is data transfer object responsible for defining the revit ribbon panel.</p>
+</li>
+<li><p>You can add multiple panels to the current ribbon tab.</p>
+</li>
+<li><p>Modified code snippet:</p>
+<pre><code class="lang-c#">AddRibbonTab(
+    application: application,
+    tabName: &quot;Plug-in tab&quot;,
+    panelsSettings: new List&lt;RibbonPanelSettings&gt;() {
+        new RibbonPanelSettings(
+            name: &quot;Test panel&quot;,
+            buttonsSettings: new List&lt;ButtonSettings&gt;()),
+    });
+</code></pre></li>
+<li><p>As a result, you will see in Revit:</p>
+</li>
+</ul>
+<p><img src="../../docs/images/addRibbonPanel.PNG" alt=""></p>
+<hr>
+<h2 id="add-revit-plug-in-push-button-to-panel">Add Revit plug-in push button to panel</h2>
+<ul>
+<li><p>Edit previously instantiated <code>List&lt;ButtonSettings&gt;()</code> by adding your first push button settings (<code>PushButtonSettings</code>) to the previously created ribbon panel.</p>
+</li>
+<li><p>The <code>PushButtonSettings</code> class is data transfer object responsible for defining the revit push button.</p>
+</li>
+<li><p>You can add multiple push buttons to the current ribbon panel.</p>
+</li>
+<li><p>Modified code snippet:</p>
+<pre><code class="lang-c#">AddRibbonTab(
+    application: application,
+    tabName: &quot;Plug-in tab&quot;,
+    panelsSettings: new List&lt;RibbonPanelSettings&gt;()
+    {
+        new RibbonPanelSettings(
+            name: &quot;Test panel&quot;,
+            buttonsSettings: new List&lt;ButtonSettings&gt;()
+            {
+                new PushButtonSettings(
+                    internalName: &quot;buttonName&quot;,
+                    name: &quot;Button\nname&quot;,
+                    tooltip: &quot;Button tooltip&quot;,
+                    imageAddress: &quot;RevitPluginKitTemplate.assets.icons.TestIcon.png&quot;,
+                    className: &quot;RevitPluginKitTemplate.Src.TestClass&quot;),
+            }),
+    });
+</code></pre></li>
+<li><p>As a result, you will see in Revit:</p>
+</li>
+</ul>
+<p><img src="../../docs/images/addPushButton.PNG" alt=""></p>
+<hr>
+<h2 id="add-revit-plug-in-pull-down-button-to-panel">Add Revit plug-in pull down button to panel</h2>
+<ul>
+<li><p>Edit previously instantiated <code>List&lt;ButtonSettings&gt;()</code> by adding your first pull down button settings (<code>PullDownButtonSettings</code>) to the previously created ribbon panel.</p>
+</li>
+<li><p>The <code>PullDownButtonSettings</code> class is data transfer object responsible for defining the revit pull down button.</p>
+</li>
+<li><p>You can add multiple pull down buttons to the current ribbon panel.</p>
+</li>
+<li><p>Modified code snippet:</p>
+<pre><code class="lang-c#">AddRibbonTab(
+    application: application,
+    tabName: &quot;Plug-in tab&quot;,
+    panelsSettings: new List&lt;RibbonPanelSettings&gt;()
+    {
+        new RibbonPanelSettings(
+            name: &quot;Test panel&quot;,
+            buttonsSettings: new List&lt;ButtonSettings&gt;()
+            {
+                new PullDownButtonSettings(
+                    internalName: &quot;pullDownButtonName&quot;,
+                    name: &quot;Pull down\nbutton name&quot;,
+                    tooltip: &quot;Pull down button tooltip&quot;,
+                    imageAddress: &quot;RevitPluginKitTemplate.assets.icons.TestIcon.png&quot;,
+                    pushButtonsSettings: new List&lt;PushButtonSettings&gt;()
+                    {
+                        new PushButtonSettings(
+                            internalName: &quot;buttonName1&quot;,
+                            name: &quot;Button\nname 1&quot;,
+                            tooltip: &quot;Button tooltip 1&quot;,
+                            imageAddress: &quot;RevitPluginKitTemplate.assets.icons.TestIcon.png&quot;,
+                            className: &quot;RevitPluginKitTemplate.Src.TestClass&quot;),
+                        new PushButtonSettings(
+                            internalName: &quot;buttonName2&quot;,
+                            name: &quot;Button\nname 2&quot;,
+                            tooltip: &quot;Button tooltip 2&quot;,
+                            imageAddress: &quot;RevitPluginKitTemplate.assets.icons.TestIcon.png&quot;,
+                            className: &quot;RevitPluginKitTemplate.Src.TestClass&quot;),
+                    }),
+            }),
+    });
+</code></pre></li>
+<li><p>As a result, you will see in Revit:</p>
+</li>
+</ul>
+<p><img src="../../docs/images/addPullDownButton.PNG" alt=""></p>
+<hr>
+<h2 id="next-steps">Next steps</h2>
+<p>Next, try adding any other instrument from this library to your plugin!</p>
+<p>For example, try using the <strong><a href="../../docs/api/RevitPluginKit.Collectors.html">element collector</a></strong> to quickly and easily collect elements in the test model.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/main/RevitPluginKit/articles/quickStartGuide.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
