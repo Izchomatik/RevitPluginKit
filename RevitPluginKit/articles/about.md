@@ -5,6 +5,10 @@
 
 RevitPluginKit is a set of tools and utilities designed to simplify the creation of a custom plug-in for the Autodesk Revit program.
 
+The library is intended primarily to simplify work with Revit api and standardize the processes associated with the preparation of a custom plugin for the Revit program.
+
+RevitPluginKit provides tools for convenient "Revit" ribbon panel generation, feature sets such as fast and simple model elements collectors, set of converters, validators and many other tools.
+
 ***
 
 ## Project goals
