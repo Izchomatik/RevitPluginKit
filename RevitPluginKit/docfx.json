@@ -61,14 +61,14 @@
         ]
       }
     ],
+    "globalMetadata": {
+      "_appTitle": "RevitPluginKit",
+      "_appFooter": "RevitPluginKit MPL-2.0"
+    },
     "dest": "../docs",
     "template": [
       "default",
       "../docs/templates/discordfx"
-    ],
-    "globalMetadata": {
-      "_appTitle": "RevitPluginKit",
-      "_appFooter": "RevitPluginKit MPL-2.0 - [View on Github](https://github.com/Izchomatik/RevitPluginKit)"
-    }
+    ]
   }
 }
