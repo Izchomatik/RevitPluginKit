@@ -143,11 +143,12 @@
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Collectors_ElementsCollector_InstancesByCategory__1_Autodesk_Revit_DB_Document_Autodesk_Revit_DB_BuiltInCategory_System_String_System_String_System_Collections_Generic_List_Autodesk_Revit_DB_ElementId__System_Boolean_Autodesk_Revit_DB_ElementDesignOptionFilter_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Collectors.ElementsCollector.InstancesByCategory%60%601(Autodesk.Revit.DB.Document%2CAutodesk.Revit.DB.BuiltInCategory%2CSystem.String%2CSystem.String%2CSystem.Collections.Generic.List%7BAutodesk.Revit.DB.ElementId%7D%2CSystem.Boolean%2CAutodesk.Revit.DB.ElementDesignOptionFilter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/collectors/ElementsCollector.cs/#L31">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/collectors/ElementsCollector.cs/#L47">View Source</a>
   </span>
   <a id="RevitPluginKit_Collectors_ElementsCollector_InstancesByCategory_" data-uid="RevitPluginKit.Collectors.ElementsCollector.InstancesByCategory*"></a>
   <h4 id="RevitPluginKit_Collectors_ElementsCollector_InstancesByCategory__1_Autodesk_Revit_DB_Document_Autodesk_Revit_DB_BuiltInCategory_System_String_System_String_System_Collections_Generic_List_Autodesk_Revit_DB_ElementId__System_Boolean_Autodesk_Revit_DB_ElementDesignOptionFilter_" data-uid="RevitPluginKit.Collectors.ElementsCollector.InstancesByCategory``1(Autodesk.Revit.DB.Document,Autodesk.Revit.DB.BuiltInCategory,System.String,System.String,System.Collections.Generic.List{Autodesk.Revit.DB.ElementId},System.Boolean,Autodesk.Revit.DB.ElementDesignOptionFilter)">InstancesByCategory&lt;T&gt;(Document, BuiltInCategory, String, String, List&lt;ElementId&gt;, Boolean, ElementDesignOptionFilter)</h4>
   <div class="markdown level1 summary"><p>Collect Revit model element instances by category.</p>
+<p>Specify document(model), element type category and optional parameters to collect element instances.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -182,6 +183,7 @@
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">familyName</span></td>
         <td><p>Optional parameter: if necessary, specify the name of the family of the elements to be collected.</p>
+<p>Please note that some categories of elements do not have a family name - as a result, an attempt to collect by family name in some situations may not have an effect.</p>
 </td>
       </tr>
       <tr>
@@ -205,8 +207,8 @@
       <tr>
         <td><span class="xref">Autodesk.Revit.DB.ElementDesignOptionFilter</span></td>
         <td><span class="parametername">optionFilter</span></td>
-        <td><p>Optional parameter: specify option filter.
-If useOptionFilter == true and optionFilter == null =&gt; items from the currently active option will be collected.</p>
+        <td><p>Optional parameter: specify option filter.</p>
+<p>If useOptionFilter == true and optionFilter == null => items from the currently active option will be collected.</p>
 </td>
       </tr>
     </tbody>
@@ -248,11 +250,12 @@ If useOptionFilter == true and optionFilter == null =&gt; items from the current
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Collectors_ElementsCollector_TypesByCategory__1_Autodesk_Revit_DB_Document_Autodesk_Revit_DB_BuiltInCategory_System_String_System_String_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Collectors.ElementsCollector.TypesByCategory%60%601(Autodesk.Revit.DB.Document%2CAutodesk.Revit.DB.BuiltInCategory%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/collectors/ElementsCollector.cs/#L64">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/collectors/ElementsCollector.cs/#L94">View Source</a>
   </span>
   <a id="RevitPluginKit_Collectors_ElementsCollector_TypesByCategory_" data-uid="RevitPluginKit.Collectors.ElementsCollector.TypesByCategory*"></a>
   <h4 id="RevitPluginKit_Collectors_ElementsCollector_TypesByCategory__1_Autodesk_Revit_DB_Document_Autodesk_Revit_DB_BuiltInCategory_System_String_System_String_" data-uid="RevitPluginKit.Collectors.ElementsCollector.TypesByCategory``1(Autodesk.Revit.DB.Document,Autodesk.Revit.DB.BuiltInCategory,System.String,System.String)">TypesByCategory&lt;T&gt;(Document, BuiltInCategory, String, String)</h4>
   <div class="markdown level1 summary"><p>Collect Revit model element types by category.</p>
+<p>Specify document(model), element type category and optional parameters to collect element types.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -273,18 +276,21 @@ If useOptionFilter == true and optionFilter == null =&gt; items from the current
         <td><span class="xref">Autodesk.Revit.DB.Document</span></td>
         <td><span class="parametername">document</span></td>
         <td><p>Current revit document instance.</p>
+<p>It is possible to pass any document loaded to the current model (to search for elements in the specified document).</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">Autodesk.Revit.DB.BuiltInCategory</span></td>
         <td><span class="parametername">category</span></td>
         <td><p>Revit BuiltIn category to collect.</p>
+<p>Example: <code>BuiltInCategory.OST_Walls</code>.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">familyName</span></td>
         <td><p>Optional parameter: if necessary, specify the name of the family of the elements to be collected.</p>
+<p>Please note that some categories of elements do not have a family name - as a result, an attempt to collect by family name in some situations may not have an effect.</p>
 </td>
       </tr>
       <tr>
