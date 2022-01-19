@@ -42,7 +42,7 @@ Example code snippet for collecting all door elements in the current model:
 ```c#
     List<Element> doors = ElementsCollector.InstancesByCategory<Element>(
         document: document,
-        category: BuiltInCategory.OST_Doors;
+        category: BuiltInCategory.OST_Doors);
 ```
 
 Work in progress.
