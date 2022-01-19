@@ -94,6 +94,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/collectors.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/collectors.html",
+          "hash": "tvq0iWxpl5FmTAyFR2xWqNWv3ZelJglabPXFHF58lBg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/quickStartGuide.md",
       "output": {
         ".html": {
@@ -110,7 +122,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "y6CCNlYhyDC2dg2J2arV5jAE1AXqs9nvMcX7k/rf6wM="
+          "hash": "HI2pDQEqWiy9LmSERhwC2qQdC1KyNV69+FXD3LYMR+Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/utilityTools.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/utilityTools.html",
+          "hash": "0bjF+cZIGS+Bc3rtMu1XfqGAaweZP0sZVNs91ig5kL0="
         }
       },
       "is_incremental": false,
@@ -335,7 +359,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 7,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
