@@ -5,7 +5,7 @@
 
 A set of utilities and functions designed for quick and easy collection of various elements located in one of the instances of the "Revit" model or document.
 
-* [Api documentation](https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Collectors.html)
+* [Collectors Api documentation](https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Collectors.html)
 
 * Namespace: `RevitPluginKit.Collectors`
 
@@ -35,7 +35,7 @@ A set of utilities and functions designed for quick and easy collection of vario
 
 ## Instance collector
 
-Use the element instance collector by "Revit" Category (`ElementsCollector.InstancesByCategory`) to collect specific element instances.
+Use the element instance collector by "Revit" Category (`ElementsCollector.InstancesByCategory<T>`) to collect specific element instances.
 
 Example code snippet for collecting all door elements in the current model:
 
@@ -61,4 +61,21 @@ List<Floor> testFloors = ElementsCollector.InstancesByCategory<Floor>(
 
 ## Type collector
 
-Work in progress.
+Use the element type collector by "Revit" Category (`ElementsCollector.TypesByCategory<T>`) to collect specific element types.
+
+Example code snippet for collecting all door types in the current model:
+
+```csharp
+List<Element> testTypes = ElementsCollector.TypesByCategory<Element>(
+    document: document,
+    category: BuiltInCategory.OST_Doors);
+```
+
+Example code snippet for collecting floor types in the current model, with the given family name:
+
+```csharp
+List<Floor> testFloors = ElementsCollector.InstancesByCategory<Floor>(
+    document: document,
+    category: BuiltInCategory.OST_Floors,
+    familyName: "floorFamilyName";
+```
