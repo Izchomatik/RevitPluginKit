@@ -11,20 +11,36 @@
     {
         /// <summary>
         /// Collect Revit model element instances by category.
+        /// <para>Specify document(model), element type category and optional parameters to collect element instances.</para>
         /// </summary>
-        /// <typeparam name="T"> Revit category (For example: Element). </typeparam>
+        /// <typeparam name="T">
+        /// Revit category (For example: Element).
+        /// </typeparam>
         /// <param name="document">
         /// Current revit document instance.
-        /// <para>It is possible to pass any document loaded to the current model (to search for elements in the specified document).</para></param>
+        /// <para>It is possible to pass any document loaded to the current model (to search for elements in the specified document).</para>
+        /// </param>
         /// <param name="category">
         /// Revit BuiltIn category to collect.
-        /// <para>Example: <c>BuiltInCategory.OST_Walls</c>.</para></param>
-        /// <param name="familyName"> Optional parameter: if necessary, specify the name of the family of the elements to be collected. </param>
-        /// <param name="typeName"> Optional parameter: if necessary, specify the type name of the elements to be collected. </param>
-        /// <param name="levelIdsToFilterBy"> Optional parameter: if necessary, specify list of level ids of the elements to be collected. </param>
-        /// <param name="useOptionFilter"> Optional parameter: indicate whether it is necessary to use an option filter. </param>
-        /// <param name="optionFilter"> Optional parameter: specify option filter.
-        /// If useOptionFilter == true and optionFilter == null => items from the currently active option will be collected. </param>
+        /// <para>Example: <c>BuiltInCategory.OST_Walls</c>.</para>
+        /// </param>
+        /// <param name="familyName">
+        /// Optional parameter: if necessary, specify the name of the family of the elements to be collected.
+        /// <para>Please note that some categories of elements do not have a family name - as a result, an attempt to collect by family name in some situations may not have an effect.</para>
+        /// </param>
+        /// <param name="typeName">
+        /// Optional parameter: if necessary, specify the type name of the elements to be collected.
+        /// </param>
+        /// <param name="levelIdsToFilterBy">
+        /// Optional parameter: if necessary, specify list of level ids of the elements to be collected.
+        /// </param>
+        /// <param name="useOptionFilter">
+        /// Optional parameter: indicate whether it is necessary to use an option filter.
+        /// </param>
+        /// <param name="optionFilter">
+        /// Optional parameter: specify option filter.
+        /// <para>If useOptionFilter == true and optionFilter == null => items from the currently active option will be collected.</para>
+        /// </param>
         /// <returns>
         /// Returns the list of Revit elements (Element).
         /// </returns>
@@ -52,12 +68,26 @@
 
         /// <summary>
         /// Collect Revit model element types by category.
+        /// <para>Specify document(model), element type category and optional parameters to collect element types.</para>
         /// </summary>
-        /// <typeparam name="T"> Revit category (For example: Element). </typeparam>
-        /// <param name="document"> Current revit document instance. </param>
-        /// <param name="category"> Revit BuiltIn category to collect. </param>
-        /// <param name="familyName"> Optional parameter: if necessary, specify the name of the family of the elements to be collected. </param>
-        /// <param name="typeName"> Optional parameter: if necessary, specify the type name of the elements to be collected. </param>
+        /// <typeparam name="T">
+        /// Revit category (For example: Element).
+        /// </typeparam>
+        /// <param name="document">
+        /// Current revit document instance.
+        /// <para>It is possible to pass any document loaded to the current model (to search for elements in the specified document).</para>
+        /// </param>
+        /// <param name="category">
+        /// Revit BuiltIn category to collect.
+        /// <para>Example: <c>BuiltInCategory.OST_Walls</c>.</para>
+        /// </param>
+        /// <param name="familyName">
+        /// Optional parameter: if necessary, specify the name of the family of the elements to be collected.
+        /// <para>Please note that some categories of elements do not have a family name - as a result, an attempt to collect by family name in some situations may not have an effect.</para>
+        /// </param>
+        /// <param name="typeName">
+        /// Optional parameter: if necessary, specify the type name of the elements to be collected.
+        /// </param>
         /// <returns>
         /// Returns the list of Revit elements (Element).
         /// </returns>
