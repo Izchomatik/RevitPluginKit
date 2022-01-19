@@ -101,12 +101,12 @@
 <li><p>Namespace: <code>RevitPluginKit.Collectors</code></p>
 </li>
 </ul>
-<blockquote>
-<p><strong>NOTE</strong></p>
+<div class="NOTE">
+<h5>Note</h5>
 <p>The most convenient way to use collectors - is with a using declaration:</p>
 <pre><code class="lang-csharp">using RevitPluginKit.Collectors;
 </code></pre>
-</blockquote>
+</div>
 <hr>
 <h2 id="feature-usage-scenarios">Feature usage scenarios</h2>
 <ul>
@@ -129,7 +129,15 @@
     document: document,
     category: BuiltInCategory.OST_Doors);
 </code></pre>
-<p>Work in progress.</p>
+<p>Example code snippet for collecting floor elements in the current model, in defined option, with the given family name, with the given type name, on required level:</p>
+<pre><code class="lang-csharp">List&lt;Floor&gt; testFloors = ElementsCollector.InstancesByCategory&lt;Floor&gt;(
+    document: document,
+    category: BuiltInCategory.OST_Floors,
+    optionFilter: optionFilter,
+    familyName: &quot;floorFamilyName&quot;,
+    typeName: &quot;floorTypeName&quot;,
+    levelIdsToFilterBy: new List&lt;ElementId&gt;() { levelId });
+</code></pre>
 <hr>
 <h2 id="type-collector">Type collector</h2>
 <p>Work in progress.</p>

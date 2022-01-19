@@ -9,12 +9,12 @@ A set of utilities and functions designed for quick and easy collection of vario
 
 * Namespace: `RevitPluginKit.Collectors`
 
-> **NOTE**
+> [!NOTE]
 >
 > The most convenient way to use collectors - is with a using declaration:
 >
 > ```csharp
->using RevitPluginKit.Collectors;
+> using RevitPluginKit.Collectors;
 > ```
 
 ***
@@ -45,7 +45,17 @@ List<Element> doors = ElementsCollector.InstancesByCategory<Element>(
     category: BuiltInCategory.OST_Doors);
 ```
 
-Work in progress.
+Example code snippet for collecting floor elements in the current model, in defined option, with the given family name, with the given type name, on required level:
+
+```csharp
+List<Floor> testFloors = ElementsCollector.InstancesByCategory<Floor>(
+    document: document,
+    category: BuiltInCategory.OST_Floors,
+    optionFilter: optionFilter,
+    familyName: "floorFamilyName",
+    typeName: "floorTypeName",
+    levelIdsToFilterBy: new List<ElementId>() { levelId });
+```
 
 ***
 
