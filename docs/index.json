@@ -1,8 +1,8 @@
 {
   "api/index.html": {
     "href": "api/index.html",
-    "title": "PLACEHOLDER | RevitPluginKit Documentation",
-    "keywords": "PLACEHOLDER API Index"
+    "title": "Online Documentation for the RevitPluginKit API | RevitPluginKit Documentation",
+    "keywords": "Online Documentation for the RevitPluginKit API Use the table of content to navigate through the documentation To GitHub page RevitPluginKit tests project"
   },
   "api/RevitPluginKit.Collectors.ElementsCollector.html": {
     "href": "api/RevitPluginKit.Collectors.ElementsCollector.html",
