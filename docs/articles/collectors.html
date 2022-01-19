@@ -96,7 +96,7 @@
 <h2 id="description">Description</h2>
 <p>A set of utilities and functions designed for quick and easy collection of various elements located in one of the instances of the &quot;Revit&quot; model or document.</p>
 <ul>
-<li><p><a href="https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Collectors.html">Api documentation</a></p>
+<li><p><a href="https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Collectors.html">Collectors Api documentation</a></p>
 </li>
 <li><p>Namespace: <code>RevitPluginKit.Collectors</code></p>
 </li>
@@ -123,7 +123,7 @@
 </ul>
 <hr>
 <h2 id="instance-collector">Instance collector</h2>
-<p>Use the element instance collector by &quot;Revit&quot; Category (<code>ElementsCollector.InstancesByCategory</code>) to collect specific element instances.</p>
+<p>Use the element instance collector by &quot;Revit&quot; Category (<code>ElementsCollector.InstancesByCategory&lt;T&gt;</code>) to collect specific element instances.</p>
 <p>Example code snippet for collecting all door elements in the current model:</p>
 <pre><code class="lang-csharp">List&lt;Element&gt; doors = ElementsCollector.InstancesByCategory&lt;Element&gt;(
     document: document,
@@ -140,7 +140,18 @@
 </code></pre>
 <hr>
 <h2 id="type-collector">Type collector</h2>
-<p>Work in progress.</p>
+<p>Use the element type collector by &quot;Revit&quot; Category (<code>ElementsCollector.TypesByCategory&lt;T&gt;</code>) to collect specific element types.</p>
+<p>Example code snippet for collecting all door types in the current model:</p>
+<pre><code class="lang-csharp">List&lt;Element&gt; testTypes = ElementsCollector.TypesByCategory&lt;Element&gt;(
+    document: document,
+    category: BuiltInCategory.OST_Doors);
+</code></pre>
+<p>Example code snippet for collecting floor types in the current model, with the given family name:</p>
+<pre><code class="lang-csharp">List&lt;Floor&gt; testFloors = ElementsCollector.InstancesByCategory&lt;Floor&gt;(
+    document: document,
+    category: BuiltInCategory.OST_Floors,
+    familyName: &quot;floorFamilyName&quot;;
+</code></pre>
 </article>
               
                 </div>
