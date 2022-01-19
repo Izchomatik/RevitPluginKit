@@ -75,8 +75,7 @@
     },
     "dest": "../docs",
     "template": [
-      "default",
-      "../docs/templates/discordfx"
+      "default"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
