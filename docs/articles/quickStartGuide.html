@@ -99,6 +99,13 @@
 </li>
 <li><p>In <code>OnStartup</code> method implemented by <code>IExternalApplication</code> add 'AddRibbonTab' method, defined in <code>RevitPluginKit.Ui.RibbonKit</code>.</p>
 <p>When your plugin is initialized during the start of the Revit session, this method will add a ribbon tab to the Revit upper working panel.</p>
+<p><a href="https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Ui.html">Detailed UI Api documentation</a></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The most convenient way to use UI library - is with a using declaration:</p>
+<pre><code class="lang-csharp">using static RevitPluginKit.Ui.RibbonKit;
+</code></pre>
+</div>
 </li>
 <li><p>You can call this method multiple times to create multiple ribbon tabs.</p>
 </li>
@@ -245,7 +252,7 @@
 <hr>
 <h2 id="next-steps">Next steps</h2>
 <p>Next, try adding any other instrument from this library to your plugin!</p>
-<p>For example, try using the <strong><a href="https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Collectors.html">element collector</a></strong> to quickly and easily collect elements in the test model.</p>
+<p>For example, try using the <strong><a href="https://izchomatik.github.io/RevitPluginKit/articles/collectors.html">element collector</a></strong> to quickly and easily collect elements in the test model.</p>
 </article>
               
                 </div>
