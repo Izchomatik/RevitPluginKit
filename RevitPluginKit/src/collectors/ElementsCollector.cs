@@ -5,6 +5,7 @@
 
     /// <summary>
     /// A class containing methods for quickly finding elements in the Revit model.
+    /// Supports both collection of element types and collection of element instances.
     /// </summary>
     public class ElementsCollector
     {
@@ -12,8 +13,12 @@
         /// Collect Revit model element instances by category.
         /// </summary>
         /// <typeparam name="T"> Revit category (For example: Element). </typeparam>
-        /// <param name="document"> Current revit document instance. </param>
-        /// <param name="category"> Revit BuiltIn category to collect. </param>
+        /// <param name="document">
+        /// Current revit document instance.
+        /// It is possible to pass any document loaded to the current model (to search for elements in the specified document).</param>
+        /// <param name="category">
+        /// Revit BuiltIn category to collect.
+        /// Example: <code>BuiltInCategory.OST_Walls</code> </param>
         /// <param name="familyName"> Optional parameter: if necessary, specify the name of the family of the elements to be collected. </param>
         /// <param name="typeName"> Optional parameter: if necessary, specify the type name of the elements to be collected. </param>
         /// <param name="levelIdsToFilterBy"> Optional parameter: if necessary, specify list of level ids of the elements to be collected. </param>
