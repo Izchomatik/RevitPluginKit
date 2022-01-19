@@ -97,7 +97,7 @@
   "articles/utilityTools.html": {
     "href": "articles/utilityTools.html",
     "title": "Utility tools | RevitPluginKit Documentation",
-    "keywords": "Utility tools Work in progress."
+    "keywords": "Utility tools Description A set of various tools designed to simplify the work with Revit API. At the moment, the following categories of utility tools are distinguished: Converters Validators Converter tools A set of tools designed for simple value conversions. Converters Api documentation Namespace: RevitPluginKit.Converters Supports conversions between metric and imperial units. Supports string conversions Note The most convenient way to use converters - is with a using declaration: using RevitPluginKit.Converters; Example code snippet for converting 10 Square Feet to Square Meters: double squareMeters = MetricConverter.SquareFeetToSquareMeters(squareFeet: 10); Example code snippet for converting 1000 millimeters to feet: double feet = MetricConverter.MMToFeet(millimeters: 1000); Validator tools A set of tools designed to validate values. Validators Api documentation Namespace: RevitPluginKit.Validators WPF validation of an input value as being a number is supported. Note The most convenient way to use validators - is with a using declaration: using RevitPluginKit.Validators;"
   },
   "index.html": {
     "href": "index.html",
