@@ -47,7 +47,7 @@ double feet = MetricConverter.MMToFeet(millimeters: 1000);
 
 A set of tools designed to validate values.
 
-* [ Validators Api documentation](https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Validators.html)
+* [Validators Api documentation](https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Validators.html)
 
 * Namespace: `RevitPluginKit.Validators`
 
