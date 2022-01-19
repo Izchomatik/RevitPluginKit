@@ -125,7 +125,7 @@
 <h2 id="instance-collector">Instance collector</h2>
 <p>Use the element instance collector by &quot;Revit&quot; Category (<code>ElementsCollector.InstancesByCategory</code>) to collect specific element instances.</p>
 <p>Example code snippet for collecting all door elements in the current model:</p>
-<pre><code class="lang-csharp">List&lt;Element&gt; doors = ElementsCollector.InstancesByCategory&lt;Element&gt;(
+<pre><code class="lang-cs">List&lt;Element&gt; doors = ElementsCollector.InstancesByCategory&lt;Element&gt;(
     document: document,
     category: BuiltInCategory.OST_Doors);
 </code></pre>

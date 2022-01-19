@@ -39,7 +39,7 @@ Use the element instance collector by "Revit" Category (`ElementsCollector.Insta
 
 Example code snippet for collecting all door elements in the current model:
 
-```csharp
+```cs
 List<Element> doors = ElementsCollector.InstancesByCategory<Element>(
     document: document,
     category: BuiltInCategory.OST_Doors);
