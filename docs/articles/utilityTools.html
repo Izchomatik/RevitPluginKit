@@ -93,7 +93,58 @@
                     <article class="content wrap" id="_content" data-uid="">
 <h1 id="utility-tools">Utility tools</h1>
 
-<p>Work in progress.</p>
+<h2 id="description">Description</h2>
+<p>A set of various tools designed to simplify the work with Revit API.</p>
+<p>At the moment, the following categories of utility tools are distinguished:</p>
+<ul>
+<li><p>Converters</p>
+</li>
+<li><p>Validators</p>
+</li>
+</ul>
+<h2 id="converter-tools">Converter tools</h2>
+<p>A set of tools designed for simple value conversions.</p>
+<ul>
+<li><p><a href="https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Converters.html">Converters Api documentation</a></p>
+</li>
+<li><p>Namespace: <code>RevitPluginKit.Converters</code></p>
+<ul>
+<li><p>Supports conversions between metric and imperial units.</p>
+</li>
+<li><p>Supports string conversions</p>
+</li>
+</ul>
+</li>
+</ul>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The most convenient way to use converters - is with a using declaration:</p>
+<pre><code class="lang-csharp">using RevitPluginKit.Converters;
+</code></pre>
+</div>
+<p>Example code snippet for converting 10 Square Feet to Square Meters:</p>
+<pre><code class="lang-csharp">double squareMeters = MetricConverter.SquareFeetToSquareMeters(squareFeet: 10);
+</code></pre>
+<p>Example code snippet for converting 1000 millimeters to feet:</p>
+<pre><code class="lang-csharp">double feet = MetricConverter.MMToFeet(millimeters: 1000);
+</code></pre>
+<h2 id="validator-tools">Validator tools</h2>
+<p>A set of tools designed to validate values.</p>
+<ul>
+<li><p><a href="https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Validators.html"> Validators Api documentation</a></p>
+</li>
+<li><p>Namespace: <code>RevitPluginKit.Validators</code></p>
+<ul>
+<li>WPF validation of an input value as being a number is supported.</li>
+</ul>
+</li>
+</ul>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The most convenient way to use validators - is with a using declaration:</p>
+<pre><code class="lang-csharp">using RevitPluginKit.Validators;
+</code></pre>
+</div>
 </article>
               
                 </div>
