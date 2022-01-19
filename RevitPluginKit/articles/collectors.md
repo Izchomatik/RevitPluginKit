@@ -5,21 +5,17 @@
 
 A set of utilities and functions designed for quick and easy collection of various elements located in one of the instances of the "Revit" model or document.
 
-> [Api documentation](https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Collectors.html)
+* [Api documentation](https://izchomatik.github.io/RevitPluginKit/api/RevitPluginKit.Collectors.html)
+
+* Namespace: `RevitPluginKit.Collectors`
+
+> **NOTE**
 >
-> Namespace: `RevitPluginKit.Collectors`
-
----
-
-**NOTE**
-
-The most convenient way to use collectors - is with a using declaration:
-
-```c#
-    using RevitPluginKit.Collectors;
-```
-
----
+> The most convenient way to use collectors - is with a using declaration:
+>
+> ```c#
+>     using RevitPluginKit.Collectors;
+> ```
 
 ***
 
