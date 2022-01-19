@@ -13,7 +13,7 @@ A set of utilities and functions designed for quick and easy collection of vario
 >
 > The most convenient way to use collectors - is with a using declaration:
 >
-> ```cs
+> ```csharp
 >using RevitPluginKit.Collectors;
 > ```
 
@@ -39,7 +39,8 @@ Use the element instance collector by "Revit" Category (`ElementsCollector.Insta
 
 Example code snippet for collecting all door elements in the current model:
 
-```csharp hljs
+```
+<!-- language: lang-csharp hljs -->
 List<Element> doors = ElementsCollector.InstancesByCategory<Element>(
     document: document,
     category: BuiltInCategory.OST_Doors);

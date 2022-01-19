@@ -13,7 +13,7 @@
 
 * Example code snippet:
 
-    ```cs
+    ```csharp
     namespace RevitPluginKitTemplate
     {
         using System.Collections.Generic;
@@ -61,7 +61,7 @@
 
 * Modified code snippet:
 
-    ```cs
+    ```csharp
     AddRibbonTab(
         application: application,
         tabName: "Plug-in tab",
@@ -88,7 +88,7 @@
 
 * Modified code snippet:
 
-    ```cs
+    ```csharp
     AddRibbonTab(
         application: application,
         tabName: "Plug-in tab",
@@ -124,7 +124,7 @@
 
 * Modified code snippet:
 
-    ```cs
+    ```csharp
     AddRibbonTab(
         application: application,
         tabName: "Plug-in tab",
