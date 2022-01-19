@@ -77,5 +77,5 @@ Example code snippet for collecting floor types in the current model, with the g
 List<Floor> testFloors = ElementsCollector.InstancesByCategory<Floor>(
     document: document,
     category: BuiltInCategory.OST_Floors,
-    familyName: "floorFamilyName";
+    familyName: "floorFamilyName");
 ```
