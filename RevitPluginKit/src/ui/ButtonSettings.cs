@@ -2,16 +2,26 @@
 {
     /// <summary>
     /// A class for storing data needed to generate a button instance.
+    /// Base class for PushButtonSettings and PullDownButtonSettings.
+    /// <para>This class contains the general minimum required information needed to generate an instance of a button inside a panel placed in a custom Revit tab.</para>
     /// </summary>
     public class ButtonSettings
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="ButtonSettings"/> class.
         /// </summary>
-        /// <param name="internalName"> Internal button name data. </param>
-        /// <param name="name"> Button name data. </param>
-        /// <param name="tooltip"> Button tooltip data. </param>
-        /// <param name="imageAddress"> Button image storage address. </param>
+        /// <param name="internalName">
+        /// Internal button name data.
+        /// </param>
+        /// <param name="name">
+        /// Button name data (visible to the user).
+        /// </param>
+        /// <param name="tooltip">
+        /// Button tooltip data.
+        /// </param>
+        /// <param name="imageAddress">
+        /// Button image storage address.
+        /// </param>
         internal ButtonSettings(
             string internalName,
             string name,
@@ -30,7 +40,7 @@
         public string InternalName { get; }
 
         /// <summary>
-        /// Gets public button name data.
+        /// Gets public button name data (visible to the user).
         /// </summary>
         public string Name { get; }
 

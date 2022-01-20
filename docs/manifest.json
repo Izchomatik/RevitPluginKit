@@ -218,7 +218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.ButtonSettings.html",
-          "hash": "TppYj0xuDaOqIkEdGlHqzbnjX+M3p5k34TB+9fVZ/rM="
+          "hash": "te/C2+M5xAMqWbHTVv7F8DhNSBJZ8LnXDn05TfVM6OU="
         }
       },
       "is_incremental": false,
@@ -230,7 +230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.ImageKit.html",
-          "hash": "3LPbdt9RJjJrEv99Ikl83aMuupr9xQL5Jx4GJdLO7Jg="
+          "hash": "8asY20TUr/ZHMzHln4vGWJaut2R21qWqgE4zR4HiafE="
         }
       },
       "is_incremental": false,
@@ -242,7 +242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.PullDownButtonSettings.html",
-          "hash": "olAANquaCbeNE6bncnBADHgcoAaykU2HcflvPB0AOfE="
+          "hash": "+whj6lXuwbDBJ/kAVUUdbIVaeX8J0iE3t5p7dmDRYP0="
         }
       },
       "is_incremental": false,
@@ -254,7 +254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.PushButtonSettings.html",
-          "hash": "TfzbV07BBFvO4BeI4H0dBDFrHDE85mQ52/vXZORzP4w="
+          "hash": "tWlcCVm5oUUrEGUf4Kk1zNY5SwVhzQq96jNPfbal7Ew="
         }
       },
       "is_incremental": false,
@@ -266,7 +266,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.RibbonKit.html",
-          "hash": "j0DaaN2cwnWkjo73yt3VvsEZFRKxR2T+iHMgeEQO6Mw="
+          "hash": "IAdL5p7Eiu6ahpERCOJ9UDY7dWT/TzNJo+T7dHqRSPc="
         }
       },
       "is_incremental": false,
@@ -278,7 +278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.RibbonPanelSettings.html",
-          "hash": "jvkeuftJ6sCHCshvgD0GMlLurgi5Hnz1YGrN3ys/pqA="
+          "hash": "w1bBcDifa8qwDXK7v+NNW+F9LOkX/rPzjAxgSqXqv9Q="
         }
       },
       "is_incremental": false,
@@ -290,7 +290,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.html",
-          "hash": "ai44lF8pPm95Ua+IKuopYusOiIRuKMlnz+zxb/+g/hg="
+          "hash": "zS+IUay7kO8Lmur8Ji1PB63Oi1gFHXWWMndocDA7dY0="
         }
       },
       "is_incremental": false,

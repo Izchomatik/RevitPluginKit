@@ -13,7 +13,9 @@
         /// <summary>
         /// Image extractor. Read specific resource image using address string.
         /// </summary>
-        /// <param name="uriString"> The Uri address in the solution where the image is located. </param>
+        /// <param name="uriString">
+        /// The Uri address in the solution where the image is located.
+        /// </param>
         /// <returns>
         /// Return BitmapImage instance.
         /// </returns>
@@ -29,8 +31,12 @@
         /// <summary>
         /// Image extractor. Read specific embed image using address string.
         /// </summary>
-        /// <param name="assembly"> Current assembly. </param>
-        /// <param name="address"> The address in the solution where the image is located. </param>
+        /// <param name="assembly">
+        /// Current assembly.
+        /// </param>
+        /// <param name="address">
+        /// The address in the solution where the image is located.
+        /// </param>
         /// <returns>
         /// Return BitmapSource instance.
         /// </returns>

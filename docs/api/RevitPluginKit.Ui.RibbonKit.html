@@ -98,6 +98,7 @@
   <h1 id="RevitPluginKit_Ui_RibbonKit" data-uid="RevitPluginKit.Ui.RibbonKit" class="text-break">Class RibbonKit
   </h1>
   <div class="markdown level0 summary"><p>Services for working with Revit plug-in ribbon tabs.</p>
+<p>The main set of tools designed to add UI elements, such as tabs, panels, buttons, and the like in the Revit environment.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -142,11 +143,14 @@
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Ui_RibbonKit_AddRibbonTab_Autodesk_Revit_UI_UIControlledApplication_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_RibbonPanelSettings__.md&amp;value=---%0Auid%3A%20RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication%2CSystem.String%2CSystem.Collections.Generic.List%7BRevitPluginKit.Ui.RibbonPanelSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/RibbonKit.cs/#L20">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/RibbonKit.cs/#L32">View Source</a>
   </span>
   <a id="RevitPluginKit_Ui_RibbonKit_AddRibbonTab_" data-uid="RevitPluginKit.Ui.RibbonKit.AddRibbonTab*"></a>
   <h4 id="RevitPluginKit_Ui_RibbonKit_AddRibbonTab_Autodesk_Revit_UI_UIControlledApplication_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_RibbonPanelSettings__" data-uid="RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.RibbonPanelSettings})">AddRibbonTab(UIControlledApplication, String, List&lt;RibbonPanelSettings&gt;)</h4>
   <div class="markdown level1 summary"><p>Adds a revit plug-in ribbon tab.</p>
+<p>You can call this method multiple times to add multiple tabs.</p>
+<p>The tab will be added at the end of the main list of Revit tabs (such as Architecture, Structure, and the like).
+Also note that the base &quot;Modify&quot; tab will naturally appear behind the custom tab created by the user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -167,6 +171,7 @@
         <td><span class="xref">Autodesk.Revit.UI.UIControlledApplication</span></td>
         <td><span class="parametername">application</span></td>
         <td><p>Current revit application instance.</p>
+<p>You get an instance of this class when you initialize a method OnStartup(UIControlledApplication application) inherited from Autodesk.Revit.UI.IExternalApplication.</p>
 </td>
       </tr>
       <tr>
@@ -179,6 +184,7 @@
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="RevitPluginKit.Ui.RibbonPanelSettings.html">RibbonPanelSettings</a>&gt;</td>
         <td><span class="parametername">panelsSettings</span></td>
         <td><p>List of RibbonPanelData class instances required to generate ribbon panels and its buttons.</p>
+<p>Please note that when creating your plugin&apos;s UI, the first thing you need to do is to add panels to the tab, and only to the panel you can add any forms of supported buttons.</p>
 </td>
       </tr>
     </tbody>

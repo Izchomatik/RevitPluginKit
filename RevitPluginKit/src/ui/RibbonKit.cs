@@ -8,15 +8,27 @@
 
     /// <summary>
     /// Services for working with Revit plug-in ribbon tabs.
+    /// <para>The main set of tools designed to add UI elements, such as tabs, panels, buttons, and the like in the Revit environment.</para>
     /// </summary>
     public class RibbonKit
     {
         /// <summary>
         /// Adds a revit plug-in ribbon tab.
+        /// <para>You can call this method multiple times to add multiple tabs.</para>
+        /// <para>The tab will be added at the end of the main list of Revit tabs (such as Architecture, Structure, and the like).
+        /// Also note that the base "Modify" tab will naturally appear behind the custom tab created by the user.</para>
         /// </summary>
-        /// <param name="application"> Current revit application instance. </param>
-        /// <param name="tabName"> New revit plug-in tab name. </param>
-        /// <param name="panelsSettings"> List of RibbonPanelData class instances required to generate ribbon panels and its buttons. </param>
+        /// <param name="application">
+        /// Current revit application instance.
+        /// <para>You get an instance of this class when you initialize a method OnStartup(UIControlledApplication application) inherited from Autodesk.Revit.UI.IExternalApplication.</para>
+        /// </param>
+        /// <param name="tabName">
+        /// New revit plug-in tab name.
+        /// </param>
+        /// <param name="panelsSettings">
+        /// List of RibbonPanelData class instances required to generate ribbon panels and its buttons.
+        /// <para>Please note that when creating your plugin's UI, the first thing you need to do is to add panels to the tab, and only to the panel you can add any forms of supported buttons.</para>
+        /// </param>
         public static void AddRibbonTab(
             UIControlledApplication application,
             string tabName,

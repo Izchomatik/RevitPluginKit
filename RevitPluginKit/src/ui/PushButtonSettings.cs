@@ -2,17 +2,29 @@
 {
     /// <summary>
     /// A class for storing data needed to generate a push button instance.
+    /// <para>Please note that the push button can only be added to the Revit panel or other pull down button
+    /// (as part of the RevitPluginKit.Ui.RibbonPanelSettings or RevitPluginKit.Ui.PullDownButtonSettings data).</para>
     /// </summary>
     public class PushButtonSettings : ButtonSettings
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="PushButtonSettings"/> class.
         /// </summary>
-        /// <param name="internalName"> Internal button name data. </param>
-        /// <param name="name"> Button name data. </param>
-        /// <param name="tooltip"> Button tooltip data. </param>
-        /// <param name="imageAddress"> Button image storage address. </param>
-        /// <param name="className"> The name of the class to call when the button is clicked. </param>
+        /// <param name="internalName">
+        /// Internal button name data.
+        /// </param>
+        /// <param name="name">
+        /// Button name data (visible to the user).
+        /// </param>
+        /// <param name="tooltip">
+        /// Button tooltip data.
+        /// </param>
+        /// <param name="imageAddress">
+        /// Button image storage address.
+        /// </param>
+        /// <param name="className">
+        /// The name of the class to call when the button is clicked.
+        /// </param>
         public PushButtonSettings(
             string internalName,
             string name,
