@@ -98,6 +98,7 @@
   <h1 id="RevitPluginKit_Validators_NumberValidator" data-uid="RevitPluginKit.Validators.NumberValidator" class="text-break">Class NumberValidator
   </h1>
   <div class="markdown level0 summary"><p>Number validator class.</p>
+<p>Designed to check incoming numeric values. Mainly used to process incoming user data.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -142,11 +143,13 @@
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Validators_NumberValidator_NumberValidation_System_Object_System_Windows_Input_TextCompositionEventArgs_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Validators.NumberValidator.NumberValidation(System.Object%2CSystem.Windows.Input.TextCompositionEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/validators/NumberValidator.cs/#L16">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/validators/NumberValidator.cs/#L19">View Source</a>
   </span>
   <a id="RevitPluginKit_Validators_NumberValidator_NumberValidation_" data-uid="RevitPluginKit.Validators.NumberValidator.NumberValidation*"></a>
   <h4 id="RevitPluginKit_Validators_NumberValidator_NumberValidation_System_Object_System_Windows_Input_TextCompositionEventArgs_" data-uid="RevitPluginKit.Validators.NumberValidator.NumberValidation(System.Object,System.Windows.Input.TextCompositionEventArgs)">NumberValidation(Object, TextCompositionEventArgs)</h4>
   <div class="markdown level1 summary"><p>Number validation method for wpf textBox.</p>
+<p>Accepts user input and returns a boolean value indicating whether the input matches a numeric value.</p>
+<p>This method is designed to be used when processing data coming through the WPF (System.Windows.Input.TextCompositionEventArgs).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -166,13 +169,13 @@
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">sender</span></td>
-        <td><p>Sender object.</p>
+        <td><p>WPF sender object.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Windows.Input.TextCompositionEventArgs</span></td>
         <td><span class="parametername">e</span></td>
-        <td><p>Text composition event.</p>
+        <td><p>WPF text composition event.</p>
 </td>
       </tr>
     </tbody>
