@@ -166,6 +166,19 @@ references:
   isSpec: "True"
   fullName: RevitPluginKit.Ui.ButtonSettings.InternalName
   nameWithType: ButtonSettings.InternalName
+- uid: RevitPluginKit.Ui.ButtonSettings.IsActive
+  name: IsActive
+  href: api/RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_IsActive
+  commentId: P:RevitPluginKit.Ui.ButtonSettings.IsActive
+  fullName: RevitPluginKit.Ui.ButtonSettings.IsActive
+  nameWithType: ButtonSettings.IsActive
+- uid: RevitPluginKit.Ui.ButtonSettings.IsActive*
+  name: IsActive
+  href: api/RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_IsActive_
+  commentId: Overload:RevitPluginKit.Ui.ButtonSettings.IsActive
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.ButtonSettings.IsActive
+  nameWithType: ButtonSettings.IsActive
 - uid: RevitPluginKit.Ui.ButtonSettings.Name
   name: Name
   href: api/RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_Name
@@ -217,15 +230,15 @@ references:
   commentId: T:RevitPluginKit.Ui.PullDownButtonSettings
   fullName: RevitPluginKit.Ui.PullDownButtonSettings
   nameWithType: PullDownButtonSettings
-- uid: RevitPluginKit.Ui.PullDownButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.PushButtonSettings})
-  name: PullDownButtonSettings(String, String, String, String, List<PushButtonSettings>)
-  href: api/RevitPluginKit.Ui.PullDownButtonSettings.html#RevitPluginKit_Ui_PullDownButtonSettings__ctor_System_String_System_String_System_String_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_PushButtonSettings__
-  commentId: M:RevitPluginKit.Ui.PullDownButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.PushButtonSettings})
-  name.vb: PullDownButtonSettings(String, String, String, String, List(Of PushButtonSettings))
-  fullName: RevitPluginKit.Ui.PullDownButtonSettings.PullDownButtonSettings(System.String, System.String, System.String, System.String, System.Collections.Generic.List<RevitPluginKit.Ui.PushButtonSettings>)
-  fullName.vb: RevitPluginKit.Ui.PullDownButtonSettings.PullDownButtonSettings(System.String, System.String, System.String, System.String, System.Collections.Generic.List(Of RevitPluginKit.Ui.PushButtonSettings))
-  nameWithType: PullDownButtonSettings.PullDownButtonSettings(String, String, String, String, List<PushButtonSettings>)
-  nameWithType.vb: PullDownButtonSettings.PullDownButtonSettings(String, String, String, String, List(Of PushButtonSettings))
+- uid: RevitPluginKit.Ui.PullDownButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.PushButtonSettings},System.Boolean)
+  name: PullDownButtonSettings(String, String, String, String, List<PushButtonSettings>, Boolean)
+  href: api/RevitPluginKit.Ui.PullDownButtonSettings.html#RevitPluginKit_Ui_PullDownButtonSettings__ctor_System_String_System_String_System_String_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_PushButtonSettings__System_Boolean_
+  commentId: M:RevitPluginKit.Ui.PullDownButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.PushButtonSettings},System.Boolean)
+  name.vb: PullDownButtonSettings(String, String, String, String, List(Of PushButtonSettings), Boolean)
+  fullName: RevitPluginKit.Ui.PullDownButtonSettings.PullDownButtonSettings(System.String, System.String, System.String, System.String, System.Collections.Generic.List<RevitPluginKit.Ui.PushButtonSettings>, System.Boolean)
+  fullName.vb: RevitPluginKit.Ui.PullDownButtonSettings.PullDownButtonSettings(System.String, System.String, System.String, System.String, System.Collections.Generic.List(Of RevitPluginKit.Ui.PushButtonSettings), System.Boolean)
+  nameWithType: PullDownButtonSettings.PullDownButtonSettings(String, String, String, String, List<PushButtonSettings>, Boolean)
+  nameWithType.vb: PullDownButtonSettings.PullDownButtonSettings(String, String, String, String, List(Of PushButtonSettings), Boolean)
 - uid: RevitPluginKit.Ui.PullDownButtonSettings.#ctor*
   name: PullDownButtonSettings
   href: api/RevitPluginKit.Ui.PullDownButtonSettings.html#RevitPluginKit_Ui_PullDownButtonSettings__ctor_
@@ -252,12 +265,12 @@ references:
   commentId: T:RevitPluginKit.Ui.PushButtonSettings
   fullName: RevitPluginKit.Ui.PushButtonSettings
   nameWithType: PushButtonSettings
-- uid: RevitPluginKit.Ui.PushButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.String)
-  name: PushButtonSettings(String, String, String, String, String)
-  href: api/RevitPluginKit.Ui.PushButtonSettings.html#RevitPluginKit_Ui_PushButtonSettings__ctor_System_String_System_String_System_String_System_String_System_String_
-  commentId: M:RevitPluginKit.Ui.PushButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.String)
-  fullName: RevitPluginKit.Ui.PushButtonSettings.PushButtonSettings(System.String, System.String, System.String, System.String, System.String)
-  nameWithType: PushButtonSettings.PushButtonSettings(String, String, String, String, String)
+- uid: RevitPluginKit.Ui.PushButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  name: PushButtonSettings(String, String, String, String, String, Boolean)
+  href: api/RevitPluginKit.Ui.PushButtonSettings.html#RevitPluginKit_Ui_PushButtonSettings__ctor_System_String_System_String_System_String_System_String_System_String_System_Boolean_
+  commentId: M:RevitPluginKit.Ui.PushButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  fullName: RevitPluginKit.Ui.PushButtonSettings.PushButtonSettings(System.String, System.String, System.String, System.String, System.String, System.Boolean)
+  nameWithType: PushButtonSettings.PushButtonSettings(String, String, String, String, String, Boolean)
 - uid: RevitPluginKit.Ui.PushButtonSettings.#ctor*
   name: PushButtonSettings
   href: api/RevitPluginKit.Ui.PushButtonSettings.html#RevitPluginKit_Ui_PushButtonSettings__ctor_
@@ -284,15 +297,15 @@ references:
   commentId: T:RevitPluginKit.Ui.RibbonKit
   fullName: RevitPluginKit.Ui.RibbonKit
   nameWithType: RibbonKit
-- uid: RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.RibbonPanelSettings})
-  name: AddRibbonTab(UIControlledApplication, String, List<RibbonPanelSettings>)
-  href: api/RevitPluginKit.Ui.RibbonKit.html#RevitPluginKit_Ui_RibbonKit_AddRibbonTab_Autodesk_Revit_UI_UIControlledApplication_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_RibbonPanelSettings__
-  commentId: M:RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.RibbonPanelSettings})
-  name.vb: AddRibbonTab(UIControlledApplication, String, List(Of RibbonPanelSettings))
-  fullName: RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication, System.String, System.Collections.Generic.List<RevitPluginKit.Ui.RibbonPanelSettings>)
-  fullName.vb: RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication, System.String, System.Collections.Generic.List(Of RevitPluginKit.Ui.RibbonPanelSettings))
-  nameWithType: RibbonKit.AddRibbonTab(UIControlledApplication, String, List<RibbonPanelSettings>)
-  nameWithType.vb: RibbonKit.AddRibbonTab(UIControlledApplication, String, List(Of RibbonPanelSettings))
+- uid: RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.RibbonPanelSettings},System.Boolean)
+  name: AddRibbonTab(UIControlledApplication, String, List<RibbonPanelSettings>, Boolean)
+  href: api/RevitPluginKit.Ui.RibbonKit.html#RevitPluginKit_Ui_RibbonKit_AddRibbonTab_Autodesk_Revit_UI_UIControlledApplication_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_RibbonPanelSettings__System_Boolean_
+  commentId: M:RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.RibbonPanelSettings},System.Boolean)
+  name.vb: AddRibbonTab(UIControlledApplication, String, List(Of RibbonPanelSettings), Boolean)
+  fullName: RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication, System.String, System.Collections.Generic.List<RevitPluginKit.Ui.RibbonPanelSettings>, System.Boolean)
+  fullName.vb: RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication, System.String, System.Collections.Generic.List(Of RevitPluginKit.Ui.RibbonPanelSettings), System.Boolean)
+  nameWithType: RibbonKit.AddRibbonTab(UIControlledApplication, String, List<RibbonPanelSettings>, Boolean)
+  nameWithType.vb: RibbonKit.AddRibbonTab(UIControlledApplication, String, List(Of RibbonPanelSettings), Boolean)
 - uid: RevitPluginKit.Ui.RibbonKit.AddRibbonTab*
   name: AddRibbonTab
   href: api/RevitPluginKit.Ui.RibbonKit.html#RevitPluginKit_Ui_RibbonKit_AddRibbonTab_
@@ -306,15 +319,15 @@ references:
   commentId: T:RevitPluginKit.Ui.RibbonPanelSettings
   fullName: RevitPluginKit.Ui.RibbonPanelSettings
   nameWithType: RibbonPanelSettings
-- uid: RevitPluginKit.Ui.RibbonPanelSettings.#ctor(System.String,System.Collections.Generic.List{RevitPluginKit.Ui.ButtonSettings})
-  name: RibbonPanelSettings(String, List<ButtonSettings>)
-  href: api/RevitPluginKit.Ui.RibbonPanelSettings.html#RevitPluginKit_Ui_RibbonPanelSettings__ctor_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_ButtonSettings__
-  commentId: M:RevitPluginKit.Ui.RibbonPanelSettings.#ctor(System.String,System.Collections.Generic.List{RevitPluginKit.Ui.ButtonSettings})
-  name.vb: RibbonPanelSettings(String, List(Of ButtonSettings))
-  fullName: RevitPluginKit.Ui.RibbonPanelSettings.RibbonPanelSettings(System.String, System.Collections.Generic.List<RevitPluginKit.Ui.ButtonSettings>)
-  fullName.vb: RevitPluginKit.Ui.RibbonPanelSettings.RibbonPanelSettings(System.String, System.Collections.Generic.List(Of RevitPluginKit.Ui.ButtonSettings))
-  nameWithType: RibbonPanelSettings.RibbonPanelSettings(String, List<ButtonSettings>)
-  nameWithType.vb: RibbonPanelSettings.RibbonPanelSettings(String, List(Of ButtonSettings))
+- uid: RevitPluginKit.Ui.RibbonPanelSettings.#ctor(System.String,System.Collections.Generic.List{RevitPluginKit.Ui.ButtonSettings},System.Boolean)
+  name: RibbonPanelSettings(String, List<ButtonSettings>, Boolean)
+  href: api/RevitPluginKit.Ui.RibbonPanelSettings.html#RevitPluginKit_Ui_RibbonPanelSettings__ctor_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_ButtonSettings__System_Boolean_
+  commentId: M:RevitPluginKit.Ui.RibbonPanelSettings.#ctor(System.String,System.Collections.Generic.List{RevitPluginKit.Ui.ButtonSettings},System.Boolean)
+  name.vb: RibbonPanelSettings(String, List(Of ButtonSettings), Boolean)
+  fullName: RevitPluginKit.Ui.RibbonPanelSettings.RibbonPanelSettings(System.String, System.Collections.Generic.List<RevitPluginKit.Ui.ButtonSettings>, System.Boolean)
+  fullName.vb: RevitPluginKit.Ui.RibbonPanelSettings.RibbonPanelSettings(System.String, System.Collections.Generic.List(Of RevitPluginKit.Ui.ButtonSettings), System.Boolean)
+  nameWithType: RibbonPanelSettings.RibbonPanelSettings(String, List<ButtonSettings>, Boolean)
+  nameWithType.vb: RibbonPanelSettings.RibbonPanelSettings(String, List(Of ButtonSettings), Boolean)
 - uid: RevitPluginKit.Ui.RibbonPanelSettings.#ctor*
   name: RibbonPanelSettings
   href: api/RevitPluginKit.Ui.RibbonPanelSettings.html#RevitPluginKit_Ui_RibbonPanelSettings__ctor_
@@ -335,6 +348,19 @@ references:
   isSpec: "True"
   fullName: RevitPluginKit.Ui.RibbonPanelSettings.ButtonsSettings
   nameWithType: RibbonPanelSettings.ButtonsSettings
+- uid: RevitPluginKit.Ui.RibbonPanelSettings.IsActive
+  name: IsActive
+  href: api/RevitPluginKit.Ui.RibbonPanelSettings.html#RevitPluginKit_Ui_RibbonPanelSettings_IsActive
+  commentId: P:RevitPluginKit.Ui.RibbonPanelSettings.IsActive
+  fullName: RevitPluginKit.Ui.RibbonPanelSettings.IsActive
+  nameWithType: RibbonPanelSettings.IsActive
+- uid: RevitPluginKit.Ui.RibbonPanelSettings.IsActive*
+  name: IsActive
+  href: api/RevitPluginKit.Ui.RibbonPanelSettings.html#RevitPluginKit_Ui_RibbonPanelSettings_IsActive_
+  commentId: Overload:RevitPluginKit.Ui.RibbonPanelSettings.IsActive
+  isSpec: "True"
+  fullName: RevitPluginKit.Ui.RibbonPanelSettings.IsActive
+  nameWithType: RibbonPanelSettings.IsActive
 - uid: RevitPluginKit.Ui.RibbonPanelSettings.Name
   name: Name
   href: api/RevitPluginKit.Ui.RibbonPanelSettings.html#RevitPluginKit_Ui_RibbonPanelSettings_Name

@@ -29,50 +29,78 @@
         /// List of RibbonPanelData class instances required to generate ribbon panels and its buttons.
         /// <para>Please note that when creating your plugin's UI, the first thing you need to do is to add panels to the tab, and only to the panel you can add any forms of supported buttons.</para>
         /// </param>
+        /// <param name="isActive">
+        /// Value indicating whether to render this UI tab element or not.
+        /// <para>In the general case, it is used to quickly turn off the display of a particular UI element.</para>
+        /// </param>
         public static void AddRibbonTab(
             UIControlledApplication application,
             string tabName,
-            List<RibbonPanelSettings> panelsSettings)
+            List<RibbonPanelSettings> panelsSettings,
+            bool isActive = true)
         {
-            application.CreateRibbonTab(tabName);
-            if (panelsSettings.Count > 0)
+            if (isActive == true)
             {
-                foreach (var panelSettings in panelsSettings)
+                application.CreateRibbonTab(tabName);
+                if (panelsSettings.Count > 0)
                 {
-                    RibbonPanel ribbonPanel = application.CreateRibbonPanel(
-                        tabName: tabName,
-                        panelName: panelSettings.Name);
-                    if (panelSettings.ButtonsSettings.Count > 0)
+                    foreach (var panelSettings in panelsSettings)
                     {
-                        Assembly assembly = Assembly.GetCallingAssembly();
-                        foreach (var buttonSettings in panelSettings.ButtonsSettings)
+                        if (panelSettings.IsActive == true)
                         {
-                            if (buttonSettings is PushButtonSettings)
+                            RibbonPanel ribbonPanel = application.CreateRibbonPanel(
+                            tabName: tabName,
+                            panelName: panelSettings.Name);
+                            if (panelSettings.ButtonsSettings.Count > 0)
                             {
-                                AddPushButton(
-                                    assembly: assembly,
-                                    ribbonPanel: ribbonPanel,
-                                    pushButtonSettings: buttonSettings as PushButtonSettings);
-                            }
-                            else if (buttonSettings is PullDownButtonSettings)
-                            {
-                                PullDownButtonSettings pullDownButtonSettings = buttonSettings as PullDownButtonSettings;
-                                PulldownButton parentButton = AddPullDownButton(
-                                    assembly: assembly,
-                                    ribbonPanel: ribbonPanel,
-                                    pullDownButtonSettings: buttonSettings as PullDownButtonSettings);
-                                if (pullDownButtonSettings.PushButtonsSettings.Count > 0)
+                                Assembly assembly = Assembly.GetCallingAssembly();
+                                foreach (var buttonSettings in panelSettings.ButtonsSettings)
                                 {
-                                    foreach (var childButtonSettings in pullDownButtonSettings.PushButtonsSettings)
+                                    if (buttonSettings.IsActive == true)
                                     {
-                                        AddChildPushButton(
+                                        AddButton(
                                             assembly: assembly,
-                                            parentButton: parentButton,
-                                            childButtonSettings: childButtonSettings);
+                                            buttonSettings: buttonSettings,
+                                            ribbonPanel: ribbonPanel);
                                     }
                                 }
                             }
                         }
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Adds button to ribbon panel (base method).
+        /// </summary>
+        private static void AddButton(
+            Assembly assembly,
+            ButtonSettings buttonSettings,
+            RibbonPanel ribbonPanel)
+        {
+            if (buttonSettings is PushButtonSettings)
+            {
+                AddPushButton(
+                    assembly: assembly,
+                    ribbonPanel: ribbonPanel,
+                    pushButtonSettings: buttonSettings as PushButtonSettings);
+            }
+            else if (buttonSettings is PullDownButtonSettings)
+            {
+                PullDownButtonSettings pullDownButtonSettings = buttonSettings as PullDownButtonSettings;
+                PulldownButton parentButton = AddPullDownButton(
+                    assembly: assembly,
+                    ribbonPanel: ribbonPanel,
+                    pullDownButtonSettings: buttonSettings as PullDownButtonSettings);
+                if (pullDownButtonSettings.PushButtonsSettings.Count > 0)
+                {
+                    foreach (var childButtonSettings in pullDownButtonSettings.PushButtonsSettings)
+                    {
+                        AddChildPushButton(
+                            assembly: assembly,
+                            parentButton: parentButton,
+                            childButtonSettings: childButtonSettings);
                     }
                 }
             }

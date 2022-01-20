@@ -22,16 +22,22 @@
         /// <param name="imageAddress">
         /// Button image storage address.
         /// </param>
+        /// <param name="isActive">
+        /// Value indicating whether to render this UI button element or not.
+        /// <para>In the general case, it is used to quickly turn off the display of a particular UI element.</para>
+        /// </param>
         internal ButtonSettings(
             string internalName,
             string name,
             string tooltip,
-            string imageAddress)
+            string imageAddress,
+            bool isActive = true)
         {
             this.InternalName = internalName;
             this.Name = name;
             this.Tooltip = tooltip;
             this.ImageAddress = imageAddress;
+            this.IsActive = isActive;
         }
 
         /// <summary>
@@ -53,5 +59,11 @@
         /// Gets button image storage address.
         /// </summary>
         public string ImageAddress { get; }
+
+        /// <summary>
+        /// Gets a value indicating whether to render this UI element or not.
+        /// <para>In the general case, it is used to quickly turn off the display of a particular UI element.</para>
+        /// </summary>
+        public bool IsActive { get; }
     }
 }

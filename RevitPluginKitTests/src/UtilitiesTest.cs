@@ -56,7 +56,7 @@
             testResultDatas.Add(TestMMToFeet());
 
             // Just not to get zero in stopwatch tests results
-            Thread.Sleep(10);
+            Thread.Sleep(100);
 
             stopwatch.Stop();
             testResultDatas.Add(TestStopwatchHours(stopwatch: stopwatch));

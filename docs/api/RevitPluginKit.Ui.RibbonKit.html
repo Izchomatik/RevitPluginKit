@@ -140,13 +140,13 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Ui_RibbonKit_AddRibbonTab_Autodesk_Revit_UI_UIControlledApplication_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_RibbonPanelSettings__.md&amp;value=---%0Auid%3A%20RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication%2CSystem.String%2CSystem.Collections.Generic.List%7BRevitPluginKit.Ui.RibbonPanelSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Ui_RibbonKit_AddRibbonTab_Autodesk_Revit_UI_UIControlledApplication_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_RibbonPanelSettings__System_Boolean_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication%2CSystem.String%2CSystem.Collections.Generic.List%7BRevitPluginKit.Ui.RibbonPanelSettings%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/RibbonKit.cs/#L32">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/RibbonKit.cs/#L36">View Source</a>
   </span>
   <a id="RevitPluginKit_Ui_RibbonKit_AddRibbonTab_" data-uid="RevitPluginKit.Ui.RibbonKit.AddRibbonTab*"></a>
-  <h4 id="RevitPluginKit_Ui_RibbonKit_AddRibbonTab_Autodesk_Revit_UI_UIControlledApplication_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_RibbonPanelSettings__" data-uid="RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.RibbonPanelSettings})">AddRibbonTab(UIControlledApplication, String, List&lt;RibbonPanelSettings&gt;)</h4>
+  <h4 id="RevitPluginKit_Ui_RibbonKit_AddRibbonTab_Autodesk_Revit_UI_UIControlledApplication_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_RibbonPanelSettings__System_Boolean_" data-uid="RevitPluginKit.Ui.RibbonKit.AddRibbonTab(Autodesk.Revit.UI.UIControlledApplication,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.RibbonPanelSettings},System.Boolean)">AddRibbonTab(UIControlledApplication, String, List&lt;RibbonPanelSettings&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Adds a revit plug-in ribbon tab.</p>
 <p>You can call this method multiple times to add multiple tabs.</p>
 <p>The tab will be added at the end of the main list of Revit tabs (such as Architecture, Structure, and the like).
@@ -155,7 +155,7 @@ Also note that the base &quot;Modify&quot; tab will naturally appear behind the 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void AddRibbonTab(UIControlledApplication application, string tabName, List&lt;RibbonPanelSettings&gt; panelsSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void AddRibbonTab(UIControlledApplication application, string tabName, List&lt;RibbonPanelSettings&gt; panelsSettings, bool isActive = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -185,6 +185,13 @@ Also note that the base &quot;Modify&quot; tab will naturally appear behind the 
         <td><span class="parametername">panelsSettings</span></td>
         <td><p>List of RibbonPanelData class instances required to generate ribbon panels and its buttons.</p>
 <p>Please note that when creating your plugin&apos;s UI, the first thing you need to do is to add panels to the tab, and only to the panel you can add any forms of supported buttons.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isActive</span></td>
+        <td><p>Value indicating whether to render this UI tab element or not.</p>
+<p>In the general case, it is used to quickly turn off the display of a particular UI element.</p>
 </td>
       </tr>
     </tbody>

@@ -123,6 +123,9 @@
       <a class="xref" href="RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_ImageAddress">ButtonSettings.ImageAddress</a>
     </div>
     <div>
+      <a class="xref" href="RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_IsActive">ButtonSettings.IsActive</a>
+    </div>
+    <div>
       <span class="xref">System.Object.ToString()</span>
     </div>
     <div>
@@ -154,19 +157,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Ui_PushButtonSettings__ctor_System_String_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Ui.PushButtonSettings.%23ctor(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Ui_PushButtonSettings__ctor_System_String_System_String_System_String_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Ui.PushButtonSettings.%23ctor(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/PushButtonSettings.cs/#L28">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/PushButtonSettings.cs/#L32">View Source</a>
   </span>
   <a id="RevitPluginKit_Ui_PushButtonSettings__ctor_" data-uid="RevitPluginKit.Ui.PushButtonSettings.#ctor*"></a>
-  <h4 id="RevitPluginKit_Ui_PushButtonSettings__ctor_System_String_System_String_System_String_System_String_System_String_" data-uid="RevitPluginKit.Ui.PushButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.String)">PushButtonSettings(String, String, String, String, String)</h4>
+  <h4 id="RevitPluginKit_Ui_PushButtonSettings__ctor_System_String_System_String_System_String_System_String_System_String_System_Boolean_" data-uid="RevitPluginKit.Ui.PushButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean)">PushButtonSettings(String, String, String, String, String, Boolean)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="RevitPluginKit.Ui.PushButtonSettings.html">PushButtonSettings</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PushButtonSettings(string internalName, string name, string tooltip, string imageAddress, string className)</code></pre>
+    <pre><code class="lang-csharp hljs">public PushButtonSettings(string internalName, string name, string tooltip, string imageAddress, string className, bool isActive = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -208,6 +211,13 @@
         <td><p>The name of the class to call when the button is clicked.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isActive</span></td>
+        <td><p>Value indicating whether to render this UI push button element or not.</p>
+<p>In the general case, it is used to quickly turn off the display of a particular UI element.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
@@ -217,7 +227,7 @@
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Ui_PushButtonSettings_ClassName.md&amp;value=---%0Auid%3A%20RevitPluginKit.Ui.PushButtonSettings.ClassName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/PushButtonSettings.cs/#L46">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/PushButtonSettings.cs/#L52">View Source</a>
   </span>
   <a id="RevitPluginKit_Ui_PushButtonSettings_ClassName_" data-uid="RevitPluginKit.Ui.PushButtonSettings.ClassName*"></a>
   <h4 id="RevitPluginKit_Ui_PushButtonSettings_ClassName" data-uid="RevitPluginKit.Ui.PushButtonSettings.ClassName">ClassName</h4>
