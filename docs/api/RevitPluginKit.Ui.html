@@ -102,22 +102,32 @@
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="RevitPluginKit.Ui.ButtonSettings.html">ButtonSettings</a></h4>
-      <section><p>A class for storing data needed to generate a button instance.</p>
+      <section><p>A class for storing data needed to generate a button instance.
+Base class for PushButtonSettings and PullDownButtonSettings.</p>
+<p>This class contains the general minimum required information needed to generate an instance of a button inside a panel placed in a custom Revit tab.</p>
 </section>
       <h4><a class="xref" href="RevitPluginKit.Ui.ImageKit.html">ImageKit</a></h4>
       <section><p>Services for working with images.</p>
 </section>
       <h4><a class="xref" href="RevitPluginKit.Ui.PullDownButtonSettings.html">PullDownButtonSettings</a></h4>
       <section><p>A class for storing data needed to generate a pull down button instance.</p>
+<p>Please note that the pull down button can only be added to the Revit panel
+(as part of the RevitPluginKit.Ui.RibbonPanelSettings data).</p>
 </section>
       <h4><a class="xref" href="RevitPluginKit.Ui.PushButtonSettings.html">PushButtonSettings</a></h4>
       <section><p>A class for storing data needed to generate a push button instance.</p>
+<p>Please note that the push button can only be added to the Revit panel or other pull down button
+(as part of the RevitPluginKit.Ui.RibbonPanelSettings or RevitPluginKit.Ui.PullDownButtonSettings data).</p>
 </section>
       <h4><a class="xref" href="RevitPluginKit.Ui.RibbonKit.html">RibbonKit</a></h4>
       <section><p>Services for working with Revit plug-in ribbon tabs.</p>
+<p>The main set of tools designed to add UI elements, such as tabs, panels, buttons, and the like in the Revit environment.</p>
 </section>
       <h4><a class="xref" href="RevitPluginKit.Ui.RibbonPanelSettings.html">RibbonPanelSettings</a></h4>
       <section><p>A class for storing data needed to generate a ribbon panel.</p>
+<p>A panel in Revit terms is a highlighted area within a tab.
+This area has a name.
+Adding any form of buttons is possible only to the panel.</p>
 </section>
 </article>
               
