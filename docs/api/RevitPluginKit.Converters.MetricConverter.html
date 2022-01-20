@@ -98,6 +98,8 @@
   <h1 id="RevitPluginKit_Converters_MetricConverter" data-uid="RevitPluginKit.Converters.MetricConverter" class="text-break">Class MetricConverter
   </h1>
   <div class="markdown level0 summary"><p>Class for converting values from metric to imperial and vice versa.</p>
+<p>Please note that Revit makes all internal calculations in imperial units.
+As a consequence, when working with metric units, for example in cases of user input, one must be aware of the need to convert between unit types.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -142,11 +144,12 @@
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Converters_MetricConverter_FeetToMM_System_Double_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Converters.MetricConverter.FeetToMM(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/converters/MetricConverter.cs/#L39">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/converters/MetricConverter.cs/#L52">View Source</a>
   </span>
   <a id="RevitPluginKit_Converters_MetricConverter_FeetToMM_" data-uid="RevitPluginKit.Converters.MetricConverter.FeetToMM*"></a>
   <h4 id="RevitPluginKit_Converters_MetricConverter_FeetToMM_System_Double_" data-uid="RevitPluginKit.Converters.MetricConverter.FeetToMM(System.Double)">FeetToMM(Double)</h4>
   <div class="markdown level1 summary"><p>Convert feet to millimeters.</p>
+<p>This method is often used to provide data to a user working in the metric system.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -182,7 +185,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td><p>Return millimeters.</p>
+        <td><p>Returns a double representing millimeters converted from feet.</p>
 </td>
       </tr>
     </tbody>
@@ -192,11 +195,12 @@
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Converters_MetricConverter_MMToFeet_System_Double_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Converters.MetricConverter.MMToFeet(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/converters/MetricConverter.cs/#L51">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/converters/MetricConverter.cs/#L66">View Source</a>
   </span>
   <a id="RevitPluginKit_Converters_MetricConverter_MMToFeet_" data-uid="RevitPluginKit.Converters.MetricConverter.MMToFeet*"></a>
   <h4 id="RevitPluginKit_Converters_MetricConverter_MMToFeet_System_Double_" data-uid="RevitPluginKit.Converters.MetricConverter.MMToFeet(System.Double)">MMToFeet(Double)</h4>
   <div class="markdown level1 summary"><p>Convert millimeters to feet.</p>
+<p>This method is often used to convert user-entered metric data for further correct use by internal Revit entities (running in the imperial system).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -232,7 +236,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td><p>Return feets.</p>
+        <td><p>Returns a double representing feet converted from millimeters.</p>
 </td>
       </tr>
     </tbody>
@@ -242,11 +246,12 @@
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Converters_MetricConverter_SquareFeetToSquareMeters_System_Double_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Converters.MetricConverter.SquareFeetToSquareMeters(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/converters/MetricConverter.cs/#L15">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/converters/MetricConverter.cs/#L25">View Source</a>
   </span>
   <a id="RevitPluginKit_Converters_MetricConverter_SquareFeetToSquareMeters_" data-uid="RevitPluginKit.Converters.MetricConverter.SquareFeetToSquareMeters*"></a>
   <h4 id="RevitPluginKit_Converters_MetricConverter_SquareFeetToSquareMeters_System_Double_" data-uid="RevitPluginKit.Converters.MetricConverter.SquareFeetToSquareMeters(System.Double)">SquareFeetToSquareMeters(Double)</h4>
   <div class="markdown level1 summary"><p>Convert square feet to square meters.</p>
+<p>This method is often used to provide data to a user working in the metric system.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -282,7 +287,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td><p>Return square meters.</p>
+        <td><p>Returns a double representing square meters converted from square feet.</p>
 </td>
       </tr>
     </tbody>
@@ -292,11 +297,12 @@
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Converters_MetricConverter_SquareMetersToSquareFeet_System_Double_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Converters.MetricConverter.SquareMetersToSquareFeet(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/converters/MetricConverter.cs/#L27">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/converters/MetricConverter.cs/#L39">View Source</a>
   </span>
   <a id="RevitPluginKit_Converters_MetricConverter_SquareMetersToSquareFeet_" data-uid="RevitPluginKit.Converters.MetricConverter.SquareMetersToSquareFeet*"></a>
   <h4 id="RevitPluginKit_Converters_MetricConverter_SquareMetersToSquareFeet_System_Double_" data-uid="RevitPluginKit.Converters.MetricConverter.SquareMetersToSquareFeet(System.Double)">SquareMetersToSquareFeet(Double)</h4>
   <div class="markdown level1 summary"><p>Convert square meters to square feet.</p>
+<p>This method is often used to convert user-entered metric data for further correct use by internal Revit entities (running in the imperial system).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -332,7 +338,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td><p>Return square feets.</p>
+        <td><p>Returns a double representing square feet converted from square meters.</p>
 </td>
       </tr>
     </tbody>

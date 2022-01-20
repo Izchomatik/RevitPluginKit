@@ -158,7 +158,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Collectors.ElementsCollector.html",
-          "hash": "hG95wGJ2ku30m1+7H9AOzDHIutu0uKqLR0hT6C6qlPU="
+          "hash": "9Eit2FJVhiS285TDJO7MmH/R5IdlAYPmW2E4Z0fzygo="
         }
       },
       "is_incremental": false,
@@ -182,7 +182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Converters.MetricConverter.html",
-          "hash": "4abwYuPNOgtOsc83gAYQvUgjspJ+ZpT7Duk29euvBKQ="
+          "hash": "4x71XV85mzuYBod31AZqkJrOaaXBOl/xh7EZ8HJenEY="
         }
       },
       "is_incremental": false,
@@ -194,7 +194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Converters.StringConverter.html",
-          "hash": "EcfG5F8kDSQ8WmVikCD8i8iKPnir52O3jyAlR8drXmI="
+          "hash": "tiv9foBjRwJ6zC77AQ907pDhOjci6ZyvqXGkmGJIkEw="
         }
       },
       "is_incremental": false,
@@ -206,7 +206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Converters.html",
-          "hash": "nWyQYQNeGFgemNFvKibQh8mVQFbw3AOVZNMysmCnUNg="
+          "hash": "o5R8OrhK2jEBZhaUPnb9DmEFMpYd03sBuaatnvX/53s="
         }
       },
       "is_incremental": false,

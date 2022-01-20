@@ -46,11 +46,11 @@
                                 imageAddress: "RevitPluginKitTests.assets.icons.CollectorsTestIcon.png",
                                 className: "RevitPluginKitTests.Src.CollectorsTest"),
                             new PushButtonSettings(
-                                internalName: "convertersTest",
-                                name: "Converters\ntest",
-                                tooltip: "Runs multiple checks related to value conversions using RevitPluginKit",
-                                imageAddress: "RevitPluginKitTests.assets.icons.ConvertersTestIcon.png",
-                                className: "RevitPluginKitTests.Src.ConvertersTest"),
+                                internalName: "utilitiesTest",
+                                name: "Utility\ntools test",
+                                tooltip: "Runs multiple checks related to utility tools using RevitPluginKit",
+                                imageAddress: "RevitPluginKitTests.assets.icons.UtilitiesTestIcon.png",
+                                className: "RevitPluginKitTests.Src.UtilitiesTest"),
                         }),
                 });
             return Result.Succeeded;

@@ -115,12 +115,12 @@ references:
   commentId: T:RevitPluginKit.Converters.StringConverter
   fullName: RevitPluginKit.Converters.StringConverter
   nameWithType: StringConverter
-- uid: RevitPluginKit.Converters.StringConverter.StopwatchToString(System.Diagnostics.Stopwatch)
-  name: StopwatchToString(Stopwatch)
-  href: api/RevitPluginKit.Converters.StringConverter.html#RevitPluginKit_Converters_StringConverter_StopwatchToString_System_Diagnostics_Stopwatch_
-  commentId: M:RevitPluginKit.Converters.StringConverter.StopwatchToString(System.Diagnostics.Stopwatch)
-  fullName: RevitPluginKit.Converters.StringConverter.StopwatchToString(System.Diagnostics.Stopwatch)
-  nameWithType: StringConverter.StopwatchToString(Stopwatch)
+- uid: RevitPluginKit.Converters.StringConverter.StopwatchToString(System.Diagnostics.Stopwatch,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: StopwatchToString(Stopwatch, Boolean, Boolean, Boolean, Boolean)
+  href: api/RevitPluginKit.Converters.StringConverter.html#RevitPluginKit_Converters_StringConverter_StopwatchToString_System_Diagnostics_Stopwatch_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:RevitPluginKit.Converters.StringConverter.StopwatchToString(System.Diagnostics.Stopwatch,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  fullName: RevitPluginKit.Converters.StringConverter.StopwatchToString(System.Diagnostics.Stopwatch, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: StringConverter.StopwatchToString(Stopwatch, Boolean, Boolean, Boolean, Boolean)
 - uid: RevitPluginKit.Converters.StringConverter.StopwatchToString*
   name: StopwatchToString
   href: api/RevitPluginKit.Converters.StringConverter.html#RevitPluginKit_Converters_StringConverter_StopwatchToString_

@@ -14,7 +14,8 @@
         /// <para>Specify document(model), element type category and optional parameters to collect element instances.</para>
         /// </summary>
         /// <typeparam name="T">
-        /// Revit category (For example: Element).
+        /// Revit category (For example: Element). The function will search for elements in the model and return a list of the specified type "T".
+        /// <para>The most versatile returnable entity for element instances is "Element" (Autodesk.Revit.DB.Element).</para>
         /// </typeparam>
         /// <param name="document">
         /// Current revit document instance.
@@ -33,16 +34,19 @@
         /// </param>
         /// <param name="levelIdsToFilterBy">
         /// Optional parameter: if necessary, specify list of level ids of the elements to be collected.
+        /// <para>List elements correspond to class instances of Autodesk.Revit.DB.ElementId.</para>
         /// </param>
         /// <param name="useOptionFilter">
         /// Optional parameter: indicate whether it is necessary to use an option filter.
+        /// <para>If useOptionFilter equals false => then - items from the currently active option will be collected.</para>
         /// </param>
         /// <param name="optionFilter">
         /// Optional parameter: specify option filter.
-        /// <para>If useOptionFilter == true and optionFilter == null => items from the currently active option will be collected.</para>
+        /// <para>If useOptionFilter equals true and optionFilter equals null => then - items from the currently active option will be collected.</para>
         /// </param>
         /// <returns>
-        /// Returns the list of Revit elements (Element).
+        /// Returns the list of Revit elements or other specified Revit entity.
+        /// <para>The type of the returned entity is specified in the generic type "T".</para>
         /// </returns>
         public static List<T> InstancesByCategory<T>(
             Document document,
@@ -71,7 +75,10 @@
         /// <para>Specify document(model), element type category and optional parameters to collect element types.</para>
         /// </summary>
         /// <typeparam name="T">
-        /// Revit category (For example: Element).
+        /// Revit category (For example: Element). The function will search for elements in the model and return a list of the specified type "T".
+        /// <para>The most versatile returnable entity is Element (Autodesk.Revit.DB.Element).</para>
+        /// <para>Also, when collecting element types, you should pay attention to specific standard type entities such as:
+        /// Autodesk.Revit.DB.WallType, Autodesk.Revit.DB.FloorType, Autodesk.Revit.DB.CeilingType etc.</para>
         /// </typeparam>
         /// <param name="document">
         /// Current revit document instance.
@@ -89,7 +96,8 @@
         /// Optional parameter: if necessary, specify the type name of the elements to be collected.
         /// </param>
         /// <returns>
-        /// Returns the list of Revit elements (Element).
+        /// Returns the list of Revit elements or other specified Revit entity.
+        /// <para>The type of the returned entity is specified in the generic type "T".</para>
         /// </returns>
         public static List<T> TypesByCategory<T>(
             Document document,

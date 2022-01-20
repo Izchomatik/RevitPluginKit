@@ -75,7 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\GeneralTest.cs" />
-    <Compile Include="src\ConvertersTest.cs" />
+    <Compile Include="src\UtilitiesTest.cs" />
     <Compile Include="src\CollectorsTest.cs" />
     <Compile Include="src\utilities\WPFImageStyles.cs" />
     <Compile Include="src\utilities\WPFLineStyles.cs" />
@@ -108,7 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="assets\icons\CollectorsTestIcon.png" />
-    <EmbeddedResource Include="assets\icons\ConvertersTestIcon.png" />
+    <EmbeddedResource Include="assets\icons\UtilitiesTestIcon.png" />
     <Resource Include="assets\icons\FailedIcon.png" />
     <EmbeddedResource Include="assets\icons\GeneralTestIcon.png" />
     <Resource Include="assets\icons\LabIcon.png" />
