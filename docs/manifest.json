@@ -218,7 +218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.ButtonSettings.html",
-          "hash": "te/C2+M5xAMqWbHTVv7F8DhNSBJZ8LnXDn05TfVM6OU="
+          "hash": "pSUUJehBa8HPGDMttNmZ/n6EBGPXHFBEHrxGv2uzhE0="
         }
       },
       "is_incremental": false,
@@ -242,7 +242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.PullDownButtonSettings.html",
-          "hash": "+whj6lXuwbDBJ/kAVUUdbIVaeX8J0iE3t5p7dmDRYP0="
+          "hash": "d9MZ1RKX/l/Aoup5oBV4C8Bqz56YKbICq8JhrQm/muE="
         }
       },
       "is_incremental": false,
@@ -254,7 +254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.PushButtonSettings.html",
-          "hash": "tWlcCVm5oUUrEGUf4Kk1zNY5SwVhzQq96jNPfbal7Ew="
+          "hash": "MPdnl0cJzFU9PtBQE9CQaN6ymuXkeujSBFPBqakZs/E="
         }
       },
       "is_incremental": false,
@@ -266,7 +266,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.RibbonKit.html",
-          "hash": "IAdL5p7Eiu6ahpERCOJ9UDY7dWT/TzNJo+T7dHqRSPc="
+          "hash": "socxZH7So2tsRcvxP+vDrt59iOzzyP4+5pf3KLNxR+c="
         }
       },
       "is_incremental": false,
@@ -278,7 +278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.RibbonPanelSettings.html",
-          "hash": "w1bBcDifa8qwDXK7v+NNW+F9LOkX/rPzjAxgSqXqv9Q="
+          "hash": "5vozD0fvnH72loxHWiRqeeboIEzTCBoPHHPTsHagMQA="
         }
       },
       "is_incremental": false,
@@ -290,7 +290,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.html",
-          "hash": "zS+IUay7kO8Lmur8Ji1PB63Oi1gFHXWWMndocDA7dY0="
+          "hash": "PKlc8+nRxToM/qd4RVfTYLRMhn2LH4KnL1lZkg8j0fA="
         }
       },
       "is_incremental": false,
@@ -348,25 +348,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 7,
-          "skipped_file_count": 0
+          "skipped_file_count": 7
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 14,
-          "skipped_file_count": 0
+          "skipped_file_count": 14
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

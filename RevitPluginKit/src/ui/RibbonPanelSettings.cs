@@ -5,7 +5,7 @@
     /// <summary>
     /// A class for storing data needed to generate a ribbon panel.
     /// <para>A panel in Revit terms is a highlighted area within a tab.
-    /// This area has a name.
+    /// This UI area has a name.
     /// Adding any form of buttons is possible only to the panel.</para>
     /// </summary>
     public class RibbonPanelSettings
@@ -21,12 +21,18 @@
         /// <param name="buttonsSettings">
         /// List of ButtonSettings class instances required to generate ribbon panel buttons.
         /// </param>
+        /// <param name="isActive">
+        /// Value indicating whether to render this UI panel element or not.
+        /// <para>In the general case, it is used to quickly turn off the display of a particular UI element.</para>
+        /// </param>
         public RibbonPanelSettings(
             string name,
-            List<ButtonSettings> buttonsSettings)
+            List<ButtonSettings> buttonsSettings,
+            bool isActive = true)
         {
             this.Name = name;
             this.ButtonsSettings = buttonsSettings;
+            this.IsActive = isActive;
         }
 
         /// <summary>
@@ -38,5 +44,11 @@
         /// Gets list of ButtonSettings class instances required to generate ribbon panel buttons.
         /// </summary>
         public List<ButtonSettings> ButtonsSettings { get; }
+
+        /// <summary>
+        /// Gets a value indicating whether to render this UI panel element or not.
+        /// <para>In the general case, it is used to quickly turn off the display of a particular UI element.</para>
+        /// </summary>
+        public bool IsActive { get; }
     }
 }

@@ -123,6 +123,9 @@
       <a class="xref" href="RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_ImageAddress">ButtonSettings.ImageAddress</a>
     </div>
     <div>
+      <a class="xref" href="RevitPluginKit.Ui.ButtonSettings.html#RevitPluginKit_Ui_ButtonSettings_IsActive">ButtonSettings.IsActive</a>
+    </div>
+    <div>
       <span class="xref">System.Object.ToString()</span>
     </div>
     <div>
@@ -154,19 +157,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Ui_PullDownButtonSettings__ctor_System_String_System_String_System_String_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_PushButtonSettings__.md&amp;value=---%0Auid%3A%20RevitPluginKit.Ui.PullDownButtonSettings.%23ctor(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Collections.Generic.List%7BRevitPluginKit.Ui.PushButtonSettings%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Ui_PullDownButtonSettings__ctor_System_String_System_String_System_String_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_PushButtonSettings__System_Boolean_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Ui.PullDownButtonSettings.%23ctor(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Collections.Generic.List%7BRevitPluginKit.Ui.PushButtonSettings%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/PullDownButtonSettings.cs/#L30">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/PullDownButtonSettings.cs/#L34">View Source</a>
   </span>
   <a id="RevitPluginKit_Ui_PullDownButtonSettings__ctor_" data-uid="RevitPluginKit.Ui.PullDownButtonSettings.#ctor*"></a>
-  <h4 id="RevitPluginKit_Ui_PullDownButtonSettings__ctor_System_String_System_String_System_String_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_PushButtonSettings__" data-uid="RevitPluginKit.Ui.PullDownButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.PushButtonSettings})">PullDownButtonSettings(String, String, String, String, List&lt;PushButtonSettings&gt;)</h4>
+  <h4 id="RevitPluginKit_Ui_PullDownButtonSettings__ctor_System_String_System_String_System_String_System_String_System_Collections_Generic_List_RevitPluginKit_Ui_PushButtonSettings__System_Boolean_" data-uid="RevitPluginKit.Ui.PullDownButtonSettings.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List{RevitPluginKit.Ui.PushButtonSettings},System.Boolean)">PullDownButtonSettings(String, String, String, String, List&lt;PushButtonSettings&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="RevitPluginKit.Ui.PullDownButtonSettings.html">PullDownButtonSettings</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PullDownButtonSettings(string internalName, string name, string tooltip, string imageAddress, List&lt;PushButtonSettings&gt; pushButtonsSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">public PullDownButtonSettings(string internalName, string name, string tooltip, string imageAddress, List&lt;PushButtonSettings&gt; pushButtonsSettings, bool isActive = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -208,6 +211,13 @@
         <td><p>A list of child push button instances for the current parent pull down button.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isActive</span></td>
+        <td><p>Value indicating whether to render this UI pull down button element or not.</p>
+<p>In the general case, it is used to quickly turn off the display of a particular UI element.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
@@ -217,7 +227,7 @@
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Ui_PullDownButtonSettings_PushButtonsSettings.md&amp;value=---%0Auid%3A%20RevitPluginKit.Ui.PullDownButtonSettings.PushButtonsSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/PullDownButtonSettings.cs/#L48">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/PullDownButtonSettings.cs/#L54">View Source</a>
   </span>
   <a id="RevitPluginKit_Ui_PullDownButtonSettings_PushButtonsSettings_" data-uid="RevitPluginKit.Ui.PullDownButtonSettings.PushButtonsSettings*"></a>
   <h4 id="RevitPluginKit_Ui_PullDownButtonSettings_PushButtonsSettings" data-uid="RevitPluginKit.Ui.PullDownButtonSettings.PushButtonsSettings">PushButtonsSettings</h4>

@@ -27,17 +27,23 @@
         /// <param name="pushButtonsSettings">
         /// A list of child push button instances for the current parent pull down button.
         /// </param>
+        /// <param name="isActive">
+        /// Value indicating whether to render this UI pull down button element or not.
+        /// <para>In the general case, it is used to quickly turn off the display of a particular UI element.</para>
+        /// </param>
         public PullDownButtonSettings(
             string internalName,
             string name,
             string tooltip,
             string imageAddress,
-            List<PushButtonSettings> pushButtonsSettings)
+            List<PushButtonSettings> pushButtonsSettings,
+            bool isActive = true)
             : base(
                 internalName: internalName,
                 name: name,
                 tooltip: tooltip,
-                imageAddress: imageAddress)
+                imageAddress: imageAddress,
+                isActive: isActive)
         {
             this.PushButtonsSettings = pushButtonsSettings;
         }

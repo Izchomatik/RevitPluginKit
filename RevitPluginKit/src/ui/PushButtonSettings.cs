@@ -25,17 +25,23 @@
         /// <param name="className">
         /// The name of the class to call when the button is clicked.
         /// </param>
+        /// <param name="isActive">
+        /// Value indicating whether to render this UI push button element or not.
+        /// <para>In the general case, it is used to quickly turn off the display of a particular UI element.</para>
+        /// </param>
         public PushButtonSettings(
             string internalName,
             string name,
             string tooltip,
             string imageAddress,
-            string className)
+            string className,
+            bool isActive = true)
             : base(
                 internalName: internalName,
                 name: name,
                 tooltip: tooltip,
-                imageAddress: imageAddress)
+                imageAddress: imageAddress,
+                isActive: isActive)
         {
             this.ClassName = className;
         }
