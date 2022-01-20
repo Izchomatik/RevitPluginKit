@@ -67,12 +67,12 @@
   "api/RevitPluginKit.Validators.html": {
     "href": "api/RevitPluginKit.Validators.html",
     "title": "Namespace RevitPluginKit.Validators | RevitPluginKit Documentation",
-    "keywords": "Namespace RevitPluginKit.Validators Classes NumberValidator Number validator class."
+    "keywords": "Namespace RevitPluginKit.Validators Classes NumberValidator Number validator class. Designed to check incoming numeric values. Mainly used to process incoming user data."
   },
   "api/RevitPluginKit.Validators.NumberValidator.html": {
     "href": "api/RevitPluginKit.Validators.NumberValidator.html",
     "title": "Class NumberValidator | RevitPluginKit Documentation",
-    "keywords": "Class NumberValidator Number validator class. Inheritance System.Object NumberValidator Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : RevitPluginKit.Validators Assembly : RevitPluginKit.dll Syntax public class NumberValidator Methods | Improve this Doc View Source NumberValidation(Object, TextCompositionEventArgs) Number validation method for wpf textBox. Declaration public static void NumberValidation(object sender, TextCompositionEventArgs e) Parameters Type Name Description System.Object sender Sender object. System.Windows.Input.TextCompositionEventArgs e Text composition event."
+    "keywords": "Class NumberValidator Number validator class. Designed to check incoming numeric values. Mainly used to process incoming user data. Inheritance System.Object NumberValidator Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : RevitPluginKit.Validators Assembly : RevitPluginKit.dll Syntax public class NumberValidator Methods | Improve this Doc View Source NumberValidation(Object, TextCompositionEventArgs) Number validation method for wpf textBox. Accepts user input and returns a boolean value indicating whether the input matches a numeric value. This method is designed to be used when processing data coming through the WPF (System.Windows.Input.TextCompositionEventArgs). Declaration public static void NumberValidation(object sender, TextCompositionEventArgs e) Parameters Type Name Description System.Object sender WPF sender object. System.Windows.Input.TextCompositionEventArgs e WPF text composition event."
   },
   "articles/about.html": {
     "href": "articles/about.html",
