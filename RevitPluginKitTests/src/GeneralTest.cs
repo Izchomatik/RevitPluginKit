@@ -24,7 +24,7 @@
             Document document = uiApp.ActiveUIDocument.Document;
             List<TestResultData> generalTestsResults = new List<TestResultData>();
             generalTestsResults.AddRange(collection: CollectorsTest.AddCollectorsTest(document: document));
-            generalTestsResults.AddRange(collection: ConvertersTest.AddConvertersTest());
+            generalTestsResults.AddRange(collection: UtilitiesTest.AddUtilitiesTest());
             ResultsViewer viewer = new ResultsViewer(
                 title: "General test",
                 description: "Runs all RevitPluginKit tests.",

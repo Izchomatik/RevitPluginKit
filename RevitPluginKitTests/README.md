@@ -10,7 +10,13 @@
 
 	* In `Start options` section add Revit test file destination - for example: `D:\GitHub\RevitPluginKit\RevitPluginKitTests\assets\revit\RevitPluginKitTests.rvt`
 
-* Start `F5`, and check that the correct test model is launched
+* Open solution properties
+
+* Add settings in `Common Properties` tab:
+
+	* In `Startup Project` section set flag `Current selection`
+
+* Start `F5` from any class located in `RevitPluginKitTests` project, and check that the correct test model is launched
 
 ## Running tests
 
