@@ -43,33 +43,44 @@
         /// <summary>
         /// Gets internal button name data.
         /// </summary>
-        /// <remarks>
-        /// remarks.
-        /// </remarks>
         /// <value>
-        /// value.
+        /// String representing the value for the function's internal naming.
         /// </value>
         public string InternalName { get; }
 
         /// <summary>
         /// Gets public button name data (visible to the user).
         /// </summary>
+        /// <value>
+        /// String representing a value indicating the name of the button - visible to the user (only used as part of your plugin's UI).
+        /// </value>
         public string Name { get; }
 
         /// <summary>
         /// Gets public button tooltip data.
         /// </summary>
+        /// <value>
+        /// String representing the data corresponding to the explanation text that pops up when you hover the mouse over this element of the UI.
+        /// </value>
         public string Tooltip { get; }
 
         /// <summary>
         /// Gets button image storage address.
         /// </summary>
+        /// <value>
+        /// String representing the location of the image to be used as an icon inside your project/solution.
+        /// </value>
         public string ImageAddress { get; }
 
         /// <summary>
         /// Gets a value indicating whether to render this UI element or not.
         /// <para>In the general case, it is used to quickly turn off the display of a particular UI element.</para>
         /// </summary>
+        /// <value>
+        /// Specifies whether to generate the UI for this element.
+        /// <para>Predefined value "true" - causes the UI element to be rendered.
+        /// The value "false" is perceived as a temporary need to cancel the rendering of this UI element.</para>
+        /// </value>
         public bool IsActive { get; }
     }
 }

@@ -49,6 +49,10 @@
         /// <summary>
         /// Gets main button function to call.
         /// </summary>
+        /// <value>
+        /// String representing the name - corresponding to the full path to the class in which the IExternalCommand interface is implemented.
+        /// Also - this class is the direct execution function that must be called when the user clicks on this button (as intended by the creator of the custom plugin).
+        /// </value>
         public string ClassName { get; }
     }
 }

@@ -51,6 +51,9 @@
         /// <summary>
         /// Gets a list of child push button instances for the current parent pull down button.
         /// </summary>
+        /// <value>
+        /// List of data elements - on the basis of which the set of push buttons (included in the drop-down list of this pull down button) will be rendered.
+        /// </value>
         public List<PushButtonSettings> PushButtonsSettings { get; }
     }
 }
