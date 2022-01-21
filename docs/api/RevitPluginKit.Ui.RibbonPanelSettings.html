@@ -196,7 +196,7 @@ Includes information about the buttons that the ribbon panel should contain.</p>
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Ui_RibbonPanelSettings_ButtonsSettings.md&amp;value=---%0Auid%3A%20RevitPluginKit.Ui.RibbonPanelSettings.ButtonsSettings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/RibbonPanelSettings.cs/#L46">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/RibbonPanelSettings.cs/#L52">View Source</a>
   </span>
   <a id="RevitPluginKit_Ui_RibbonPanelSettings_ButtonsSettings_" data-uid="RevitPluginKit.Ui.RibbonPanelSettings.ButtonsSettings*"></a>
   <h4 id="RevitPluginKit_Ui_RibbonPanelSettings_ButtonsSettings" data-uid="RevitPluginKit.Ui.RibbonPanelSettings.ButtonsSettings">ButtonsSettings</h4>
@@ -218,7 +218,8 @@ Includes information about the buttons that the ribbon panel should contain.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="RevitPluginKit.Ui.ButtonSettings.html">ButtonSettings</a>&gt;</td>
-        <td></td>
+        <td><p>List of data elements - on the basis of which the set of buttons (included in this panel) will be rendered.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -227,7 +228,7 @@ Includes information about the buttons that the ribbon panel should contain.</p>
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Ui_RibbonPanelSettings_IsActive.md&amp;value=---%0Auid%3A%20RevitPluginKit.Ui.RibbonPanelSettings.IsActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/RibbonPanelSettings.cs/#L52">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/RibbonPanelSettings.cs/#L63">View Source</a>
   </span>
   <a id="RevitPluginKit_Ui_RibbonPanelSettings_IsActive_" data-uid="RevitPluginKit.Ui.RibbonPanelSettings.IsActive*"></a>
   <h4 id="RevitPluginKit_Ui_RibbonPanelSettings_IsActive" data-uid="RevitPluginKit.Ui.RibbonPanelSettings.IsActive">IsActive</h4>
@@ -250,7 +251,10 @@ Includes information about the buttons that the ribbon panel should contain.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Specifies whether to generate the UI for this element.</p>
+<p>Predefined value &quot;true&quot; - causes the UI element to be rendered.
+The value &quot;false&quot; is perceived as a temporary need to cancel the rendering of this UI element.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -259,7 +263,7 @@ Includes information about the buttons that the ribbon panel should contain.</p>
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/documentation_rework/apiSpec/new?filename=RevitPluginKit_Ui_RibbonPanelSettings_Name.md&amp;value=---%0Auid%3A%20RevitPluginKit.Ui.RibbonPanelSettings.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/RibbonPanelSettings.cs/#L41">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/documentation_rework/RevitPluginKit/src/ui/RibbonPanelSettings.cs/#L44">View Source</a>
   </span>
   <a id="RevitPluginKit_Ui_RibbonPanelSettings_Name_" data-uid="RevitPluginKit.Ui.RibbonPanelSettings.Name*"></a>
   <h4 id="RevitPluginKit_Ui_RibbonPanelSettings_Name" data-uid="RevitPluginKit.Ui.RibbonPanelSettings.Name">Name</h4>
@@ -281,7 +285,8 @@ Includes information about the buttons that the ribbon panel should contain.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>String representing a value indicating the name of the panel - visible to the user (only used as part of your plugin's UI).</p>
+</td>
       </tr>
     </tbody>
   </table>
