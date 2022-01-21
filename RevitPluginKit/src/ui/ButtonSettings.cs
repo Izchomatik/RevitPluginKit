@@ -43,6 +43,12 @@
         /// <summary>
         /// Gets internal button name data.
         /// </summary>
+        /// <remarks>
+        /// remarks.
+        /// </remarks>
+        /// <value>
+        /// value.
+        /// </value>
         public string InternalName { get; }
 
         /// <summary>
