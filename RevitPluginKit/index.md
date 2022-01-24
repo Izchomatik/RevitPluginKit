@@ -1,3 +1,10 @@
+
+# Welcome to the RevitPluginKit Documentation
+
+<img src="../docs/images/tileOverview.PNG" alt="Overview" width="800"/>
+
+[!<img src="../docs/images/tileOverview.PNG" alt="Overview" width="800"/>](https://izchomatik.github.io/RevitPluginKit/articles/about.html)
+
 [![Overview](../docs/images/tileOverview.PNG)](https://izchomatik.github.io/RevitPluginKit/articles/about.html)
 
 [![Building](../docs/images/tileBuilding.PNG)](https://izchomatik.github.io/RevitPluginKit/articles/building.html)
