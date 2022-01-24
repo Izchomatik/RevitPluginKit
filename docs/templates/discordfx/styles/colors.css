@@ -5,7 +5,7 @@
     --main-bg-color: #36393f;
     --footer-bg-color: rgba(0,0,0,.4);
     --table-strip-bg-color: #121315;
-    --table-header-bg-color: #202225;;
+    --table-header-bg-color: #202225;
     --table-header-color: hsla(0,0%,100%,.8);
     --table-header-border-color: #040405;
 
@@ -14,10 +14,10 @@
     --link-color: #00b0f4;
     --link-hover-color: #4bd5ff;
     --link-active-color: #fff;
-    --link-active-bg-color: #7289da;
-    --h3-color: #ffffff85;
-    --h4-color: #ffffffeb;
-    --h5-color: #ffffffd1;
+    --link-active-bg-color: #DA7285;
+    --h3-color: #E43C70;
+    --h4-color: #E43C70;
+    --h5-color: #E43C70
     
     /* Topbar */
     --topbar-bg-color: #18191c;
