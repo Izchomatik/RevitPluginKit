@@ -1,0 +1,8 @@
+/* Color schemes */
+:root {
+    /* Text */
+    --link-active-bg-color: #DA7285;
+    --h3-color: #E43C70;
+    --h4-color: #E43C70;
+    --h5-color: #E43C70;
+}
