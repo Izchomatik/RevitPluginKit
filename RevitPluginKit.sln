@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{2F003808-1
 	ProjectSection(SolutionItems) = preProject
 		docs\templates\discordfx\styles\colors.css = docs\templates\discordfx\styles\colors.css
 		docs\templates\discordfx\styles\discord.css = docs\templates\discordfx\styles\discord.css
-		docs\styles\main.css = docs\styles\main.css
+		docs\templates\discordfx\styles\main.css = docs\templates\discordfx\styles\main.css
 	EndProjectSection
 EndProject
 Global
