@@ -14,6 +14,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "../docs/images/RPKLogo.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/RPKLogo.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "../docs/images/addPullDownButton.PNG",
       "output": {
         "resource": {
@@ -57,12 +68,67 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "../docs/images/tileBuilding.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/tileBuilding.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../docs/images/tileCollectors.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/tileCollectors.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../docs/images/tileOverview.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/tileOverview.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../docs/images/tileQuickStartGuide.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/tileQuickStartGuide.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../docs/images/tileUtilityTools.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/tileUtilityTools.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "fISF+kF/UMcErCprBySrvUEHqVr6xV214MOvgUDp+jI="
+          "hash": "FyFaaglRYoj/AMFJQlQIFfuJmKjwq1sfo9tovpH/Vqc="
         }
       },
       "is_incremental": false,
@@ -74,7 +140,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/about.html",
-          "hash": "NvLxSaQW13733eJu7M1Aul0tg14XdoyexyKizNeNZJs="
+          "hash": "xS520em1wZIeG20cM8EOFcEQokEbYz6vV1xMe0mtdjs="
         }
       },
       "is_incremental": false,
@@ -86,7 +152,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/building.html",
-          "hash": "jH5pfXkNx+hkip5nXd6hvIz2SmcfD9Y7F7tJsp/7pEw="
+          "hash": "pCMVF7WDHdvSGBcWtzMQS/EE7wwRJmR0M2R/7rytcGs="
         }
       },
       "is_incremental": false,
@@ -98,7 +164,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/collectors.html",
-          "hash": "4v8wrpc46wdXfRg15hRDl8S/D3cAtPzZQLP0fxenFSg="
+          "hash": "ulophcaU1vWbpQgcQM55DDzezvK5PuS3+DCMd+FsWGU="
         }
       },
       "is_incremental": false,
@@ -110,7 +176,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/quickStartGuide.html",
-          "hash": "vSi9J+aqr/uS4V2Bh4MnUC3uqWRr9UZewM4DKq+VKd8="
+          "hash": "5eEYHF867NzCh0mLonOqYhtwYP50kmQhyMe6olrK8Pw="
         }
       },
       "is_incremental": false,
@@ -134,19 +200,22 @@
       "output": {
         ".html": {
           "relative_path": "articles/utilityTools.html",
-          "hash": "3zGGTXiaepT9wOfofusNkjf6xslGmfEK1b5za8qmXUY="
+          "hash": "zj6QHjCzElNXzO18BFGYBIMjnAEEPfFCVLvkUrlZTDw="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "U0JGREBuSlW0hrLvE6gqNnTVk8+FX0qjJG3jGqmI5JI="
+          "hash": "/Wfuriwk8mYVsqlzuUyk6eCMP73Y0rtE5/H6OAAy3LM="
         }
       },
       "is_incremental": false,
@@ -158,7 +227,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Collectors.ElementsCollector.html",
-          "hash": "9Eit2FJVhiS285TDJO7MmH/R5IdlAYPmW2E4Z0fzygo="
+          "hash": "PBtlXjdPyk4nTgTlydk3kt6rUWdRvDd6ql5GW9tFrGo="
         }
       },
       "is_incremental": false,
@@ -170,7 +239,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Collectors.html",
-          "hash": "LiiLjJTm2b0ZFOeMFWZAujPRnMR5ew8qoDjfk1yVexc="
+          "hash": "SUajSy+PPYb5RDMdvV2WZFCW5AYzN10xhGqtDVLQAGI="
         }
       },
       "is_incremental": false,
@@ -182,7 +251,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Converters.MetricConverter.html",
-          "hash": "4x71XV85mzuYBod31AZqkJrOaaXBOl/xh7EZ8HJenEY="
+          "hash": "kb8gYbwGxbmeahrWqqVC1sodO7hR5qIzmvAvHynHEzs="
         }
       },
       "is_incremental": false,
@@ -194,7 +263,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Converters.StringConverter.html",
-          "hash": "tiv9foBjRwJ6zC77AQ907pDhOjci6ZyvqXGkmGJIkEw="
+          "hash": "OYDi+PUdrZncGSQMquxGz5h8JAdxeGE2+wpseDLTRd4="
         }
       },
       "is_incremental": false,
@@ -206,7 +275,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Converters.html",
-          "hash": "o5R8OrhK2jEBZhaUPnb9DmEFMpYd03sBuaatnvX/53s="
+          "hash": "1xvvyo+DFJgbt5vrrQfMp5myJ9/nCUpocp9o1ne/1d4="
         }
       },
       "is_incremental": false,
@@ -218,7 +287,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.ButtonSettings.html",
-          "hash": "0goTLwml3Dq2vJMzr8Ov2xFyBl4BLVsT7MgeVi6MHgg="
+          "hash": "ukcVsOSrmVG6sG4yr2KL73qkapS+dDnEw+PsgE7bFBc="
         }
       },
       "is_incremental": false,
@@ -230,7 +299,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.ImageKit.html",
-          "hash": "8asY20TUr/ZHMzHln4vGWJaut2R21qWqgE4zR4HiafE="
+          "hash": "13droRD6g+WHCAWfG4eaZHWeeVKl1ryn28AJHBY2dfY="
         }
       },
       "is_incremental": false,
@@ -242,7 +311,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.PullDownButtonSettings.html",
-          "hash": "Dfya4Kqov4qAacX3J6SUbNwnV9qwrClD0U7lkFezV7k="
+          "hash": "AgTSZlE7kBa979wx2ooXyJDhQCI/FHGnUgY4R1AHhtQ="
         }
       },
       "is_incremental": false,
@@ -254,7 +323,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.PushButtonSettings.html",
-          "hash": "/zMKwP1wj6JcYdJP6g3JltHugeEboucBoAgvLnBESNU="
+          "hash": "r9glqyJUeG+iIwYw/uDKVpSO9WdDF65qXoSTtFGcfXo="
         }
       },
       "is_incremental": false,
@@ -266,7 +335,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.RibbonKit.html",
-          "hash": "socxZH7So2tsRcvxP+vDrt59iOzzyP4+5pf3KLNxR+c="
+          "hash": "kOKYNb/m2SXN4z1dEtxjCBSbwCTGo2u9/B2zUpLxF4Y="
         }
       },
       "is_incremental": false,
@@ -278,7 +347,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.RibbonPanelSettings.html",
-          "hash": "+I24tXaJS7RE4iv4AejzWSYGmNQkRx7zbwE8yx3TZdg="
+          "hash": "/wYCVKUaLKYTWaUl7kSnBu7LuaVEdp35OV8+yTPn3PY="
         }
       },
       "is_incremental": false,
@@ -290,7 +359,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.html",
-          "hash": "PKlc8+nRxToM/qd4RVfTYLRMhn2LH4KnL1lZkg8j0fA="
+          "hash": "THix9DbVDQhVUMi/FAUEeiT0Ee8XVwyCjWmArvL12fw="
         }
       },
       "is_incremental": false,
@@ -302,7 +371,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Validators.NumberValidator.html",
-          "hash": "xTRiHuVg3b7Qb+a9iUjddT1I4ashq5pqFXNc2QltsrQ="
+          "hash": "vrMJkQeGdVTKL7JNZ+leWRYbpBtBCfk9vJt0ell39Mc="
         }
       },
       "is_incremental": false,
@@ -314,7 +383,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Validators.html",
-          "hash": "l33vdfWF5adcQiDey+fEYdws9waiCTrCzVbcYZXCVJ0="
+          "hash": "tb4O6OMwLePO72ms+rsqV7pRcdGR5c3ZwI5ZPi0nmf8="
         }
       },
       "is_incremental": false,
