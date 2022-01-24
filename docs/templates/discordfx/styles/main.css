@@ -1,5 +1,6 @@
 /* Color schemes */
 :root {
     /* Text */
+    --link-color: #B500F4;
     --link-active-bg-color: #F17676;
 }
