@@ -18,10 +18,15 @@ jobs:
       
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1
+    
+    - name: Setup Nuget
+      uses: Nuget/setup-nuget@v1.0.5
+    
+    - name: Restore nuget packages
+      run: nuget restore RevitPluginKit.sln
       
     - name: Build
       run: dotnet build --configuration Release
       
     - name: Test
       run: dotnet test --configuration Release --no-build
-    
