@@ -20,13 +20,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{2F003808-1
 		docs\templates\discordfx\styles\main.css = docs\templates\discordfx\styles\main.css
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{9806F2B3-C625-44B7-91BB-A57853BACC93}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{968F5CA2-6E69-4662-968B-304E1E7BF495}"
-	ProjectSection(SolutionItems) = preProject
-		build.yml = build.yml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,9 +57,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{968F5CA2-6E69-4662-968B-304E1E7BF495} = {9806F2B3-C625-44B7-91BB-A57853BACC93}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D649995-360D-4EFA-BB86-2081E6F64567}
