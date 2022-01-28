@@ -121,6 +121,7 @@
     <None Include="docfx.json" />
     <None Include="index.md" />
     <None Include="packages.config" />
+    <None Include="RevitPluginKit.nuspec" />
     <None Include="RevitPluginKit.ruleset" />
     <None Include="toc.yml" />
   </ItemGroup>

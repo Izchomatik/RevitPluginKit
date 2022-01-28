@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("RevitPluginKit")]
 [assembly: AssemblyDescription("Library with a set of tools for preparing Revit plug-in based on .NET.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Izchomatik")]
 [assembly: AssemblyProduct("RevitPluginKit")]
 [assembly: AssemblyCopyright("Copyright © 2022 Ilia Zhukov")]
 [assembly: AssemblyTrademark("")]
