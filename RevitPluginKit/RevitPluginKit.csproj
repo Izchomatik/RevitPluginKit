@@ -114,7 +114,7 @@
     <None Include="api\index.md" />
     <None Include="articles\utilityTools.md" />
     <None Include="articles\collectors.md" />
-    <None Include="articles\building.md" />
+    <None Include="articles\installation.md" />
     <None Include="articles\quickStartGuide.md" />
     <None Include="articles\about.md" />
     <None Include="articles\toc.md" />

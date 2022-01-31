@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
-  <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <license type="expression">MPL-2.0</license>
-    <!-- <icon>icon.png</icon> -->
-    <projectUrl>https://github.com/Izchomatik/RevitPluginKit</projectUrl>
-    <description>$description$</description>
-    <!-- <releaseNotes>Summary of changes made in this release of the package.</releaseNotes> -->
-    <copyright>$copyright$</copyright>
-    <tags>autodesk revit .NET C# addin plugin api revitapi bim rpk tools</tags>
-	<dependencies>
-		<group targetFramework=".NETFramework4.7.2" />
-	</dependencies>
-  </metadata>
+    <metadata>
+        <id>$id$</id>
+        <version>$version$</version>
+        <title>$title$</title>
+        <authors>$author$</authors>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <license type="expression">MPL-2.0</license>
+        <!-- <icon>icon.png</icon> -->
+	    <projectUrl>https://izchomatik.github.io/RevitPluginKit/index.html</projectUrl>
+	    <repository type="git" url="https://github.com/Izchomatik/RevitPluginKit"/>
+	    <icon>..\docs\images\RPKLogo150x150.png</icon>
+        <description>$description$</description>
+        <!-- <releaseNotes>Summary of changes made in this release of the package.</releaseNotes> -->
+        <copyright>$copyright$</copyright>
+        <tags>autodesk revit .NET C# addin plugin api revitapi bim rpk tools</tags>
+	    <dependencies>
+		    <group targetFramework=".NETFramework4.7.2" />
+	    </dependencies>
+    </metadata>
+	<files>
+		<file src="..\RPKLogo150x150.png" target="..\docs\images\" />
+	</files>
 </package>
