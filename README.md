@@ -7,7 +7,7 @@ Please select one of the sections below:
 
 [![Overview](./docs/images/tileOverview.PNG)](https://izchomatik.github.io/RevitPluginKit/articles/about.html)
 
-[![Building](./docs/images/tileBuilding.PNG)](https://izchomatik.github.io/RevitPluginKit/articles/building.html)
+[![Installation](./docs/images/tileInstallation.PNG)](https://izchomatik.github.io/RevitPluginKit/articles/installation.html)
 
 [![Quick start guide](./docs/images/tileQuickStartGuide.PNG)](https://izchomatik.github.io/RevitPluginKit/articles/quickStartGuide.html)
 

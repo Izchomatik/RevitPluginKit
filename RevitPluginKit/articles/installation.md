@@ -1,4 +1,4 @@
 
-# Building
+# Installation
 
 Work in progress.

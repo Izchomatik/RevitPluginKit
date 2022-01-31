@@ -36,6 +36,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "../docs/images/RPKLogo150x150.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/RPKLogo150x150.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "../docs/images/addPullDownButton.PNG",
       "output": {
         "resource": {
@@ -80,10 +91,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "../docs/images/tileBuilding.PNG",
+      "source_relative_path": "../docs/images/tileCollectors.PNG",
       "output": {
         "resource": {
-          "relative_path": "images/tileBuilding.PNG"
+          "relative_path": "images/tileCollectors.PNG"
         }
       },
       "is_incremental": false,
@@ -91,10 +102,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "../docs/images/tileCollectors.PNG",
+      "source_relative_path": "../docs/images/tileInstallation.png",
       "output": {
         "resource": {
-          "relative_path": "images/tileCollectors.PNG"
+          "relative_path": "images/tileInstallation.png"
         }
       },
       "is_incremental": false,
@@ -159,11 +170,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/building.md",
+      "source_relative_path": "articles/collectors.md",
       "output": {
         ".html": {
-          "relative_path": "articles/building.html",
-          "hash": "nRXGUliQ2YQNE4XomDkvDOfvJRmpJRUZCQVSouNOa7k="
+          "relative_path": "articles/collectors.html",
+          "hash": "HTYJ+FXhFq4frRBe+EokF/V7WYrngITR5c1UtPbdnmQ="
         }
       },
       "is_incremental": false,
@@ -171,11 +182,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/collectors.md",
+      "source_relative_path": "articles/installation.md",
       "output": {
         ".html": {
-          "relative_path": "articles/collectors.html",
-          "hash": "HTYJ+FXhFq4frRBe+EokF/V7WYrngITR5c1UtPbdnmQ="
+          "relative_path": "articles/installation.html",
+          "hash": "iy8T+fj6Ir2n/nmrMFm/oMAeLOqOIvLG69UspOGJITc="
         }
       },
       "is_incremental": false,
@@ -199,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "Qt18l6DjcW17jknVzJI2aDwNvu8DsdoHKLXmbc0EDc8="
+          "hash": "lDEA7vzWFBxEUHmuxbrt5UkGxcKHcIi/dXcdJvYLFyk="
         }
       },
       "is_incremental": false,
@@ -218,12 +229,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "iI1zb89JybM/ksajtxoZ8pR2IKtaO3dQZ1KC2BObr3I="
+          "hash": "b0vuFxyArsnd/Ot6UoKVyMDKu5/E/3yf7DyvtsJvcOE="
         }
       },
       "is_incremental": false,
