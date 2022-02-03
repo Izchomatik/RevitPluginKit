@@ -11,7 +11,7 @@
         <license type="expression">MPL-2.0</license>
 	    <projectUrl>https://izchomatik.github.io/RevitPluginKit/index.html</projectUrl>
 	    <repository type="git" url="https://github.com/Izchomatik/RevitPluginKit"/>
-	    <icon>images\RPKLogo150x150.png</icon>
+	    <icon>images\RPKLogo128x128.png</icon>
         <description>$description$</description>
         <releaseNotes>0.0.1 - Initial release.</releaseNotes>
         <copyright>$copyright$</copyright>
@@ -19,8 +19,9 @@
 		<dependencies>
 			<group targetFramework=".NETFramework4.7.2"></group>
 		</dependencies>
+		<readme>docs\README.md</readme>
     </metadata>
 	<files>
-		<file src="..\docs\images\RPKLogo150x150.png" target="images\" />
+		<file src="..\docs\images\RPKLogo128x128.png" target="images\" />
 	</files>
 </package>
