@@ -36,10 +36,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "../docs/images/RPKLogo150x150.png",
+      "source_relative_path": "../docs/images/RPKLogo128x128.png",
       "output": {
         "resource": {
-          "relative_path": "images/RPKLogo150x150.png"
+          "relative_path": "images/RPKLogo128x128.png"
         }
       },
       "is_incremental": false,
