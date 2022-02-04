@@ -102,10 +102,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "../docs/images/tileInstallation.png",
+      "source_relative_path": "../docs/images/tileInstallation.PNG",
       "output": {
         "resource": {
-          "relative_path": "images/tileInstallation.png"
+          "relative_path": "images/tileInstallation.PNG"
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/about.html",
-          "hash": "5XuxQpvVK95no2in1v0Akx2Bbtitk2N3c9WR1CFW3wI="
+          "hash": "vP3liRGCjinum74p66JfwEBrPVaXcuKM615vy1MKb9U="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/installation.html",
-          "hash": "iy8T+fj6Ir2n/nmrMFm/oMAeLOqOIvLG69UspOGJITc="
+          "hash": "cUjHD5rNfhrZsSpVEqURJzQL/3EqruiszVg+r9lR5qk="
         }
       },
       "is_incremental": false,

@@ -77,7 +77,7 @@
   "articles/about.html": {
     "href": "articles/about.html",
     "title": "About project | RevitPluginKit Documentation",
-    "keywords": "About project Description RevitPluginKit is a set of tools and utilities designed to simplify the creation of a custom plug-in for the Autodesk Revit program. The library is intended primarily to simplify work with Revit api and standardize the processes associated with the preparation of a custom plugin for the Revit program. RevitPluginKit provides tools for convenient \"Revit\" ribbon panel generation, feature sets such as fast and simple model elements collectors, set of converters, validators and many other tools. Project goals Simplify and accelerate interactions with the \"Revit API\" through a dedicated tools library Building and Maintaining an Efficient Custom Plugin Creation Template Internal standardization of the process of preparing a custom plug-in for \"Revit\" Efficient testing of the basic functions of a custom plugin Collecting the best (hopefully) practices Versions The library has been tested in \"Revit\" versions: 2019 2020 2021"
+    "keywords": "About project RevitPluginKit is a set of tools and utilities designed to simplify the creation of a custom plug-in for the \"Autodesk Revit\" program. The library is intended primarily to simplify work with \"Revit API\" and standardize the processes associated with the preparation of a custom plugin for the Revit program. RevitPluginKit provides tools for convenient \"Revit\" ribbon panel generation, feature sets such as fast and simple model elements collectors, set of converters, validators and many other tools. Project goals Simplify and accelerate interactions with the \"Revit API\" through a dedicated tools library Building and Maintaining an Efficient Custom Plugin Creation Template Internal standardization of the process of preparing a custom plug-in for \"Revit\" Efficient testing of the basic functions of a custom plugin Collecting the best (hopefully) practices Description The project is presented in open source format (MPL 2.0) The project is a wrapper for the functionality presented in the documentation: Revit API Docs The library has been tested in \"Revit\" versions: 2019, 2020, 2021"
   },
   "articles/collectors.html": {
     "href": "articles/collectors.html",
@@ -87,7 +87,7 @@
   "articles/installation.html": {
     "href": "articles/installation.html",
     "title": "Installation | RevitPluginKit Documentation",
-    "keywords": "Installation Work in progress."
+    "keywords": "Installation NuGet installation You can install the library using the NuGet package . Options: Package manager: Install-Package RevitPluginKit -Version 0.0.1 .NET CLI: dotnet add package RevitPluginKit --version 0.0.1 NuGet package in Visual Studio installation You can install the library using the NuGet package manager in Visual Studio: Open \"Tools\" => \"Nuget Package Manager\" => \"Manage NuGet Packages for Solution...\" Browse for \"RevitPluginKit\" Install the \"RevitPluginKit\" to the required project"
   },
   "articles/quickStartGuide.html": {
     "href": "articles/quickStartGuide.html",
