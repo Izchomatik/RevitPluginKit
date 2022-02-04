@@ -229,15 +229,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "j3eRKVHTyxbrVmOKnn2paJ66jvq0qgRcNDqczO9onWg="
+          "hash": "Zf31tlBEWJY+V0fw3GkyAcV5Rp1wbu9BKdJ2IfvOHec="
         }
       },
       "is_incremental": false,
