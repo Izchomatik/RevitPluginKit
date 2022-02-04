@@ -87,7 +87,7 @@
   "articles/installation.html": {
     "href": "articles/installation.html",
     "title": "Installation | RevitPluginKit Documentation",
-    "keywords": "Installation NuGet installation You can install the library using the NuGet package . Options: Package manager: Install-Package RevitPluginKit -Version 0.0.1 .NET CLI: dotnet add package RevitPluginKit --version 0.0.1 NuGet package in Visual Studio installation You can install the library using the NuGet package manager in Visual Studio: Open \"Tools\" => \"Nuget Package Manager\" => \"Manage NuGet Packages for Solution...\" Browse for \"RevitPluginKit\" Install the \"RevitPluginKit\" to the required project"
+    "keywords": "Installation NuGet installation You can install the library using the NuGet package . Options: Package manager: Install-Package RevitPluginKit -Version 0.0.2 .NET CLI: dotnet add package RevitPluginKit --version 0.0.2 NuGet package in Visual Studio installation You can install the library using the NuGet package manager in Visual Studio: Open \"Tools\" => \"Nuget Package Manager\" => \"Manage NuGet Packages for Solution...\" Browse for \"RevitPluginKit\" Install the \"RevitPluginKit\" to the required project"
   },
   "articles/quickStartGuide.html": {
     "href": "articles/quickStartGuide.html",

@@ -7,9 +7,9 @@ You can install the library using the [NuGet package](https://www.nuget.org/pack
 
 Options:
 
-* Package manager: `Install-Package RevitPluginKit -Version 0.0.1`
+* Package manager: `Install-Package RevitPluginKit -Version 0.0.2`
 
-* .NET CLI: `dotnet add package RevitPluginKit --version 0.0.1`
+* .NET CLI: `dotnet add package RevitPluginKit --version 0.0.2`
 
 ## NuGet package in Visual Studio installation
 
