@@ -19,9 +19,10 @@
 		<dependencies>
 			<group targetFramework=".NETFramework4.7.2"></group>
 		</dependencies>
-		<!-- <readme>docs\README.md</readme> -->
+		<readme>docs\README.md</readme>
     </metadata>
 	<files>
 		<file src="..\docs\images\RPKLogo128x128.png" target="images\" />
+		<file src="articles\about.md" target="docs\README.md" />
 	</files>
 </package>
