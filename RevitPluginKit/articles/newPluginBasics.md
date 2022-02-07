@@ -1,4 +1,4 @@
-# The basics of creating new plug-ins
+# The basics of creating new plugins
 
 ## Description
 
@@ -24,22 +24,22 @@ In the new session visual studio:
 
 	* Add the following lines to this file:
 
-		```xml
-		<?xml version="1.0" encoding="utf-8"?>
-		<RevitAddIns>
-			<AddIn Type="Application">
-				<Name>myPluginName</Name>
-				<Assembly>myPlugin.dll</Assembly>
-				<AddInId>GUID</AddInId>
-				<FullClassName>myPluginNamespace.myPluginMain</FullClassName>
-				<Text>myPlugin text.</Text>
-				<Description>myPlugin description.</Description>
-				<VisibilityMode>AlwaysVisible</VisibilityMode>
-				<VendorId>myPlugin vendor</VendorId>
-				<VendorDescription>myPlugin vendor description</VendorDescription>
-			</AddIn>
-		</RevitAddIns>
-		```
+	```
+	<?xml version="1.0" encoding="utf-8"?>
+	<RevitAddIns>
+		<AddIn Type="Application">
+			<Name>myPluginName</Name>
+			<Assembly>myPlugin.dll</Assembly>
+			<AddInId>GUID</AddInId>
+			<FullClassName>myPluginNamespace.myPluginMain</FullClassName>
+			<Text>myPlugin text.</Text>
+			<Description>myPlugin description.</Description>
+			<VisibilityMode>AlwaysVisible</VisibilityMode>
+			<VendorId>myPlugin vendor</VendorId>
+			<VendorDescription>myPlugin vendor description</VendorDescription>
+		</AddIn>
+	</RevitAddIns>
+	```
 
 	* Adjust field values (marked using `myPlugin`)
 

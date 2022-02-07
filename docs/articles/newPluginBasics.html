@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>The basics of creating new plug-ins | RevitPluginKit Documentation </title>
+    <title>The basics of creating new plugins | RevitPluginKit Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="The basics of creating new plug-ins | RevitPluginKit Documentation ">
+    <meta name="title" content="The basics of creating new plugins | RevitPluginKit Documentation ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../images/RPKLogo.ico">
@@ -91,7 +91,7 @@
                         </div>
 
                     <article class="content wrap" id="_content" data-uid="">
-<h1 id="the-basics-of-creating-new-plug-ins">The basics of creating new plug-ins</h1>
+<h1 id="the-basics-of-creating-new-plugins">The basics of creating new plugins</h1>
 
 <h2 id="description">Description</h2>
 <p>This article describes the process of organizing a custom plug-in for the Revit program based on .NET technologies (C#) and Visual Studio IDE software from Microsoft.</p>
@@ -114,7 +114,9 @@
 <li><p>In your custom plugin project, create a .addin manifest file (for example: myPlugin.addin) that Revit will use to include your plugin on startup.</p>
 </li>
 <li><p>Add the following lines to this file:</p>
-<pre><code class="lang-xml">  &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+</li>
+</ul>
+<pre><code>  &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
   &lt;RevitAddIns&gt;
   	&lt;AddIn Type=&quot;Application&quot;&gt;
   		&lt;Name&gt;myPluginName&lt;/Name&gt;
@@ -129,7 +131,7 @@
   	&lt;/AddIn&gt;
   &lt;/RevitAddIns&gt;
 </code></pre>
-</li>
+<ul>
 <li><p>Adjust field values (marked using <code>myPlugin</code>)</p>
 </li>
 <li><p>Replace the GUID field with your unique GUID-token (you can generate it in any free online GUID-generator service)</p>

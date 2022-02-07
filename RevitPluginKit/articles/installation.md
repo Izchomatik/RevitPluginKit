@@ -5,7 +5,7 @@
 
 This article covers the installation of the RevitPluginKit topics.
 
-Detailed information on creating a custom plug-in for the Revit program is described in "**[The basics of creating new plug-ins](https://izchomatik.github.io/RevitPluginKit/articles/newPluginBasics.html)**" page.
+Detailed information on creating a custom plug-in for the Revit program is described in "**[The basics of creating new plugins](https://izchomatik.github.io/RevitPluginKit/articles/newPluginBasics.html)**" page.
 
 ## Installing a NuGet package
 
