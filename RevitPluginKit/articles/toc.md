@@ -1,7 +1,7 @@
 
 #[About project](about.md)
 
-#[The basics of creating new plug-ins](newPluginBasics.md)
+#[The basics of creating new plugins](newPluginBasics.md)
 
 #[Installation](installation.md)
 

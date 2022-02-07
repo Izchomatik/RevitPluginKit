@@ -3,7 +3,7 @@
 
 ## Create new custom plugin
 
-Prepare your custom plug-in for the Revit program **[using these instructions](https://izchomatik.github.io/RevitPluginKit/articles/newPluginBasics.html)**.
+Prepare your custom plug-in for the Revit program using instructions from: "**[The basics of creating new plugins](https://izchomatik.github.io/RevitPluginKit/articles/newPluginBasics.html)**".
 
 ## Add Revit plug-in ribbon tab
 
