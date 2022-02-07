@@ -1,7 +1,13 @@
 
 # Installation
 
-## NuGet installation
+## Description
+
+This article covers the installation of the RevitPluginKit topics.
+
+Detailed information on creating a custom plug-in for the Revit program is described in **[The basics of creating new plug-ins](https://izchomatik.github.io/RevitPluginKit/articles/newPluginBasics.html)** page.
+
+## Installing a NuGet package
 
 You can install the library using the [NuGet package](https://www.nuget.org/packages/RevitPluginKit/).
 
@@ -11,7 +17,7 @@ Options:
 
 * .NET CLI: `dotnet add package RevitPluginKit --version 0.0.2`
 
-## NuGet package in Visual Studio installation
+## Installing a NuGet package in Visual Studio
 
 You can install the library using the NuGet package manager in Visual Studio:
 

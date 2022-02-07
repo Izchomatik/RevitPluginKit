@@ -112,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="api\index.md" />
+    <None Include="articles\newPluginBasics.md" />
     <None Include="articles\utilityTools.md" />
     <None Include="articles\collectors.md" />
     <None Include="articles\installation.md" />

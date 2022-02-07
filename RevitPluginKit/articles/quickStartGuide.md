@@ -1,6 +1,10 @@
 
 # Quick start guide
 
+## Create new custom plugin
+
+Prepare your custom plug-in for the Revit program **[using these instructions](https://izchomatik.github.io/RevitPluginKit/articles/newPluginBasics.html)**.
+
 ## Add Revit plug-in ribbon tab
 
 * Find the starter class where the base interface `IExternalApplication` for your plugin is defined.
