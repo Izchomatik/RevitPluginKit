@@ -20,9 +20,9 @@ In the new session visual studio:
 
 * Add Revit addin manifest:
 
-	* In your custom plugin project, create a .addin manifest file (for example: myPlugin.addin) that Revit will use to include your plugin on startup.
+	In your custom plugin project, create a .addin manifest file (for example: myPlugin.addin) that Revit will use to include your plugin on startup.
 
-	* Add the following lines to this file:
+	Add the following lines to this file:
 
 	```
 	<?xml version="1.0" encoding="utf-8"?>
@@ -41,19 +41,19 @@ In the new session visual studio:
 	</RevitAddIns>
 	```
 
-	* Adjust field values (marked using `myPlugin`)
+* Adjust field values (marked using `myPlugin`)
 
-	* Replace the GUID field with your unique GUID-token (you can generate it in any free online GUID-generator service)
+* Replace the GUID field with your unique GUID-token (you can generate it in any free online GUID-generator service)
 
 ## Add required references
 
 * Add references to the two main libraries of the Revit program to your custom plugin project:
 
-	* In Solution Explorer, right-click the `References` section of your custom plug-in project and select "Add Reference..."
+* In Solution Explorer, right-click the `References` section of your custom plug-in project and select "Add Reference..."
 	
-	* Add `RevitAPI.dll` (for Revit 2019, this library is usually located at: C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll)
+	Add `RevitAPI.dll` (for Revit 2019, this library is usually located at: C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll)
 
-	* Add `RevitAPIUI.dll` (for Revit 2019, this library is usually located at: C:\Program Files\Autodesk\Revit 2019\RevitAPIUI.dll)
+	Add `RevitAPIUI.dll` (for Revit 2019, this library is usually located at: C:\Program Files\Autodesk\Revit 2019\RevitAPIUI.dll)
 
 * For each of the Revit libraries (`RevitAPI.dll` and `RevitAPIUI.dll`), set the value of the "Copy Local" property as false
 
@@ -73,8 +73,8 @@ In order for Revit to correctly connect your plugin as external applications, yo
 
 * Copy the custom plug-in library (myPlugin.dll), RevitPluginKit.dll and custom plug-in manifest (myPlugin.addin) to the Revit addins folder
 
-	* Usually the folder with addins on the example of Revit 2019 is located at: `C:\ProgramData\Autodesk\Revit\Addins\2019`
+	Usually the folder with addins on the example of Revit 2019 is located at: `C:\ProgramData\Autodesk\Revit\Addins\2019`
 
-	* After building the project, your custom plug-in library (myPlugin.dll) and RevitPluginKit.dll are in the bin folder located at the root of the project
+	After building the project, your custom plug-in library (myPlugin.dll) and RevitPluginKit.dll are in the bin folder located at the root of the project
 
 * Open Revit and check that your plug-in has appeared in Revit the tabs
