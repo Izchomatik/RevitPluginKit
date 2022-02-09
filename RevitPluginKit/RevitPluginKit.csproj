@@ -109,6 +109,7 @@
     <Compile Include="src\ui\RibbonKit.cs" />
     <Compile Include="src\ui\ImageKit.cs" />
     <Compile Include="src\validators\NumberValidator.cs" />
+    <Compile Include="src\wpf\ObservableItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="api\index.md" />
