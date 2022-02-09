@@ -23,10 +23,25 @@
         /// <param name="element">
         /// Generic element stored in this ObservableItem.
         /// </param>
+        /// <param name="name">
+        /// Optional parameter: if necessary, specify the string observable name of this ObservableItem.
+        /// </param>
+        /// <param name="number">
+        /// Optional parameter: if necessary, specify the int observable number of this ObservableItem.
+        /// </param>
+        /// <param name="isChecked">
+        /// Optional parameter: if necessary, specify the bool observable value of this ObservableItem.
+        /// </param>
         public ObservableItem(
-            T element)
+            T element,
+            string name = null,
+            int number = 0,
+            bool isChecked = false)
         {
             this.Element = element;
+            this.name = name;
+            this.number = number;
+            this.isChecked = isChecked;
         }
 
         /// <inheritdoc/>
