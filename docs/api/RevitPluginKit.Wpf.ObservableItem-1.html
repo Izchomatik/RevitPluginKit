@@ -162,19 +162,19 @@ In this case, you will need to refer in your ListBox to the List of ObservableIt
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Izchomatik/RevitPluginKit/new/wpf_toolkit/apiSpec/new?filename=RevitPluginKit_Wpf_ObservableItem_1__ctor__0_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Wpf.ObservableItem%601.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/new/wpf_toolkit/apiSpec/new?filename=RevitPluginKit_Wpf_ObservableItem_1__ctor__0_System_String_System_Int32_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20RevitPluginKit.Wpf.ObservableItem%601.%23ctor(%600%2CSystem.String%2CSystem.Int32%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L26">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L43">View Source</a>
   </span>
   <a id="RevitPluginKit_Wpf_ObservableItem_1__ctor_" data-uid="RevitPluginKit.Wpf.ObservableItem`1.#ctor*"></a>
-  <h4 id="RevitPluginKit_Wpf_ObservableItem_1__ctor__0_" data-uid="RevitPluginKit.Wpf.ObservableItem`1.#ctor(`0)">ObservableItem(T)</h4>
+  <h4 id="RevitPluginKit_Wpf_ObservableItem_1__ctor__0_System_String_System_Int32_System_String_System_String_System_Boolean_" data-uid="RevitPluginKit.Wpf.ObservableItem`1.#ctor(`0,System.String,System.Int32,System.String,System.String,System.Boolean)">ObservableItem(T, String, Int32, String, String, Boolean)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="RevitPluginKit.Wpf.ObservableItem-1.html">ObservableItem&lt;T&gt;</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObservableItem(T element)</code></pre>
+    <pre><code class="lang-csharp hljs">public ObservableItem(T element, string name = null, int number = 0, string section = null, string subSection = null, bool isChecked = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,6 +192,36 @@ In this case, you will need to refer in your ListBox to the List of ObservableIt
         <td><p>Generic element stored in this ObservableItem.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Optional parameter: if necessary, specify the string observable name of this ObservableItem.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">number</span></td>
+        <td><p>Optional parameter: if necessary, specify the int observable number of this ObservableItem.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">section</span></td>
+        <td><p>Optional parameter: if necessary, specify the string observable section name of this ObservableItem.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">subSection</span></td>
+        <td><p>Optional parameter: if necessary, specify the string observable subsection name of this ObservableItem.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isChecked</span></td>
+        <td><p>Optional parameter: if necessary, specify the bool observable value of this ObservableItem.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
@@ -201,7 +231,7 @@ In this case, you will need to refer in your ListBox to the List of ObservableIt
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/wpf_toolkit/apiSpec/new?filename=RevitPluginKit_Wpf_ObservableItem_1_Element.md&amp;value=---%0Auid%3A%20RevitPluginKit.Wpf.ObservableItem%601.Element%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L89">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L148">View Source</a>
   </span>
   <a id="RevitPluginKit_Wpf_ObservableItem_1_Element_" data-uid="RevitPluginKit.Wpf.ObservableItem`1.Element*"></a>
   <h4 id="RevitPluginKit_Wpf_ObservableItem_1_Element" data-uid="RevitPluginKit.Wpf.ObservableItem`1.Element">Element</h4>
@@ -233,7 +263,7 @@ In this case, you will need to refer in your ListBox to the List of ObservableIt
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/wpf_toolkit/apiSpec/new?filename=RevitPluginKit_Wpf_ObservableItem_1_IsChecked.md&amp;value=---%0Auid%3A%20RevitPluginKit.Wpf.ObservableItem%601.IsChecked%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L73">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L132">View Source</a>
   </span>
   <a id="RevitPluginKit_Wpf_ObservableItem_1_IsChecked_" data-uid="RevitPluginKit.Wpf.ObservableItem`1.IsChecked*"></a>
   <h4 id="RevitPluginKit_Wpf_ObservableItem_1_IsChecked" data-uid="RevitPluginKit.Wpf.ObservableItem`1.IsChecked">IsChecked</h4>
@@ -265,7 +295,7 @@ In this case, you will need to refer in your ListBox to the List of ObservableIt
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/wpf_toolkit/apiSpec/new?filename=RevitPluginKit_Wpf_ObservableItem_1_Name.md&amp;value=---%0Auid%3A%20RevitPluginKit.Wpf.ObservableItem%601.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L41">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L68">View Source</a>
   </span>
   <a id="RevitPluginKit_Wpf_ObservableItem_1_Name_" data-uid="RevitPluginKit.Wpf.ObservableItem`1.Name*"></a>
   <h4 id="RevitPluginKit_Wpf_ObservableItem_1_Name" data-uid="RevitPluginKit.Wpf.ObservableItem`1.Name">Name</h4>
@@ -297,7 +327,7 @@ In this case, you will need to refer in your ListBox to the List of ObservableIt
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/wpf_toolkit/apiSpec/new?filename=RevitPluginKit_Wpf_ObservableItem_1_Number.md&amp;value=---%0Auid%3A%20RevitPluginKit.Wpf.ObservableItem%601.Number%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L57">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L84">View Source</a>
   </span>
   <a id="RevitPluginKit_Wpf_ObservableItem_1_Number_" data-uid="RevitPluginKit.Wpf.ObservableItem`1.Number*"></a>
   <h4 id="RevitPluginKit_Wpf_ObservableItem_1_Number" data-uid="RevitPluginKit.Wpf.ObservableItem`1.Number">Number</h4>
@@ -324,6 +354,70 @@ In this case, you will need to refer in your ListBox to the List of ObservableIt
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/new/wpf_toolkit/apiSpec/new?filename=RevitPluginKit_Wpf_ObservableItem_1_Section.md&amp;value=---%0Auid%3A%20RevitPluginKit.Wpf.ObservableItem%601.Section%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L100">View Source</a>
+  </span>
+  <a id="RevitPluginKit_Wpf_ObservableItem_1_Section_" data-uid="RevitPluginKit.Wpf.ObservableItem`1.Section*"></a>
+  <h4 id="RevitPluginKit_Wpf_ObservableItem_1_Section" data-uid="RevitPluginKit.Wpf.ObservableItem`1.Section">Section</h4>
+  <div class="markdown level1 summary"><p>Gets or sets section value of the ObservableItem.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Section { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>String observable value. For example, it is often used to organize items in a ListView into separate sections.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/new/wpf_toolkit/apiSpec/new?filename=RevitPluginKit_Wpf_ObservableItem_1_SubSection.md&amp;value=---%0Auid%3A%20RevitPluginKit.Wpf.ObservableItem%601.SubSection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L116">View Source</a>
+  </span>
+  <a id="RevitPluginKit_Wpf_ObservableItem_1_SubSection_" data-uid="RevitPluginKit.Wpf.ObservableItem`1.SubSection*"></a>
+  <h4 id="RevitPluginKit_Wpf_ObservableItem_1_SubSection" data-uid="RevitPluginKit.Wpf.ObservableItem`1.SubSection">SubSection</h4>
+  <div class="markdown level1 summary"><p>Gets or sets subsection value of the ObservableItem.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SubSection { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>String observable value. For example, it is often used to organize items in a ListView into separate subsections (in other sections).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="events">Events
   </h3>
   <span class="small pull-right mobile-hide">
@@ -331,7 +425,7 @@ In this case, you will need to refer in your ListBox to the List of ObservableIt
     <a href="https://github.com/Izchomatik/RevitPluginKit/new/wpf_toolkit/apiSpec/new?filename=RevitPluginKit_Wpf_ObservableItem_1_PropertyChanged.md&amp;value=---%0Auid%3A%20RevitPluginKit.Wpf.ObservableItem%601.PropertyChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L33">View Source</a>
+    <a href="https://github.com/Izchomatik/RevitPluginKit/blob/wpf_toolkit/RevitPluginKit/src/wpf/ObservableItem.cs/#L60">View Source</a>
   </span>
   <h4 id="RevitPluginKit_Wpf_ObservableItem_1_PropertyChanged" data-uid="RevitPluginKit.Wpf.ObservableItem`1.PropertyChanged">PropertyChanged</h4>
   <div class="markdown level1 summary"></div>

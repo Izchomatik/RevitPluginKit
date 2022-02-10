@@ -234,7 +234,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/utilityTools.html",
-          "hash": "habw8cFC35JfwjLLHc5bG7vGT+/wPdA9DSJTjGAfZa8="
+          "hash": "OfpX4Zq0e+tRn7PO54zV4zVq4wDXn7yuPQSLtP6aRx0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/wpfTools.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/wpfTools.html",
+          "hash": "DWsgkxf9q38EF43psCvCHWLo8DqC+GKBxKXESt7Dnwc="
         }
       },
       "is_incremental": false,
@@ -398,35 +410,59 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/RevitPluginKit.Validators.NumberValidator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Validators.NumberValidator.html",
-          "hash": "1bJFSfZm/v61SeJEa8C25Fi/NR8GuBHpFj8KRuMfzbQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/RevitPluginKit.Validators.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/RevitPluginKit.Validators.html",
-          "hash": "LH6cf9fl3AlPQS2LWnRLNzcIqAv69RzJAh9ahbAPLWg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/RevitPluginKit.Wpf.ObservableItem-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Wpf.ObservableItem-1.html",
-          "hash": "6Vg8F8Yas3W1iuGxmQIY325OQo9UxZRSl40KuaypLG4="
+          "hash": "Cwi5c0qdUCQdJBzJRkRQYTXEw5OpjJRdL+zqiU+vtBQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Wpf.ObservableItemUtilities-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Wpf.ObservableItemUtilities-1.html",
+          "hash": "Pt6jbKqm+CCJZUfRkX7Ak797KFpgQlumCWdLPzpyEB8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Wpf.ObservableNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Wpf.ObservableNode-1.html",
+          "hash": "03CqK6hjoTF1t6udo4+cQsSaX+rN8ckVG1qXXnydkUw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Wpf.ObservableNodeUtilities-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Wpf.ObservableNodeUtilities-1.html",
+          "hash": "uBDfg4+hyDhkSivIkN0Xs+Dma5fRVQB46Lb3fNEt4OI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Wpf.WPFKit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Wpf.WPFKit.html",
+          "hash": "TbjlePCbsGxC/HVf5U6sEw5vbSOLltEegG0rV0thAXc="
         }
       },
       "is_incremental": false,
@@ -438,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Wpf.html",
-          "hash": "+FyOpy6uD5njUFZ/mucXdw2KHhUftriJusn0zocllbU="
+          "hash": "rkVRDfyjoe6s9MNmtQkDP4jHRA1EdvLxKSO1uU54YUw="
         }
       },
       "is_incremental": false,
@@ -450,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "SVOEO/uS7W15vgimHUcxf+yjjato0fO4FVrcXb8+0CI="
+          "hash": "VcUF8sswhW/myC0EYcJ8xxKxpKb+T2hKBfisrpGfpec="
         }
       },
       "is_incremental": false,
@@ -472,25 +508,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 8,
-          "skipped_file_count": 0
+          "total_file_count": 9,
+          "skipped_file_count": 9
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 16,
-          "skipped_file_count": 0
+          "total_file_count": 18,
+          "skipped_file_count": 18
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

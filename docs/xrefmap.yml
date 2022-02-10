@@ -374,31 +374,6 @@ references:
   isSpec: "True"
   fullName: RevitPluginKit.Ui.RibbonPanelSettings.Name
   nameWithType: RibbonPanelSettings.Name
-- uid: RevitPluginKit.Validators
-  name: RevitPluginKit.Validators
-  href: api/RevitPluginKit.Validators.html
-  commentId: N:RevitPluginKit.Validators
-  fullName: RevitPluginKit.Validators
-  nameWithType: RevitPluginKit.Validators
-- uid: RevitPluginKit.Validators.NumberValidator
-  name: NumberValidator
-  href: api/RevitPluginKit.Validators.NumberValidator.html
-  commentId: T:RevitPluginKit.Validators.NumberValidator
-  fullName: RevitPluginKit.Validators.NumberValidator
-  nameWithType: NumberValidator
-- uid: RevitPluginKit.Validators.NumberValidator.NumberValidation(System.Object,System.Windows.Input.TextCompositionEventArgs)
-  name: NumberValidation(Object, TextCompositionEventArgs)
-  href: api/RevitPluginKit.Validators.NumberValidator.html#RevitPluginKit_Validators_NumberValidator_NumberValidation_System_Object_System_Windows_Input_TextCompositionEventArgs_
-  commentId: M:RevitPluginKit.Validators.NumberValidator.NumberValidation(System.Object,System.Windows.Input.TextCompositionEventArgs)
-  fullName: RevitPluginKit.Validators.NumberValidator.NumberValidation(System.Object, System.Windows.Input.TextCompositionEventArgs)
-  nameWithType: NumberValidator.NumberValidation(Object, TextCompositionEventArgs)
-- uid: RevitPluginKit.Validators.NumberValidator.NumberValidation*
-  name: NumberValidation
-  href: api/RevitPluginKit.Validators.NumberValidator.html#RevitPluginKit_Validators_NumberValidator_NumberValidation_
-  commentId: Overload:RevitPluginKit.Validators.NumberValidator.NumberValidation
-  isSpec: "True"
-  fullName: RevitPluginKit.Validators.NumberValidator.NumberValidation
-  nameWithType: NumberValidator.NumberValidation
 - uid: RevitPluginKit.Wpf
   name: RevitPluginKit.Wpf
   href: api/RevitPluginKit.Wpf.html
@@ -414,14 +389,14 @@ references:
   fullName.vb: RevitPluginKit.Wpf.ObservableItem(Of T)
   nameWithType: ObservableItem<T>
   nameWithType.vb: ObservableItem(Of T)
-- uid: RevitPluginKit.Wpf.ObservableItem`1.#ctor(`0)
-  name: ObservableItem(T)
-  href: api/RevitPluginKit.Wpf.ObservableItem-1.html#RevitPluginKit_Wpf_ObservableItem_1__ctor__0_
-  commentId: M:RevitPluginKit.Wpf.ObservableItem`1.#ctor(`0)
-  fullName: RevitPluginKit.Wpf.ObservableItem<T>.ObservableItem(T)
-  fullName.vb: RevitPluginKit.Wpf.ObservableItem(Of T).ObservableItem(T)
-  nameWithType: ObservableItem<T>.ObservableItem(T)
-  nameWithType.vb: ObservableItem(Of T).ObservableItem(T)
+- uid: RevitPluginKit.Wpf.ObservableItem`1.#ctor(`0,System.String,System.Int32,System.String,System.String,System.Boolean)
+  name: ObservableItem(T, String, Int32, String, String, Boolean)
+  href: api/RevitPluginKit.Wpf.ObservableItem-1.html#RevitPluginKit_Wpf_ObservableItem_1__ctor__0_System_String_System_Int32_System_String_System_String_System_Boolean_
+  commentId: M:RevitPluginKit.Wpf.ObservableItem`1.#ctor(`0,System.String,System.Int32,System.String,System.String,System.Boolean)
+  fullName: RevitPluginKit.Wpf.ObservableItem<T>.ObservableItem(T, System.String, System.Int32, System.String, System.String, System.Boolean)
+  fullName.vb: RevitPluginKit.Wpf.ObservableItem(Of T).ObservableItem(T, System.String, System.Int32, System.String, System.String, System.Boolean)
+  nameWithType: ObservableItem<T>.ObservableItem(T, String, Int32, String, String, Boolean)
+  nameWithType.vb: ObservableItem(Of T).ObservableItem(T, String, Int32, String, String, Boolean)
 - uid: RevitPluginKit.Wpf.ObservableItem`1.#ctor*
   name: ObservableItem
   href: api/RevitPluginKit.Wpf.ObservableItem-1.html#RevitPluginKit_Wpf_ObservableItem_1__ctor_
@@ -507,3 +482,349 @@ references:
   fullName.vb: RevitPluginKit.Wpf.ObservableItem(Of T).PropertyChanged
   nameWithType: ObservableItem<T>.PropertyChanged
   nameWithType.vb: ObservableItem(Of T).PropertyChanged
+- uid: RevitPluginKit.Wpf.ObservableItem`1.Section
+  name: Section
+  href: api/RevitPluginKit.Wpf.ObservableItem-1.html#RevitPluginKit_Wpf_ObservableItem_1_Section
+  commentId: P:RevitPluginKit.Wpf.ObservableItem`1.Section
+  fullName: RevitPluginKit.Wpf.ObservableItem<T>.Section
+  fullName.vb: RevitPluginKit.Wpf.ObservableItem(Of T).Section
+  nameWithType: ObservableItem<T>.Section
+  nameWithType.vb: ObservableItem(Of T).Section
+- uid: RevitPluginKit.Wpf.ObservableItem`1.Section*
+  name: Section
+  href: api/RevitPluginKit.Wpf.ObservableItem-1.html#RevitPluginKit_Wpf_ObservableItem_1_Section_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableItem`1.Section
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableItem<T>.Section
+  fullName.vb: RevitPluginKit.Wpf.ObservableItem(Of T).Section
+  nameWithType: ObservableItem<T>.Section
+  nameWithType.vb: ObservableItem(Of T).Section
+- uid: RevitPluginKit.Wpf.ObservableItem`1.SubSection
+  name: SubSection
+  href: api/RevitPluginKit.Wpf.ObservableItem-1.html#RevitPluginKit_Wpf_ObservableItem_1_SubSection
+  commentId: P:RevitPluginKit.Wpf.ObservableItem`1.SubSection
+  fullName: RevitPluginKit.Wpf.ObservableItem<T>.SubSection
+  fullName.vb: RevitPluginKit.Wpf.ObservableItem(Of T).SubSection
+  nameWithType: ObservableItem<T>.SubSection
+  nameWithType.vb: ObservableItem(Of T).SubSection
+- uid: RevitPluginKit.Wpf.ObservableItem`1.SubSection*
+  name: SubSection
+  href: api/RevitPluginKit.Wpf.ObservableItem-1.html#RevitPluginKit_Wpf_ObservableItem_1_SubSection_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableItem`1.SubSection
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableItem<T>.SubSection
+  fullName.vb: RevitPluginKit.Wpf.ObservableItem(Of T).SubSection
+  nameWithType: ObservableItem<T>.SubSection
+  nameWithType.vb: ObservableItem(Of T).SubSection
+- uid: RevitPluginKit.Wpf.ObservableItemUtilities`1
+  name: ObservableItemUtilities<T>
+  href: api/RevitPluginKit.Wpf.ObservableItemUtilities-1.html
+  commentId: T:RevitPluginKit.Wpf.ObservableItemUtilities`1
+  name.vb: ObservableItemUtilities(Of T)
+  fullName: RevitPluginKit.Wpf.ObservableItemUtilities<T>
+  fullName.vb: RevitPluginKit.Wpf.ObservableItemUtilities(Of T)
+  nameWithType: ObservableItemUtilities<T>
+  nameWithType.vb: ObservableItemUtilities(Of T)
+- uid: RevitPluginKit.Wpf.ObservableItemUtilities`1.IsCheckedChange(System.Collections.Generic.List{RevitPluginKit.Wpf.ObservableItem{`0}},System.Boolean)
+  name: IsCheckedChange(List<ObservableItem<T>>, Boolean)
+  href: api/RevitPluginKit.Wpf.ObservableItemUtilities-1.html#RevitPluginKit_Wpf_ObservableItemUtilities_1_IsCheckedChange_System_Collections_Generic_List_RevitPluginKit_Wpf_ObservableItem__0___System_Boolean_
+  commentId: M:RevitPluginKit.Wpf.ObservableItemUtilities`1.IsCheckedChange(System.Collections.Generic.List{RevitPluginKit.Wpf.ObservableItem{`0}},System.Boolean)
+  name.vb: IsCheckedChange(List(Of ObservableItem(Of T)), Boolean)
+  fullName: RevitPluginKit.Wpf.ObservableItemUtilities<T>.IsCheckedChange(System.Collections.Generic.List<RevitPluginKit.Wpf.ObservableItem<T>>, System.Boolean)
+  fullName.vb: RevitPluginKit.Wpf.ObservableItemUtilities(Of T).IsCheckedChange(System.Collections.Generic.List(Of RevitPluginKit.Wpf.ObservableItem(Of T)), System.Boolean)
+  nameWithType: ObservableItemUtilities<T>.IsCheckedChange(List<ObservableItem<T>>, Boolean)
+  nameWithType.vb: ObservableItemUtilities(Of T).IsCheckedChange(List(Of ObservableItem(Of T)), Boolean)
+- uid: RevitPluginKit.Wpf.ObservableItemUtilities`1.IsCheckedChange*
+  name: IsCheckedChange
+  href: api/RevitPluginKit.Wpf.ObservableItemUtilities-1.html#RevitPluginKit_Wpf_ObservableItemUtilities_1_IsCheckedChange_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableItemUtilities`1.IsCheckedChange
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableItemUtilities<T>.IsCheckedChange
+  fullName.vb: RevitPluginKit.Wpf.ObservableItemUtilities(Of T).IsCheckedChange
+  nameWithType: ObservableItemUtilities<T>.IsCheckedChange
+  nameWithType.vb: ObservableItemUtilities(Of T).IsCheckedChange
+- uid: RevitPluginKit.Wpf.ObservableItemUtilities`1.SelectionIsCheckedToggle(System.Object)
+  name: SelectionIsCheckedToggle(Object)
+  href: api/RevitPluginKit.Wpf.ObservableItemUtilities-1.html#RevitPluginKit_Wpf_ObservableItemUtilities_1_SelectionIsCheckedToggle_System_Object_
+  commentId: M:RevitPluginKit.Wpf.ObservableItemUtilities`1.SelectionIsCheckedToggle(System.Object)
+  fullName: RevitPluginKit.Wpf.ObservableItemUtilities<T>.SelectionIsCheckedToggle(System.Object)
+  fullName.vb: RevitPluginKit.Wpf.ObservableItemUtilities(Of T).SelectionIsCheckedToggle(System.Object)
+  nameWithType: ObservableItemUtilities<T>.SelectionIsCheckedToggle(Object)
+  nameWithType.vb: ObservableItemUtilities(Of T).SelectionIsCheckedToggle(Object)
+- uid: RevitPluginKit.Wpf.ObservableItemUtilities`1.SelectionIsCheckedToggle*
+  name: SelectionIsCheckedToggle
+  href: api/RevitPluginKit.Wpf.ObservableItemUtilities-1.html#RevitPluginKit_Wpf_ObservableItemUtilities_1_SelectionIsCheckedToggle_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableItemUtilities`1.SelectionIsCheckedToggle
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableItemUtilities<T>.SelectionIsCheckedToggle
+  fullName.vb: RevitPluginKit.Wpf.ObservableItemUtilities(Of T).SelectionIsCheckedToggle
+  nameWithType: ObservableItemUtilities<T>.SelectionIsCheckedToggle
+  nameWithType.vb: ObservableItemUtilities(Of T).SelectionIsCheckedToggle
+- uid: RevitPluginKit.Wpf.ObservableNode`1
+  name: ObservableNode<T>
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html
+  commentId: T:RevitPluginKit.Wpf.ObservableNode`1
+  name.vb: ObservableNode(Of T)
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T)
+  nameWithType: ObservableNode<T>
+  nameWithType.vb: ObservableNode(Of T)
+- uid: RevitPluginKit.Wpf.ObservableNode`1.#ctor(System.String,System.Boolean)
+  name: ObservableNode(String, Boolean)
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1__ctor_System_String_System_Boolean_
+  commentId: M:RevitPluginKit.Wpf.ObservableNode`1.#ctor(System.String,System.Boolean)
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.ObservableNode(System.String, System.Boolean)
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).ObservableNode(System.String, System.Boolean)
+  nameWithType: ObservableNode<T>.ObservableNode(String, Boolean)
+  nameWithType.vb: ObservableNode(Of T).ObservableNode(String, Boolean)
+- uid: RevitPluginKit.Wpf.ObservableNode`1.#ctor*
+  name: ObservableNode
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1__ctor_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableNode`1.#ctor
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.ObservableNode
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).ObservableNode
+  nameWithType: ObservableNode<T>.ObservableNode
+  nameWithType.vb: ObservableNode(Of T).ObservableNode
+- uid: RevitPluginKit.Wpf.ObservableNode`1.AddChildItem(RevitPluginKit.Wpf.ObservableItem{`0})
+  name: AddChildItem(ObservableItem<T>)
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_AddChildItem_RevitPluginKit_Wpf_ObservableItem__0__
+  commentId: M:RevitPluginKit.Wpf.ObservableNode`1.AddChildItem(RevitPluginKit.Wpf.ObservableItem{`0})
+  name.vb: AddChildItem(ObservableItem(Of T))
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.AddChildItem(RevitPluginKit.Wpf.ObservableItem<T>)
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).AddChildItem(RevitPluginKit.Wpf.ObservableItem(Of T))
+  nameWithType: ObservableNode<T>.AddChildItem(ObservableItem<T>)
+  nameWithType.vb: ObservableNode(Of T).AddChildItem(ObservableItem(Of T))
+- uid: RevitPluginKit.Wpf.ObservableNode`1.AddChildItem*
+  name: AddChildItem
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_AddChildItem_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableNode`1.AddChildItem
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.AddChildItem
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).AddChildItem
+  nameWithType: ObservableNode<T>.AddChildItem
+  nameWithType.vb: ObservableNode(Of T).AddChildItem
+- uid: RevitPluginKit.Wpf.ObservableNode`1.AddChildNode(RevitPluginKit.Wpf.ObservableNode{`0})
+  name: AddChildNode(ObservableNode<T>)
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_AddChildNode_RevitPluginKit_Wpf_ObservableNode__0__
+  commentId: M:RevitPluginKit.Wpf.ObservableNode`1.AddChildNode(RevitPluginKit.Wpf.ObservableNode{`0})
+  name.vb: AddChildNode(ObservableNode(Of T))
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.AddChildNode(RevitPluginKit.Wpf.ObservableNode<T>)
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).AddChildNode(RevitPluginKit.Wpf.ObservableNode(Of T))
+  nameWithType: ObservableNode<T>.AddChildNode(ObservableNode<T>)
+  nameWithType.vb: ObservableNode(Of T).AddChildNode(ObservableNode(Of T))
+- uid: RevitPluginKit.Wpf.ObservableNode`1.AddChildNode*
+  name: AddChildNode
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_AddChildNode_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableNode`1.AddChildNode
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.AddChildNode
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).AddChildNode
+  nameWithType: ObservableNode<T>.AddChildNode
+  nameWithType.vb: ObservableNode(Of T).AddChildNode
+- uid: RevitPluginKit.Wpf.ObservableNode`1.ChildItems
+  name: ChildItems
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_ChildItems
+  commentId: P:RevitPluginKit.Wpf.ObservableNode`1.ChildItems
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.ChildItems
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).ChildItems
+  nameWithType: ObservableNode<T>.ChildItems
+  nameWithType.vb: ObservableNode(Of T).ChildItems
+- uid: RevitPluginKit.Wpf.ObservableNode`1.ChildItems*
+  name: ChildItems
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_ChildItems_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableNode`1.ChildItems
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.ChildItems
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).ChildItems
+  nameWithType: ObservableNode<T>.ChildItems
+  nameWithType.vb: ObservableNode(Of T).ChildItems
+- uid: RevitPluginKit.Wpf.ObservableNode`1.ChildNodes
+  name: ChildNodes
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_ChildNodes
+  commentId: P:RevitPluginKit.Wpf.ObservableNode`1.ChildNodes
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.ChildNodes
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).ChildNodes
+  nameWithType: ObservableNode<T>.ChildNodes
+  nameWithType.vb: ObservableNode(Of T).ChildNodes
+- uid: RevitPluginKit.Wpf.ObservableNode`1.ChildNodes*
+  name: ChildNodes
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_ChildNodes_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableNode`1.ChildNodes
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.ChildNodes
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).ChildNodes
+  nameWithType: ObservableNode<T>.ChildNodes
+  nameWithType.vb: ObservableNode(Of T).ChildNodes
+- uid: RevitPluginKit.Wpf.ObservableNode`1.IsChecked
+  name: IsChecked
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_IsChecked
+  commentId: P:RevitPluginKit.Wpf.ObservableNode`1.IsChecked
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.IsChecked
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).IsChecked
+  nameWithType: ObservableNode<T>.IsChecked
+  nameWithType.vb: ObservableNode(Of T).IsChecked
+- uid: RevitPluginKit.Wpf.ObservableNode`1.IsChecked*
+  name: IsChecked
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_IsChecked_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableNode`1.IsChecked
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.IsChecked
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).IsChecked
+  nameWithType: ObservableNode<T>.IsChecked
+  nameWithType.vb: ObservableNode(Of T).IsChecked
+- uid: RevitPluginKit.Wpf.ObservableNode`1.Name
+  name: Name
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_Name
+  commentId: P:RevitPluginKit.Wpf.ObservableNode`1.Name
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.Name
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).Name
+  nameWithType: ObservableNode<T>.Name
+  nameWithType.vb: ObservableNode(Of T).Name
+- uid: RevitPluginKit.Wpf.ObservableNode`1.Name*
+  name: Name
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_Name_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableNode`1.Name
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.Name
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).Name
+  nameWithType: ObservableNode<T>.Name
+  nameWithType.vb: ObservableNode(Of T).Name
+- uid: RevitPluginKit.Wpf.ObservableNode`1.PropertyChanged
+  name: PropertyChanged
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_PropertyChanged
+  commentId: E:RevitPluginKit.Wpf.ObservableNode`1.PropertyChanged
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.PropertyChanged
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).PropertyChanged
+  nameWithType: ObservableNode<T>.PropertyChanged
+  nameWithType.vb: ObservableNode(Of T).PropertyChanged
+- uid: RevitPluginKit.Wpf.ObservableNode`1.RemoveChildItem(RevitPluginKit.Wpf.ObservableItem{`0})
+  name: RemoveChildItem(ObservableItem<T>)
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_RemoveChildItem_RevitPluginKit_Wpf_ObservableItem__0__
+  commentId: M:RevitPluginKit.Wpf.ObservableNode`1.RemoveChildItem(RevitPluginKit.Wpf.ObservableItem{`0})
+  name.vb: RemoveChildItem(ObservableItem(Of T))
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.RemoveChildItem(RevitPluginKit.Wpf.ObservableItem<T>)
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).RemoveChildItem(RevitPluginKit.Wpf.ObservableItem(Of T))
+  nameWithType: ObservableNode<T>.RemoveChildItem(ObservableItem<T>)
+  nameWithType.vb: ObservableNode(Of T).RemoveChildItem(ObservableItem(Of T))
+- uid: RevitPluginKit.Wpf.ObservableNode`1.RemoveChildItem*
+  name: RemoveChildItem
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_RemoveChildItem_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableNode`1.RemoveChildItem
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.RemoveChildItem
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).RemoveChildItem
+  nameWithType: ObservableNode<T>.RemoveChildItem
+  nameWithType.vb: ObservableNode(Of T).RemoveChildItem
+- uid: RevitPluginKit.Wpf.ObservableNode`1.RemoveChildNode(RevitPluginKit.Wpf.ObservableNode{`0})
+  name: RemoveChildNode(ObservableNode<T>)
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_RemoveChildNode_RevitPluginKit_Wpf_ObservableNode__0__
+  commentId: M:RevitPluginKit.Wpf.ObservableNode`1.RemoveChildNode(RevitPluginKit.Wpf.ObservableNode{`0})
+  name.vb: RemoveChildNode(ObservableNode(Of T))
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.RemoveChildNode(RevitPluginKit.Wpf.ObservableNode<T>)
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).RemoveChildNode(RevitPluginKit.Wpf.ObservableNode(Of T))
+  nameWithType: ObservableNode<T>.RemoveChildNode(ObservableNode<T>)
+  nameWithType.vb: ObservableNode(Of T).RemoveChildNode(ObservableNode(Of T))
+- uid: RevitPluginKit.Wpf.ObservableNode`1.RemoveChildNode*
+  name: RemoveChildNode
+  href: api/RevitPluginKit.Wpf.ObservableNode-1.html#RevitPluginKit_Wpf_ObservableNode_1_RemoveChildNode_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableNode`1.RemoveChildNode
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableNode<T>.RemoveChildNode
+  fullName.vb: RevitPluginKit.Wpf.ObservableNode(Of T).RemoveChildNode
+  nameWithType: ObservableNode<T>.RemoveChildNode
+  nameWithType.vb: ObservableNode(Of T).RemoveChildNode
+- uid: RevitPluginKit.Wpf.ObservableNodeUtilities`1
+  name: ObservableNodeUtilities<T>
+  href: api/RevitPluginKit.Wpf.ObservableNodeUtilities-1.html
+  commentId: T:RevitPluginKit.Wpf.ObservableNodeUtilities`1
+  name.vb: ObservableNodeUtilities(Of T)
+  fullName: RevitPluginKit.Wpf.ObservableNodeUtilities<T>
+  fullName.vb: RevitPluginKit.Wpf.ObservableNodeUtilities(Of T)
+  nameWithType: ObservableNodeUtilities<T>
+  nameWithType.vb: ObservableNodeUtilities(Of T)
+- uid: RevitPluginKit.Wpf.ObservableNodeUtilities`1.CreateNodeTree(System.Collections.Generic.List{RevitPluginKit.Wpf.ObservableItem{`0}})
+  name: CreateNodeTree(List<ObservableItem<T>>)
+  href: api/RevitPluginKit.Wpf.ObservableNodeUtilities-1.html#RevitPluginKit_Wpf_ObservableNodeUtilities_1_CreateNodeTree_System_Collections_Generic_List_RevitPluginKit_Wpf_ObservableItem__0___
+  commentId: M:RevitPluginKit.Wpf.ObservableNodeUtilities`1.CreateNodeTree(System.Collections.Generic.List{RevitPluginKit.Wpf.ObservableItem{`0}})
+  name.vb: CreateNodeTree(List(Of ObservableItem(Of T)))
+  fullName: RevitPluginKit.Wpf.ObservableNodeUtilities<T>.CreateNodeTree(System.Collections.Generic.List<RevitPluginKit.Wpf.ObservableItem<T>>)
+  fullName.vb: RevitPluginKit.Wpf.ObservableNodeUtilities(Of T).CreateNodeTree(System.Collections.Generic.List(Of RevitPluginKit.Wpf.ObservableItem(Of T)))
+  nameWithType: ObservableNodeUtilities<T>.CreateNodeTree(List<ObservableItem<T>>)
+  nameWithType.vb: ObservableNodeUtilities(Of T).CreateNodeTree(List(Of ObservableItem(Of T)))
+- uid: RevitPluginKit.Wpf.ObservableNodeUtilities`1.CreateNodeTree*
+  name: CreateNodeTree
+  href: api/RevitPluginKit.Wpf.ObservableNodeUtilities-1.html#RevitPluginKit_Wpf_ObservableNodeUtilities_1_CreateNodeTree_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableNodeUtilities`1.CreateNodeTree
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableNodeUtilities<T>.CreateNodeTree
+  fullName.vb: RevitPluginKit.Wpf.ObservableNodeUtilities(Of T).CreateNodeTree
+  nameWithType: ObservableNodeUtilities<T>.CreateNodeTree
+  nameWithType.vb: ObservableNodeUtilities(Of T).CreateNodeTree
+- uid: RevitPluginKit.Wpf.ObservableNodeUtilities`1.IsCheckedChange(System.Collections.Generic.List{RevitPluginKit.Wpf.ObservableItem{`0}},System.Boolean)
+  name: IsCheckedChange(List<ObservableItem<T>>, Boolean)
+  href: api/RevitPluginKit.Wpf.ObservableNodeUtilities-1.html#RevitPluginKit_Wpf_ObservableNodeUtilities_1_IsCheckedChange_System_Collections_Generic_List_RevitPluginKit_Wpf_ObservableItem__0___System_Boolean_
+  commentId: M:RevitPluginKit.Wpf.ObservableNodeUtilities`1.IsCheckedChange(System.Collections.Generic.List{RevitPluginKit.Wpf.ObservableItem{`0}},System.Boolean)
+  name.vb: IsCheckedChange(List(Of ObservableItem(Of T)), Boolean)
+  fullName: RevitPluginKit.Wpf.ObservableNodeUtilities<T>.IsCheckedChange(System.Collections.Generic.List<RevitPluginKit.Wpf.ObservableItem<T>>, System.Boolean)
+  fullName.vb: RevitPluginKit.Wpf.ObservableNodeUtilities(Of T).IsCheckedChange(System.Collections.Generic.List(Of RevitPluginKit.Wpf.ObservableItem(Of T)), System.Boolean)
+  nameWithType: ObservableNodeUtilities<T>.IsCheckedChange(List<ObservableItem<T>>, Boolean)
+  nameWithType.vb: ObservableNodeUtilities(Of T).IsCheckedChange(List(Of ObservableItem(Of T)), Boolean)
+- uid: RevitPluginKit.Wpf.ObservableNodeUtilities`1.IsCheckedChange*
+  name: IsCheckedChange
+  href: api/RevitPluginKit.Wpf.ObservableNodeUtilities-1.html#RevitPluginKit_Wpf_ObservableNodeUtilities_1_IsCheckedChange_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableNodeUtilities`1.IsCheckedChange
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableNodeUtilities<T>.IsCheckedChange
+  fullName.vb: RevitPluginKit.Wpf.ObservableNodeUtilities(Of T).IsCheckedChange
+  nameWithType: ObservableNodeUtilities<T>.IsCheckedChange
+  nameWithType.vb: ObservableNodeUtilities(Of T).IsCheckedChange
+- uid: RevitPluginKit.Wpf.ObservableNodeUtilities`1.SelectionIsCheckedToggle(System.Object)
+  name: SelectionIsCheckedToggle(Object)
+  href: api/RevitPluginKit.Wpf.ObservableNodeUtilities-1.html#RevitPluginKit_Wpf_ObservableNodeUtilities_1_SelectionIsCheckedToggle_System_Object_
+  commentId: M:RevitPluginKit.Wpf.ObservableNodeUtilities`1.SelectionIsCheckedToggle(System.Object)
+  fullName: RevitPluginKit.Wpf.ObservableNodeUtilities<T>.SelectionIsCheckedToggle(System.Object)
+  fullName.vb: RevitPluginKit.Wpf.ObservableNodeUtilities(Of T).SelectionIsCheckedToggle(System.Object)
+  nameWithType: ObservableNodeUtilities<T>.SelectionIsCheckedToggle(Object)
+  nameWithType.vb: ObservableNodeUtilities(Of T).SelectionIsCheckedToggle(Object)
+- uid: RevitPluginKit.Wpf.ObservableNodeUtilities`1.SelectionIsCheckedToggle*
+  name: SelectionIsCheckedToggle
+  href: api/RevitPluginKit.Wpf.ObservableNodeUtilities-1.html#RevitPluginKit_Wpf_ObservableNodeUtilities_1_SelectionIsCheckedToggle_
+  commentId: Overload:RevitPluginKit.Wpf.ObservableNodeUtilities`1.SelectionIsCheckedToggle
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.ObservableNodeUtilities<T>.SelectionIsCheckedToggle
+  fullName.vb: RevitPluginKit.Wpf.ObservableNodeUtilities(Of T).SelectionIsCheckedToggle
+  nameWithType: ObservableNodeUtilities<T>.SelectionIsCheckedToggle
+  nameWithType.vb: ObservableNodeUtilities(Of T).SelectionIsCheckedToggle
+- uid: RevitPluginKit.Wpf.WPFKit
+  name: WPFKit
+  href: api/RevitPluginKit.Wpf.WPFKit.html
+  commentId: T:RevitPluginKit.Wpf.WPFKit
+  fullName: RevitPluginKit.Wpf.WPFKit
+  nameWithType: WPFKit
+- uid: RevitPluginKit.Wpf.WPFKit.MouseWheelScroll(System.Object,System.Windows.Input.MouseWheelEventArgs)
+  name: MouseWheelScroll(Object, MouseWheelEventArgs)
+  href: api/RevitPluginKit.Wpf.WPFKit.html#RevitPluginKit_Wpf_WPFKit_MouseWheelScroll_System_Object_System_Windows_Input_MouseWheelEventArgs_
+  commentId: M:RevitPluginKit.Wpf.WPFKit.MouseWheelScroll(System.Object,System.Windows.Input.MouseWheelEventArgs)
+  fullName: RevitPluginKit.Wpf.WPFKit.MouseWheelScroll(System.Object, System.Windows.Input.MouseWheelEventArgs)
+  nameWithType: WPFKit.MouseWheelScroll(Object, MouseWheelEventArgs)
+- uid: RevitPluginKit.Wpf.WPFKit.MouseWheelScroll*
+  name: MouseWheelScroll
+  href: api/RevitPluginKit.Wpf.WPFKit.html#RevitPluginKit_Wpf_WPFKit_MouseWheelScroll_
+  commentId: Overload:RevitPluginKit.Wpf.WPFKit.MouseWheelScroll
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.WPFKit.MouseWheelScroll
+  nameWithType: WPFKit.MouseWheelScroll
+- uid: RevitPluginKit.Wpf.WPFKit.ReturnNumberValidationEventHandler
+  name: ReturnNumberValidationEventHandler()
+  href: api/RevitPluginKit.Wpf.WPFKit.html#RevitPluginKit_Wpf_WPFKit_ReturnNumberValidationEventHandler
+  commentId: M:RevitPluginKit.Wpf.WPFKit.ReturnNumberValidationEventHandler
+  fullName: RevitPluginKit.Wpf.WPFKit.ReturnNumberValidationEventHandler()
+  nameWithType: WPFKit.ReturnNumberValidationEventHandler()
+- uid: RevitPluginKit.Wpf.WPFKit.ReturnNumberValidationEventHandler*
+  name: ReturnNumberValidationEventHandler
+  href: api/RevitPluginKit.Wpf.WPFKit.html#RevitPluginKit_Wpf_WPFKit_ReturnNumberValidationEventHandler_
+  commentId: Overload:RevitPluginKit.Wpf.WPFKit.ReturnNumberValidationEventHandler
+  isSpec: "True"
+  fullName: RevitPluginKit.Wpf.WPFKit.ReturnNumberValidationEventHandler
+  nameWithType: WPFKit.ReturnNumberValidationEventHandler

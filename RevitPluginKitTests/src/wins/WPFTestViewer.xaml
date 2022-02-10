@@ -7,12 +7,23 @@
         Title="WPF tools test" SizeToContent="Height" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="135"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Row="0">
-            
+            <TextBlock Margin="10 5 5 5" FontWeight="DemiBold" VerticalAlignment="Center">
+                A set of manual tests designed to check the RevitPluginKit.Wpf tools.
+            </TextBlock>
+            <Line Margin="10 5 10 5" X1="0" X2="{Binding ActualWidth, RelativeSource={RelativeSource Self}}" Stroke="Black" StrokeThickness="0.5"></Line>
+            <Grid Margin="150 10 10 10" Height="25">
+                <TextBlock VerticalAlignment="Center">
+                    Test number validation. You can only enter a number or a period in this field:
+                </TextBlock>
+                <TextBox Name="wpfTestTextBox" TextAlignment="Center" HorizontalAlignment="Right" Width="175"></TextBox>
+            </Grid>
+            <Button Width="175" Height="30" HorizontalAlignment="Right" Margin="10 0 10 10" Click="CheckNumberResultClick">Check number result</Button>
+            <Line Margin="10 5 10 0" X1="0" X2="{Binding ActualWidth, RelativeSource={RelativeSource Self}}" Stroke="Black" StrokeThickness="0.5"></Line>
         </StackPanel>
 
         <Grid Grid.Row="1">
@@ -28,8 +39,8 @@
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Row="0" Grid.Column="0">
-                <ScrollViewer CanContentScroll="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Margin=" 15">
-                    <ListBox Name="wpfSimpleListBox" SelectionMode="Extended" SelectionChanged="CheckBoxList_SelectionChanged" Margin="5" BorderThickness="0">
+                <ScrollViewer CanContentScroll="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Margin=" 10">
+                    <ListBox Name="wpfSimpleListBox" SelectionMode="Extended" BorderThickness="0">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel Margin="5" Orientation="Horizontal">
@@ -43,8 +54,8 @@
             </Grid>
 
             <Grid Grid.Row="1" Grid.Column="0">
-                <ScrollViewer CanContentScroll="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Margin=" 15">
-                    <ListBox Name="wpf1LevelListBox" SelectionMode="Extended" SelectionChanged="CheckBoxList_SelectionChanged" Margin="5" BorderThickness="0">
+                <ScrollViewer CanContentScroll="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Margin=" 10">
+                    <ListBox Name="wpf1LevelListBox" SelectionMode="Extended" BorderThickness="0">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel Margin="5" Orientation="Horizontal">
@@ -58,8 +69,8 @@
             </Grid>
 
             <Grid Grid.Row="2" Grid.Column="0">
-                <ScrollViewer CanContentScroll="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Margin=" 15">
-                    <ListBox Name="wpf2LevelListBox" SelectionMode="Extended" SelectionChanged="CheckBoxList_SelectionChanged" Margin="5" BorderThickness="0">
+                <ScrollViewer CanContentScroll="True" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Margin=" 10">
+                    <ListBox Name="wpf2LevelListBox" SelectionMode="Extended" BorderThickness="0">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel Margin="5" Orientation="Horizontal">
@@ -72,8 +83,16 @@
                 </ScrollViewer>
             </Grid>
 
-            <StackPanel Grid.Column="1">
+            <StackPanel Grid.Row="0" Grid.Column="1" Margin="10">
                 
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="1" Margin="10">
+
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Grid.Column="1" Margin="10">
+
             </StackPanel>
         </Grid>
     </Grid>

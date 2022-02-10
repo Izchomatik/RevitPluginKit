@@ -74,7 +74,7 @@
                 if (subSection == null || subSection == string.Empty)
                 {
                     this.AddItemToNode(
-                        nodes: nodes,
+                        nodes: ref nodes,
                         observableItem: observableItem,
                         section: section);
                 }
@@ -83,8 +83,9 @@
                     ObservableNode<T> node = nodes.Find(i => i.Name.Equals(section));
                     if (node != null)
                     {
+                        List<ObservableNode<T>> childNodes = node.ChildNodes;
                         this.AddItemToNode(
-                            nodes: node.ChildNodes,
+                            nodes: ref childNodes,
                             observableItem: observableItem,
                             section: subSection);
                     }
@@ -106,7 +107,7 @@
         /// Add ObservableItem to Node.
         /// </summary>
         private void AddItemToNode(
-            List<ObservableNode<T>> nodes,
+            ref List<ObservableNode<T>> nodes,
             ObservableItem<T> observableItem,
             string section)
         {

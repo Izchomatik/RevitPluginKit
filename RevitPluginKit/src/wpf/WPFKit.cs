@@ -14,14 +14,14 @@
         /// <para>Accepts user input and returns a boolean value indicating whether the input matches a numeric value.</para>
         /// <para>This method is designed to be used when processing data coming through the WPF (System.Windows.Input.TextCompositionEventArgs).</para>
         /// </summary>
-        /// <param name="sender"> WPF sender object. </param>
-        /// <param name="e"> WPF text composition event. </param>
-        public static void NumberValidation(
-            object sender,
-            TextCompositionEventArgs e)
+        /// <returns>
+        /// Text composition event handler that checks if the input is a number or a period.
+        /// </returns>
+        public static TextCompositionEventHandler ReturnNumberValidationEventHandler()
         {
-            Regex regex = new Regex("[^0-9]+");
-            e.Handled = regex.IsMatch(e.Text);
+            Regex regexDigits = new Regex("[^0-9]+");
+            Regex regexDigitsAndPeriod = new Regex("[^0-9,]+");
+            return new TextCompositionEventHandler((sender, e) => e.Handled = (e.Source as TextBox).Text.Contains(",") == true ? regexDigits.IsMatch(e.Text) : regexDigitsAndPeriod.IsMatch(e.Text));
         }
 
         /// <summary>
