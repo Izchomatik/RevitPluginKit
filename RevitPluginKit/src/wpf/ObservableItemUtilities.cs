@@ -3,9 +3,24 @@
     using System.Collections.Generic;
     using System.Windows.Controls;
 
-    class ObservableItemUtilities<T>
+    /// <summary>
+    /// A set of tools designed to work with ObservableItem elements.
+    /// </summary>
+    /// <typeparam name="T">
+    /// The Type of the element that must be stored in the ObservableItem for further custom function interactions.
+    /// </typeparam>
+    public class ObservableItemUtilities<T>
     {
-        public static void ChangeAllItems(
+        /// <summary>
+        /// Changes the IsChecked Boolean values of the ObservableItem List to the specified custom value.
+        /// </summary>
+        /// <param name="observableItems">
+        /// List of ObservableItems whose IsChecked value needs to be changed.
+        /// </param>
+        /// <param name="requiredValue">
+        /// Required value of the IsChecked property.
+        /// </param>
+        public static void IsCheckedChange(
             List<ObservableItem<T>> observableItems,
             bool requiredValue)
         {
@@ -15,7 +30,13 @@
             }
         }
 
-        public static void SelectionClick(object sender)
+        /// <summary>
+        /// Toggles the IsChecked booleans of the ListBox sender as an ObservableItem List.
+        /// </summary>
+        /// <param name="sender">
+        /// WPF sender object as ListBox.
+        /// </param>
+        public static void SelectionIsCheckedToggle(object sender)
         {
             ListBox itemList = sender as ListBox;
             var selectedItems = itemList.SelectedItems;

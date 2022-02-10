@@ -15,6 +15,8 @@
     {
         private string name;
         private int number;
+        private string section;
+        private string subSection;
         private bool isChecked;
 
         /// <summary>
@@ -29,6 +31,12 @@
         /// <param name="number">
         /// Optional parameter: if necessary, specify the int observable number of this ObservableItem.
         /// </param>
+        /// <param name="section">
+        /// Optional parameter: if necessary, specify the string observable section name of this ObservableItem.
+        /// </param>
+        /// <param name="subSection">
+        /// Optional parameter: if necessary, specify the string observable subsection name of this ObservableItem.
+        /// </param>
         /// <param name="isChecked">
         /// Optional parameter: if necessary, specify the bool observable value of this ObservableItem.
         /// </param>
@@ -36,11 +44,15 @@
             T element,
             string name = null,
             int number = 0,
+            string section = null,
+            string subSection = null,
             bool isChecked = false)
         {
             this.Element = element;
             this.name = name;
             this.number = number;
+            this.section = section;
+            this.subSection = subSection;
             this.isChecked = isChecked;
         }
 
@@ -76,6 +88,38 @@
             {
                 this.number = value;
                 this.OnPropertyChanged(this, "Number");
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets section value of the ObservableItem.
+        /// </summary>
+        /// <value>
+        /// String observable value. For example, it is often used to organize items in a ListView into separate sections.
+        /// </value>
+        public string Section
+        {
+            get => this.section;
+            set
+            {
+                this.section = value;
+                this.OnPropertyChanged(this, "Section");
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets subsection value of the ObservableItem.
+        /// </summary>
+        /// <value>
+        /// String observable value. For example, it is often used to organize items in a ListView into separate subsections (in other sections).
+        /// </value>
+        public string SubSection
+        {
+            get => this.subSection;
+            set
+            {
+                this.subSection = value;
+                this.OnPropertyChanged(this, "SubSection");
             }
         }
 

@@ -109,7 +109,9 @@
     <Compile Include="src\ui\RibbonPanelSettings.cs" />
     <Compile Include="src\ui\RibbonKit.cs" />
     <Compile Include="src\ui\ImageKit.cs" />
-    <Compile Include="src\validators\NumberValidator.cs" />
+    <Compile Include="src\wpf\ObservableNodeUtilities.cs" />
+    <Compile Include="src\wpf\ObservableNode.cs" />
+    <Compile Include="src\wpf\WPFKit.cs" />
     <Compile Include="src\wpf\ObservableItemUtilities.cs" />
     <Compile Include="src\wpf\ObservableItem.cs" />
   </ItemGroup>

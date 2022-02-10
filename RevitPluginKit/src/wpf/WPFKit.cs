@@ -1,13 +1,13 @@
-﻿namespace RevitPluginKit.Validators
+﻿namespace RevitPluginKit.Wpf
 {
     using System.Text.RegularExpressions;
+    using System.Windows.Controls;
     using System.Windows.Input;
 
     /// <summary>
-    /// Number validator class.
-    /// <para>Designed to check incoming numeric values. Mainly used to process incoming user data.</para>
+    /// A set of tools designed to work with WPF elements and objects.
     /// </summary>
-    public class NumberValidator
+    public class WPFKit
     {
         /// <summary>
         /// Number validation method for wpf textBox.
@@ -22,6 +22,24 @@
         {
             Regex regex = new Regex("[^0-9]+");
             e.Handled = regex.IsMatch(e.Text);
+        }
+
+        /// <summary>
+        /// ScrollViewer scroll action called when mouse wheel is used.
+        /// </summary>
+        /// <param name="sender">
+        /// WPF sender object as ScrollViewer.
+        /// </param>
+        /// <param name="e">
+        /// Mouse wheel scroll event arguments.
+        /// </param>
+        public static void MouseWheelScroll(
+            object sender,
+            System.Windows.Input.MouseWheelEventArgs e)
+        {
+            ScrollViewer scrollViewer = (ScrollViewer)sender;
+            scrollViewer.ScrollToVerticalOffset(offset: scrollViewer.VerticalOffset - e.Delta);
+            e.Handled = true;
         }
     }
 }
