@@ -141,6 +141,9 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="assets\icons\WPFToolsTestIcon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>set addinsFolder=C:\ProgramData\Autodesk\Revit\Addins\2019\

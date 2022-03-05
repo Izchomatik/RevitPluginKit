@@ -60,7 +60,7 @@
                                 internalName: "wpfTest",
                                 name: "WPF tools\ntest",
                                 tooltip: "A set of manual tests designed to check the RevitPluginKit.Wpf tools.",
-                                imageAddress: "1",
+                                imageAddress: "RevitPluginKitTests.assets.icons.WPFToolsTestIcon.png",
                                 className: "RevitPluginKitTests.Src.WPFTest"),
                         }),
                 });
