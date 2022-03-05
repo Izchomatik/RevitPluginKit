@@ -86,9 +86,16 @@
     <Compile Include="src\utilities\WPFTextBlockStyles.cs" />
     <Compile Include="src\utilities\WPFGridStyles.cs" />
     <Compile Include="src\utilities\TestResultData.cs" />
+    <Compile Include="src\wins\MinorResultsViewer.xaml.cs">
+      <DependentUpon>MinorResultsViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="src\wins\WPFTestViewer.xaml.cs">
+      <DependentUpon>WPFTestViewer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="src\wins\ResultsViewer.xaml.cs">
       <DependentUpon>ResultsViewer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="src\WPFTest.cs" />
     <Compile Include="TestsPluginMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -121,10 +128,21 @@
     <Folder Include="assets\revit\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="src\wins\MinorResultsViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="src\wins\WPFTestViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="src\wins\ResultsViewer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="assets\icons\WPFToolsTestIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

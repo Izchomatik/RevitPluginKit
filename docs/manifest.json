@@ -234,7 +234,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/utilityTools.html",
-          "hash": "habw8cFC35JfwjLLHc5bG7vGT+/wPdA9DSJTjGAfZa8="
+          "hash": "OfpX4Zq0e+tRn7PO54zV4zVq4wDXn7yuPQSLtP6aRx0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/wpfTools.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/wpfTools.html",
+          "hash": "DWsgkxf9q38EF43psCvCHWLo8DqC+GKBxKXESt7Dnwc="
         }
       },
       "is_incremental": false,
@@ -258,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Collectors.ElementsCollector.html",
-          "hash": "c+6ryb2iP6c+9r+W2CQrc9Uo6dzeyoafR41ukpY3O5E="
+          "hash": "X75uC8DXpYt16PSn1jOT1FOSULJlm42t/ODV8FrIhyk="
         }
       },
       "is_incremental": false,
@@ -282,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Converters.MetricConverter.html",
-          "hash": "pTrZKv/T3ik/WfkM+lWTBSyklBH+Ptg6Y0jZWuyWlSM="
+          "hash": "8Xg1cJcEq/rGktQbBtfJxOpw9Kud9insvbqc3V1Mbxg="
         }
       },
       "is_incremental": false,
@@ -294,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Converters.StringConverter.html",
-          "hash": "E+3dK7NtxVK80f98USYJt180SyXQdsdIEEj0JnUvSyw="
+          "hash": "vU0jcAcEIqLe7WlH6NLp9PhUfsifFfpiTHkQfbP4OjM="
         }
       },
       "is_incremental": false,
@@ -318,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.ButtonSettings.html",
-          "hash": "O4NotkyXLUqmsy6brm2qKsY1javcIqwb7GHGvdIcHm4="
+          "hash": "vULy+xbqX7AIcBxiTFor0N9e1otdaZda5TPlxxNod8U="
         }
       },
       "is_incremental": false,
@@ -330,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.ImageKit.html",
-          "hash": "HR2gCY+jXkd3oY4Q08lbzeAIJUVTMYo/1J9NDmTz6Q8="
+          "hash": "n/KKlApPRFWtyQNxErg53DjTZ1tsUP+mM/t/qvNOCdQ="
         }
       },
       "is_incremental": false,
@@ -342,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.PullDownButtonSettings.html",
-          "hash": "azTtZipi/b1m6VLkpR9x+I+dqaNS5BuSClyYF5l536Q="
+          "hash": "NNFxGzOiBn3h24YbeZwwdObAH4KOBVD1CeE3OYt2dk0="
         }
       },
       "is_incremental": false,
@@ -354,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.PushButtonSettings.html",
-          "hash": "GlletXr7Pdab12i46ng1Bkkdx+kQiF5W6OyFgHdpcLk="
+          "hash": "J4Vbsf0v/sPCWoJozQlcqXFtXZHyZKh+uhxc2mdMCuo="
         }
       },
       "is_incremental": false,
@@ -366,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.RibbonKit.html",
-          "hash": "B6HbIPRNEp+s6ZqiJbiUn4RNN+/Yd5G31OEvlX9Bz7E="
+          "hash": "96lzTkaIy10zsOQ85fpKCgXJafu3JONEOwA7t5qGHGQ="
         }
       },
       "is_incremental": false,
@@ -378,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RevitPluginKit.Ui.RibbonPanelSettings.html",
-          "hash": "DSCU6SbE6vA4ejSL+FZUFJ9QA65m7QfOKkujQwXONT4="
+          "hash": "vIiQLnouDYqSYzKd60fElemGu61+XSJ2RO+E+onKdx0="
         }
       },
       "is_incremental": false,
@@ -398,11 +410,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/RevitPluginKit.Validators.NumberValidator.yml",
+      "source_relative_path": "obj/api/RevitPluginKit.Wpf.ObservableItem-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RevitPluginKit.Validators.NumberValidator.html",
-          "hash": "aUOTHGE2PNe6eodSAHD6H5ULmfcpNDxeKMmKjxJAm6Y="
+          "relative_path": "api/RevitPluginKit.Wpf.ObservableItem-1.html",
+          "hash": "Cwi5c0qdUCQdJBzJRkRQYTXEw5OpjJRdL+zqiU+vtBQ="
         }
       },
       "is_incremental": false,
@@ -410,11 +422,59 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/RevitPluginKit.Validators.yml",
+      "source_relative_path": "obj/api/RevitPluginKit.Wpf.ObservableItemUtilities-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RevitPluginKit.Validators.html",
-          "hash": "LH6cf9fl3AlPQS2LWnRLNzcIqAv69RzJAh9ahbAPLWg="
+          "relative_path": "api/RevitPluginKit.Wpf.ObservableItemUtilities-1.html",
+          "hash": "Pt6jbKqm+CCJZUfRkX7Ak797KFpgQlumCWdLPzpyEB8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Wpf.ObservableNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Wpf.ObservableNode-1.html",
+          "hash": "03CqK6hjoTF1t6udo4+cQsSaX+rN8ckVG1qXXnydkUw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Wpf.ObservableNodeUtilities-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Wpf.ObservableNodeUtilities-1.html",
+          "hash": "uBDfg4+hyDhkSivIkN0Xs+Dma5fRVQB46Lb3fNEt4OI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Wpf.WPFKit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Wpf.WPFKit.html",
+          "hash": "TbjlePCbsGxC/HVf5U6sEw5vbSOLltEegG0rV0thAXc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RevitPluginKit.Wpf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevitPluginKit.Wpf.html",
+          "hash": "rkVRDfyjoe6s9MNmtQkDP4jHRA1EdvLxKSO1uU54YUw="
         }
       },
       "is_incremental": false,
@@ -426,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "uIitP3+ItlegZCavpKWgt3+ygk7M/eynhQxiw7qTOPs="
+          "hash": "VcUF8sswhW/myC0EYcJ8xxKxpKb+T2hKBfisrpGfpec="
         }
       },
       "is_incremental": false,
@@ -448,25 +508,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 8,
-          "skipped_file_count": 0
+          "total_file_count": 9,
+          "skipped_file_count": 9
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 14,
-          "skipped_file_count": 0
+          "total_file_count": 18,
+          "skipped_file_count": 18
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

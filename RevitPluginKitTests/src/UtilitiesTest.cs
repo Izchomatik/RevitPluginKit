@@ -27,8 +27,6 @@
             ref string message,
             ElementSet elements)
         {
-            UIApplication uiApp = commandData.Application;
-            Document document = uiApp.ActiveUIDocument.Document;
             List<TestResultData> testsResults = AddUtilitiesTest();
             ResultsViewer viewer = new ResultsViewer(
                 title: "Utility tools tests",

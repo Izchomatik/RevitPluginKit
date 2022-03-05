@@ -52,6 +52,17 @@
                                 imageAddress: "RevitPluginKitTests.assets.icons.UtilitiesTestIcon.png",
                                 className: "RevitPluginKitTests.Src.UtilitiesTest"),
                         }),
+                    new RibbonPanelSettings(
+                        name: "Manual tests",
+                        buttonsSettings: new List<ButtonSettings>()
+                        {
+                            new PushButtonSettings(
+                                internalName: "wpfTest",
+                                name: "WPF tools\ntest",
+                                tooltip: "A set of manual tests designed to check the RevitPluginKit.Wpf tools.",
+                                imageAddress: "RevitPluginKitTests.assets.icons.WPFToolsTestIcon.png",
+                                className: "RevitPluginKitTests.Src.WPFTest"),
+                        }),
                 });
             return Result.Succeeded;
         }
